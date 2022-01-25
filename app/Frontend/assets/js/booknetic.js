@@ -2709,19 +2709,16 @@ var bookneticPaymentStatus;
 					// agea 
 					result['disabled_days_of_week'].forEach(function( value, key )
 					{
+						// reset
+						document.getElementById('booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).checked = false;
+						
 						if(value){
 							var checkbox = $('#booknetic_day_of_week_box_' + (parseInt(key)+1));					
 							checkbox.css('display', 'none');
 						}else{
-							var $checkbox = $('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1));					
-							$checkbox.click();
+							var checkbox = $('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1));					
+							checkbox.click();
 						}
-
-						//var agea_day_id = 'booknetic_day_of_week_checkbox_' + (parseInt(key)+1);
-						//document.getElementById( agea_day_id ).checked = true;
-
-						//booking_panel_js.find('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).attr('checked', rev_val);
-						// booking_panel_js.find('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).attr('disabled', true );
 					});
 
 					booknetic.calcRecurringTimes();
