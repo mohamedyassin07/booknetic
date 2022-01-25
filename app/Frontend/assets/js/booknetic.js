@@ -1437,7 +1437,7 @@ var bookneticPaymentStatus;
 
 					booking_panel_js.find('#booknetic_monthly_recurring_type').trigger('change');
 
-					booknetic.initDatepicker( booking_panel_js.find("#booknetic_recurring_start") );
+					// booknetic.initDatepicker( booking_panel_js.find("#booknetic_recurring_start") );
 					booknetic.initDatepicker( booking_panel_js.find("#booknetic_recurring_end") );
 
 					booknetic.serviceFixPeriodEndDate();
@@ -2749,6 +2749,7 @@ var bookneticPaymentStatus;
 					});
 
 					booknetic.calcRecurringTimes();
+					$('#booknetic_time_wd_master').select2('open');
 				});
 			}).on('select2:select', '.booknetic_wd_input_time', function (e)
 			{

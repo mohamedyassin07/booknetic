@@ -74,8 +74,8 @@ $weekStartsOn = Helper::getOption('week_starts_on', 'sunday') == 'monday' ? 'mon
 				</div>
 				<div class="form-group col-md-4">
 					<div class="booknetic_inner_addon booknetic_left_addon">
-					<img src="<?php print Helper::icon('calendar.svg')?>"/>
-					<input type="text" class="form-control" id="booknetic_recurring_start" value="<?php print Date::datee()?>">
+						<img src="<?php print Helper::icon('calendar.svg')?>"/>
+						<input type="date" class="form-control" id="booknetic_recurring_start" value="<?php echo date("Y-m-d", strtotime("+1 day")) ?>" min="<?php echo date("Y-m-d", strtotime("+1 day")); ?>" max="<?php echo date("Y-m-d", strtotime("+8 day")) ?>">
 					</div>
 				</div>
 			</div>
