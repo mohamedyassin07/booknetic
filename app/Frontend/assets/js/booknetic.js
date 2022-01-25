@@ -2566,6 +2566,7 @@ var bookneticPaymentStatus;
 
 			}).on('change', '#booknetic_time_wd_master', function ()
 			{
+				// agea
 				var time = $('#booknetic_time_wd_master').val();
                 var data = { id: time, text: time };
 
@@ -2583,7 +2584,7 @@ var bookneticPaymentStatus;
 							var new_option = new Option(data.text, data.id, true, true);
 							$(sel_id).append(new_option).trigger('change');
 						}
-						
+
 					});
 				}
 
@@ -2733,8 +2734,8 @@ var bookneticPaymentStatus;
 					result['disabled_days_of_week'].forEach(function( value, key )
 					{
 						// reset
-						document.getElementById('booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).checked = false;
-						
+						booking_panel_js.find('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).attr('checked', false );
+
 						if(value){
 							var checkbox = $('#booknetic_day_of_week_box_' + (parseInt(key)+1));					
 							checkbox.css('display', 'none');
@@ -2742,6 +2743,9 @@ var bookneticPaymentStatus;
 							var checkbox = $('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1));					
 							checkbox.click();
 						}
+
+						// Prevent user to edit it
+						booking_panel_js.find('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).attr('disabled', true );
 					});
 
 					booknetic.calcRecurringTimes();

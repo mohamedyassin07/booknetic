@@ -93,113 +93,113 @@ $weekStartsOn = Helper::getOption('week_starts_on', 'sunday') == 'monday' ? 'mon
 			</div>
 
 		</div>
-		<div class="booknetic_times_days_of_week_area" style="display: none2;">
-
-			<div class="form-row booknetic_hidden" data-day="1">
-				<div class="form-group col-md-3">
-					<div class="form-control-plaintext"><?php print bkntc__('Monday')?></div>
-				</div>
-				<div class="form-group col-md-4">
-					<div class="booknetic_inner_addon booknetic_left_addon">
-						<img src="<?php print Helper::icon('time.svg')?>"/>
-						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_1"></select>
+		<div class="agea_days_hours_area" style="display: none;">
+			<div class="booknetic_times_days_of_week_area" style="display: none2;">
+				<div class="form-row booknetic_hidden" data-day="1">
+					<div class="form-group col-md-3">
+						<div class="form-control-plaintext"><?php print bkntc__('Monday')?></div>
+					</div>
+					<div class="form-group col-md-4">
+						<div class="booknetic_inner_addon booknetic_left_addon">
+							<img src="<?php print Helper::icon('time.svg')?>"/>
+							<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_1"></select>
+						</div>
+					</div>
+					<div class="col-md-2 booknetic_copy_time_to_all">
+						<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
 					</div>
 				</div>
-				<div class="col-md-2 booknetic_copy_time_to_all">
-					<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
-				</div>
-			</div>
 
-			<div class="form-row booknetic_hidden" data-day="2">
-				<div class="form-group col-md-3">
-					<div class="form-control-plaintext"><?php print bkntc__('Tuesday')?></div>
-				</div>
-				<div class="form-group col-md-4">
-					<div class="booknetic_inner_addon booknetic_left_addon">
-						<img src="<?php print Helper::icon('time.svg')?>"/>
-						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_2"></select>
+				<div class="form-row booknetic_hidden" data-day="2">
+					<div class="form-group col-md-3">
+						<div class="form-control-plaintext"><?php print bkntc__('Tuesday')?></div>
+					</div>
+					<div class="form-group col-md-4">
+						<div class="booknetic_inner_addon booknetic_left_addon">
+							<img src="<?php print Helper::icon('time.svg')?>"/>
+							<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_2"></select>
+						</div>
+					</div>
+					<div class="col-md-2 booknetic_copy_time_to_all">
+						<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
 					</div>
 				</div>
-				<div class="col-md-2 booknetic_copy_time_to_all">
-					<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
-				</div>
-			</div>
 
-			<div class="form-row booknetic_hidden" data-day="3">
-				<div class="form-group col-md-3">
-					<div class="form-control-plaintext"><?php print bkntc__('Wednesday')?></div>
-				</div>
-				<div class="form-group col-md-4">
-					<div class="booknetic_inner_addon booknetic_left_addon">
-						<img src="<?php print Helper::icon('time.svg')?>"/>
-						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_3"></select>
+				<div class="form-row booknetic_hidden" data-day="3">
+					<div class="form-group col-md-3">
+						<div class="form-control-plaintext"><?php print bkntc__('Wednesday')?></div>
+					</div>
+					<div class="form-group col-md-4">
+						<div class="booknetic_inner_addon booknetic_left_addon">
+							<img src="<?php print Helper::icon('time.svg')?>"/>
+							<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_3"></select>
+						</div>
+					</div>
+					<div class="col-md-2 booknetic_copy_time_to_all">
+						<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
 					</div>
 				</div>
-				<div class="col-md-2 booknetic_copy_time_to_all">
-					<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
-				</div>
-			</div>
 
-			<div class="form-row booknetic_hidden" data-day="4">
-				<div class="form-group col-md-3">
-					<div class="form-control-plaintext"><?php print bkntc__('Thursday')?></div>
-				</div>
-				<div class="form-group col-md-4">
-					<div class="booknetic_inner_addon booknetic_left_addon">
-						<img src="<?php print Helper::icon('time.svg')?>"/>
-						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_4"></select>
+				<div class="form-row booknetic_hidden" data-day="4">
+					<div class="form-group col-md-3">
+						<div class="form-control-plaintext"><?php print bkntc__('Thursday')?></div>
+					</div>
+					<div class="form-group col-md-4">
+						<div class="booknetic_inner_addon booknetic_left_addon">
+							<img src="<?php print Helper::icon('time.svg')?>"/>
+							<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_4"></select>
+						</div>
+					</div>
+					<div class="col-md-2 booknetic_copy_time_to_all">
+						<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
 					</div>
 				</div>
-				<div class="col-md-2 booknetic_copy_time_to_all">
-					<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
-				</div>
-			</div>
 
-			<div class="form-row booknetic_hidden" data-day="5">
-				<div class="form-group col-md-3">
-					<div class="form-control-plaintext"><?php print bkntc__('Friday')?></div>
-				</div>
-				<div class="form-group col-md-4">
-					<div class="booknetic_inner_addon booknetic_left_addon">
-						<img src="<?php print Helper::icon('time.svg')?>"/>
-						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_5"></select>
+				<div class="form-row booknetic_hidden" data-day="5">
+					<div class="form-group col-md-3">
+						<div class="form-control-plaintext"><?php print bkntc__('Friday')?></div>
+					</div>
+					<div class="form-group col-md-4">
+						<div class="booknetic_inner_addon booknetic_left_addon">
+							<img src="<?php print Helper::icon('time.svg')?>"/>
+							<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_5"></select>
+						</div>
+					</div>
+					<div class="col-md-2 booknetic_copy_time_to_all">
+						<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
 					</div>
 				</div>
-				<div class="col-md-2 booknetic_copy_time_to_all">
-					<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
-				</div>
-			</div>
 
-			<div class="form-row booknetic_hidden" data-day="6">
-				<div class="form-group col-md-3">
-					<div class="form-control-plaintext"><?php print bkntc__('Saturday')?></div>
-				</div>
-				<div class="form-group col-md-4">
-					<div class="booknetic_inner_addon booknetic_left_addon">
-						<img src="<?php print Helper::icon('time.svg')?>"/>
-						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_6"></select>
+				<div class="form-row booknetic_hidden" data-day="6">
+					<div class="form-group col-md-3">
+						<div class="form-control-plaintext"><?php print bkntc__('Saturday')?></div>
+					</div>
+					<div class="form-group col-md-4">
+						<div class="booknetic_inner_addon booknetic_left_addon">
+							<img src="<?php print Helper::icon('time.svg')?>"/>
+							<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_6"></select>
+						</div>
+					</div>
+					<div class="col-md-2 booknetic_copy_time_to_all">
+						<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
 					</div>
 				</div>
-				<div class="col-md-2 booknetic_copy_time_to_all">
-					<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
-				</div>
-			</div>
 
-			<div class="form-row booknetic_hidden" data-day="7">
-				<div class="form-group col-md-3">
-					<div class="form-control-plaintext"><?php print bkntc__('Sunday')?></div>
-				</div>
-				<div class="form-group col-md-4">
-					<div class="booknetic_inner_addon booknetic_left_addon">
-						<img src="<?php print Helper::icon('time.svg')?>"/>
-						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_7"></select>
+				<div class="form-row booknetic_hidden" data-day="7">
+					<div class="form-group col-md-3">
+						<div class="form-control-plaintext"><?php print bkntc__('Sunday')?></div>
+					</div>
+					<div class="form-group col-md-4">
+						<div class="booknetic_inner_addon booknetic_left_addon">
+							<img src="<?php print Helper::icon('time.svg')?>"/>
+							<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_7"></select>
+						</div>
+					</div>
+					<div class="col-md-2 booknetic_copy_time_to_all">
+						<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
 					</div>
 				</div>
-				<div class="col-md-2 booknetic_copy_time_to_all">
-					<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
-				</div>
 			</div>
-
 		</div>
 	</div>
 
