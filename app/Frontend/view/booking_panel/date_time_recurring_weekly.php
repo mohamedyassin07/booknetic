@@ -17,39 +17,39 @@ $weekStartsOn = Helper::getOption('week_starts_on', 'sunday') == 'monday' ? 'mon
 			if( $weekStartsOn == 'sunday' )
 			{
 				?>
-				<div class="booknetic_day_of_week_box">
+				<div class="booknetic_day_of_week_box" id="booknetic_day_of_week_box_7">
 					<input type="checkbox" class="booknetic_day_of_week_checkbox" id="booknetic_day_of_week_checkbox_7">
 					<label for="booknetic_day_of_week_checkbox_7"><?php print bkntc__('Sun')?></label>
 				</div>
 				<?php
 			}
 			?>
-			<div class="booknetic_day_of_week_box">
+			<div class="booknetic_day_of_week_box" id="booknetic_day_of_week_box_1">
 				<input type="checkbox" class="booknetic_day_of_week_checkbox" id="booknetic_day_of_week_checkbox_1"/>
 				<label for="booknetic_day_of_week_checkbox_1"><?php print bkntc__('Mon')?></label>
 			</div>
 
-			<div class="booknetic_day_of_week_box">
+			<div class="booknetic_day_of_week_box" id="booknetic_day_of_week_box_2">
 				<input type="checkbox" class="booknetic_day_of_week_checkbox" id="booknetic_day_of_week_checkbox_2">
 				<label for="booknetic_day_of_week_checkbox_2"><?php print bkntc__('Tue')?></label>
 			</div>
 
-			<div class="booknetic_day_of_week_box">
+			<div class="booknetic_day_of_week_box" id="booknetic_day_of_week_box_3">
 				<input type="checkbox" class="booknetic_day_of_week_checkbox" id="booknetic_day_of_week_checkbox_3">
 				<label for="booknetic_day_of_week_checkbox_3"><?php print bkntc__('Wed')?></label>
 			</div>
 
-			<div class="booknetic_day_of_week_box">
+			<div class="booknetic_day_of_week_box" id="booknetic_day_of_week_box_4">
 				<input type="checkbox" class="booknetic_day_of_week_checkbox" id="booknetic_day_of_week_checkbox_4">
 				<label for="booknetic_day_of_week_checkbox_4"><?php print bkntc__('Thu')?></label>
 			</div>
 
-			<div class="booknetic_day_of_week_box">
+			<div class="booknetic_day_of_week_box" id="booknetic_day_of_week_box_5">
 				<input type="checkbox" class="booknetic_day_of_week_checkbox" id="booknetic_day_of_week_checkbox_5">
 				<label for="booknetic_day_of_week_checkbox_5"><?php print bkntc__('Fri')?></label>
 			</div>
 
-			<div class="booknetic_day_of_week_box">
+			<div class="booknetic_day_of_week_box" id="booknetic_day_of_week_box_6">
 				<input type="checkbox" class="booknetic_day_of_week_checkbox" id="booknetic_day_of_week_checkbox_6">
 				<label for="booknetic_day_of_week_checkbox_6"><?php print bkntc__('Sat')?></label>
 			</div>
@@ -58,7 +58,7 @@ $weekStartsOn = Helper::getOption('week_starts_on', 'sunday') == 'monday' ? 'mon
 			if( $weekStartsOn == 'monday' )
 			{
 				?>
-				<div class="booknetic_day_of_week_box">
+				<div class="booknetic_day_of_week_box" id="booknetic_day_of_week_box_7">
 					<input type="checkbox" class="booknetic_day_of_week_checkbox" id="booknetic_day_of_week_checkbox_7">
 					<label for="booknetic_day_of_week_checkbox_7"><?php print bkntc__('Sun')?></label>
 				</div>

@@ -2703,22 +2703,24 @@ var bookneticPaymentStatus;
 					is_recurring: 1
 				}, function( result )
 				{
-					//  yassin 
 					booknetic.globalDayOffs = result['day_offs'];
 					booknetic.globalTimesheet = result['timesheet'];
 
+					// agea 
 					result['disabled_days_of_week'].forEach(function( value, key )
 					{
 						if(value){
-							var rev_val = false;
+							var checkbox = $('#booknetic_day_of_week_box_' + (parseInt(key)+1));					
+							checkbox.css('display', 'none');
 						}else{
-							var rev_val = true;
+							var $checkbox = $('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1));					
+							$checkbox.click();
 						}
 
 						//var agea_day_id = 'booknetic_day_of_week_checkbox_' + (parseInt(key)+1);
 						//document.getElementById( agea_day_id ).checked = true;
 
-						booking_panel_js.find('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).attr('checked', rev_val);
+						//booking_panel_js.find('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).attr('checked', rev_val);
 						// booking_panel_js.find('#booknetic_day_of_week_checkbox_' + (parseInt(key)+1)).attr('disabled', true );
 					});
 
