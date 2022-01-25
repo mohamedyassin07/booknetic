@@ -1,0 +1,4977 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booknetic v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-05 13:28+0400\n"
+"PO-Revision-Date: 2021-10-05 13:29+0400\n"
+"Last-Translator: Franck <franck.sainmont@gmail.com>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Poedit-KeywordsList: bkntc__\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: app/Frontend/assets/js/datepicker.min.js\n"
+"X-Poedit-SearchPathExcluded-1: app/Frontend/assets/js/intlTelInput.min.js\n"
+"X-Poedit-SearchPathExcluded-2: app/Frontend/assets/js/jquery.nicescroll.min."
+"js\n"
+"X-Poedit-SearchPathExcluded-3: app/Frontend/assets/js/utilsIntlTelInput.js\n"
+
+#: app/Backend/Appearance/Controller/Ajax.php:25
+#: app/Backend/Appointments/Controller/Ajax.php:288
+#: app/Backend/Appointments/Controller/Ajax.php:379
+#: app/Backend/Appointments/Controller/Ajax.php:407
+#: app/Backend/Appointments/Helpers/AppointmentService.php:65
+#: app/Backend/Appointments/Helpers/AppointmentService.php:125
+#: app/Backend/Appointments/Helpers/AppointmentService.php:177
+#: app/Backend/Appointments/Helpers/AppointmentService.php:186
+#: app/Backend/Appointments/Helpers/AppointmentService.php:231
+#: app/Backend/Appointments/Helpers/AppointmentService.php:266
+#: app/Backend/Base/view/index.php:24
+#: app/Backend/Customers/Controller/Ajax.php:78
+#: app/Backend/Customers/Controller/Ajax.php:97
+#: app/Backend/Customers/Controller/Ajax.php:102
+#: app/Backend/Customers/Controller/Ajax.php:278
+#: app/Backend/Customforms/Controller/Ajax.php:23
+#: app/Backend/Customforms/Controller/Ajax.php:59
+#: app/Backend/Invoices/Controller/Ajax.php:22
+#: app/Backend/Locations/Controller/Ajax.php:64
+#: app/Backend/NotificationTab/Controller/Ajax.php:77
+#: app/Backend/Services/Controller/Ajax.php:278
+#: app/Backend/Services/Controller/Ajax.php:639
+#: app/Backend/Settings/Controller/Ajax.php:210
+#: app/Backend/Settings/Controller/Ajax.php:961
+#: app/Backend/Settings/Controller/Ajax.php:966
+#: app/Backend/Settings/Controller/Ajax.php:997
+#: app/Backend/Settings/Controller/Ajax.php:1020
+#: app/Backend/Staff/Controller/Ajax.php:131
+#: app/Frontend/Controller/Ajax.php:965 app/Frontend/Controller/Ajax.php:1026
+#: app/Frontend/Controller/AjaxHelper.php:166
+#: app/Frontend/Controller/AjaxHelper.php:174
+#: app/Frontend/Controller/AjaxHelper.php:188
+#: app/Frontend/Controller/AjaxHelper.php:197
+#: app/Frontend/Controller/AjaxHelper.php:204
+#: app/Frontend/Controller/AjaxHelper.php:216
+#: app/Frontend/Controller/AjaxHelper.php:238
+#: app/Frontend/Controller/AjaxHelper.php:245
+#: app/Frontend/Controller/AjaxHelper.php:262
+#: app/Frontend/Controller/AjaxHelper.php:324 app/Providers/Frontend.php:280
+msgid "Please fill in all required fields correctly!"
+msgstr "Veuillez remplir tous les champs requis correctement!"
+
+#: app/Backend/Appearance/Controller/Ajax.php:97
+#: app/Backend/Appearance/Controller/Ajax.php:104
+#: app/Backend/Appearance/Controller/Ajax.php:123
+#: app/Backend/Appearance/Controller/Ajax.php:130
+msgid "Theme not found!"
+msgstr "Thème non trouvé !"
+
+#: app/Backend/Appearance/Controller/Ajax.php:109
+msgid "You can not delete default theme!"
+msgstr "Vous ne pouvez pas supprimer le thème par défaut !"
+
+#: app/Backend/Appearance/Middleware.php:34
+#: app/Backend/Appearance/view/edit.php:18
+#: app/Backend/Appearance/view/index.php:21
+msgid "Appearance"
+msgstr "Apparence"
+
+#: app/Backend/Appearance/view/edit.php:20
+#: app/Backend/Settings/view/wc_settings.php:20
+msgid "GO BACK"
+msgstr "RETOUR"
+
+#: app/Backend/Appearance/view/edit.php:30
+#: app/Backend/Customforms/view/edit_form.php:172
+msgid "Options"
+msgstr "Options"
+
+#: app/Backend/Appearance/view/edit.php:34
+msgid "Style name"
+msgstr "Nom de style"
+
+#: app/Backend/Appearance/view/edit.php:37
+msgid "Type name..."
+msgstr "Saisir le nom.."
+
+#: app/Backend/Appearance/view/edit.php:44
+msgid "Panel height"
+msgstr "Hauteur du panneau"
+
+#: app/Backend/Appearance/view/edit.php:52
+msgid "Font family"
+msgstr "Famille de police"
+
+#: app/Backend/Appearance/view/edit.php:59
+msgid "Panel background"
+msgstr "Historique du panel"
+
+#: app/Backend/Appearance/view/edit.php:66
+msgid "Primary BG / text color"
+msgstr "Couleur BG / texte principale"
+
+#: app/Backend/Appearance/view/edit.php:74
+msgid "Compleated steps BG / label color"
+msgstr "Étapes terminées BG / couleur de l'étiquette"
+
+#: app/Backend/Appearance/view/edit.php:82
+msgid "Active steps BG / label color"
+msgstr "Étapes actives BG / couleur d'étiquette"
+
+#: app/Backend/Appearance/view/edit.php:90
+msgid "Other steps BG / label color"
+msgstr "Autres étapes BG / couleur de l'étiquette"
+
+#: app/Backend/Appearance/view/edit.php:98
+msgid "Title color"
+msgstr "Couleur du titre"
+
+#: app/Backend/Appearance/view/edit.php:105
+msgid "Border color"
+msgstr "Couleur du contour/cadre"
+
+#: app/Backend/Appearance/view/edit.php:112
+msgid "Price color"
+msgstr "Couleur du prix"
+
+#: app/Backend/Appearance/view/edit.php:119
+msgid "Custom CSS"
+msgstr "Personnaliser CSS"
+
+#: app/Backend/Appearance/view/edit.php:132
+#: app/Backend/Appointments/view/modal/info.php:180
+#: app/Backend/Base/view/index.php:32
+msgid "DELETE"
+msgstr "EFFACER"
+
+#: app/Backend/Appearance/view/edit.php:134
+#: app/Backend/Appointments/view/modal/add_new.php:469
+#: app/Backend/Appointments/view/modal/edit.php:204
+#: app/Backend/Appointments/view/modal/payment.php:71
+#: app/Backend/Base/view/index.php:72
+#: app/Backend/Customers/view/modal/add_new.php:133
+#: app/Backend/NotificationTab/view/modal/add_tab.php:102
+#: app/Backend/Services/view/modal/add_new.php:678
+#: app/Backend/Services/view/modal/add_new_category.php:49
+#: app/Frontend/view/client_panel/booknetic.php:148
+msgid "SAVE"
+msgstr "SAUVEGARDER"
+
+#: app/Backend/Appearance/view/edit.php:140
+#, php-format
+msgid "Theme ID: %d"
+msgstr "ID du thème: %d"
+
+#: app/Backend/Appearance/view/edit.php:150
+msgid "Design"
+msgstr "Design"
+
+#: app/Backend/Appearance/view/edit.php:157
+#: app/Backend/Appearance/view/index.php:41
+#: app/Backend/Appointments/view/modal/add_new.php:102
+#: app/Backend/Appointments/view/modal/edit.php:111
+#: app/Backend/Appointments/view/modal/info.php:35
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:12
+#: app/Frontend/view/booking_panel/confirm_details.php:31
+#: app/Providers/Frontend.php:348
+msgid "Location"
+msgstr "Lieu"
+
+#: app/Backend/Appearance/view/edit.php:158
+#: app/Backend/Appearance/view/index.php:42
+#: app/Backend/Appointments/Controller/Main.php:46
+#: app/Backend/Appointments/view/modal/add_new.php:124
+#: app/Backend/Appointments/view/modal/edit.php:138
+#: app/Backend/Appointments/view/modal/info.php:50
+#: app/Backend/Payments/Controller/Main.php:45
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:18
+#: app/Backend/Staff/Controller/Main.php:21 app/Backend/Staff/Middleware.php:27
+#: app/Frontend/view/booking_panel/confirm_details.php:22
+#: app/Providers/Frontend.php:341
+msgid "Staff"
+msgstr "Personnel"
+
+#: app/Backend/Appearance/view/edit.php:159
+#: app/Backend/Appearance/view/index.php:43
+#: app/Backend/Appointments/Controller/Main.php:35
+#: app/Backend/Appointments/view/modal/add_new.php:120
+#: app/Backend/Appointments/view/modal/edit.php:132
+#: app/Backend/Appointments/view/modal/info.php:39
+#: app/Backend/Payments/Controller/Main.php:37
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:24
+#: app/Frontend/view/booking_panel/confirm_details.php:40
+#: app/Providers/Frontend.php:333
+msgid "Service"
+msgstr "Service"
+
+#: app/Backend/Appearance/view/edit.php:160
+#: app/Backend/Appearance/view/index.php:44
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:30
+#: app/Providers/Frontend.php:355
+msgid "Service Extras"
+msgstr "Service Extras"
+
+#: app/Backend/Appearance/view/edit.php:161
+#: app/Backend/Appearance/view/index.php:45
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:42
+#: app/Frontend/view/booking_panel/confirm_details.php:13
+#: app/Providers/Frontend.php:369
+msgid "Date & Time"
+msgstr "Date & Heure"
+
+#: app/Backend/Appearance/view/edit.php:162
+#: app/Backend/Appearance/view/index.php:46
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:36
+#: app/Providers/Frontend.php:362
+msgid "Information"
+msgstr "Information"
+
+#: app/Backend/Appearance/view/edit.php:163
+#: app/Backend/Appearance/view/index.php:47
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:48
+#: app/Providers/Frontend.php:383
+msgid "Confirmation"
+msgstr "Confirmation"
+
+#: app/Backend/Appearance/view/edit.php:166
+#: app/Backend/Appearance/view/index.php:50
+#: app/Frontend/view/booking_panel/booknetic.php:44
+msgid "Have any questions?"
+msgstr "Vous avez des questions?"
+
+#: app/Backend/Appearance/view/edit.php:172
+#: app/Backend/Appearance/view/index.php:56 app/Providers/Frontend.php:334
+msgid "Select service"
+msgstr "Sélectionner un service"
+
+#: app/Backend/Appearance/view/edit.php:177
+#: app/Backend/Appearance/view/index.php:61
+msgid "Category 1"
+msgstr "Catégorie 1"
+
+#: app/Backend/Appearance/view/edit.php:184
+#: app/Backend/Appearance/view/index.php:68
+msgid "Service 1"
+msgstr "Service 1"
+
+#: app/Backend/Appearance/view/edit.php:187
+#: app/Backend/Appearance/view/edit.php:200
+#: app/Backend/Appearance/view/edit.php:213
+#: app/Backend/Appearance/view/index.php:71
+#: app/Backend/Appearance/view/index.php:84
+#: app/Backend/Appearance/view/index.php:97
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+
+#: app/Backend/Appearance/view/edit.php:197
+#: app/Backend/Appearance/view/index.php:81
+msgid "Service 2"
+msgstr "Service 2"
+
+#: app/Backend/Appearance/view/edit.php:204
+#: app/Backend/Appearance/view/index.php:88
+msgid "Category 2"
+msgstr "Catégorie 2"
+
+#: app/Backend/Appearance/view/edit.php:210
+#: app/Backend/Appearance/view/index.php:94
+msgid "Service 3"
+msgstr "Service 3"
+
+#: app/Backend/Appearance/view/edit.php:221
+#: app/Backend/Appearance/view/index.php:105
+#: app/Backend/Appointments/view/modal/payment.php:70
+#: app/Frontend/view/booking_panel/booknetic.php:112
+msgid "BACK"
+msgstr "RETOUR"
+
+#: app/Backend/Appearance/view/edit.php:222
+#: app/Backend/Appearance/view/index.php:106
+#: app/Frontend/view/booking_panel/booknetic.php:114
+#: app/Providers/Frontend.php:284
+msgid "NEXT STEP"
+msgstr "PROCHAINE ÉTAPE"
+
+#: app/Backend/Appearance/view/index.php:118
+#: app/Backend/Appearance/view/index.php:124
+msgid "SELECTED"
+msgstr "SELECTIONNÉ"
+
+#: app/Backend/Appearance/view/index.php:118
+#: app/Backend/Appearance/view/index.php:124
+msgid "SELECT"
+msgstr "SÉLECTIONNER"
+
+#: app/Backend/Appearance/view/index.php:139
+msgid "Create new style"
+msgstr "Créer un nouveau thème/style"
+
+#: app/Backend/Appointments/Controller/Ajax.php:72
+msgid "Selected appointment not found!"
+msgstr "Rendez-vous sélectionné non trouvé !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:135
+#: app/Backend/Appointments/Controller/Ajax.php:1167
+msgid "Appointment not found!"
+msgstr "Rendez vous introuvable!"
+
+#: app/Backend/Appointments/Controller/Ajax.php:283
+#: app/Backend/Appointments/Controller/Ajax.php:446
+#: app/Backend/Appointments/Helpers/AppointmentService.php:277
+msgid "Please fill the \"Date\" and \"Time\" field correctly!"
+msgstr "Veuillez remplir correctement les champs \"Date\" et \"Heure\"!"
+
+#: app/Backend/Appointments/Controller/Ajax.php:302
+#: app/Backend/Appointments/Controller/Ajax.php:422
+msgid "Please select customers!"
+msgstr "Veuillez sélectionner les clients !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:312
+#: app/Backend/Appointments/Controller/Ajax.php:435
+msgid ""
+"Selected service is not group service. So you cannot add more than 1 "
+"customer."
+msgstr ""
+"Le service sélectionné n’est pas un service de groupe. Vous ne pouvez "
+"ajouter plus d’un client."
+
+#: app/Backend/Appointments/Controller/Ajax.php:316
+#: app/Backend/Appointments/Controller/Ajax.php:439
+#, php-format
+msgid ""
+"The maximum capacity of the service is %d. You cannot add more than %d "
+"customers."
+msgstr ""
+"La capacité maximale de ce service est %d. Vous ne pouvez ajouter plus de %d "
+"clients."
+
+#: app/Backend/Appointments/Controller/Ajax.php:336
+#: app/Backend/Appointments/Controller/Ajax.php:466
+msgid "Selected service extra doesn't exist!"
+msgstr "Le service Extra sélectionné n'existe pas !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:348
+#: app/Backend/Appointments/Controller/Ajax.php:478
+#, php-format
+msgid "Max quantity of selected service extra (%s) is %d"
+msgstr "La quantité maximale de service Extra sélectionné (%s) est %d"
+
+#: app/Backend/Appointments/Controller/Ajax.php:387
+#: app/Backend/Appointments/Helpers/AppointmentService.php:312
+#: app/Backend/Appointments/Helpers/AppointmentService.php:909
+#: app/Frontend/Controller/Ajax.php:356
+#, php-format
+msgid "Limited booking days is %d"
+msgstr "Le nombre limité de jours de réservation est de %d"
+
+#: app/Backend/Appointments/Controller/Ajax.php:491
+#: app/Backend/Appointments/Helpers/AppointmentService.php:351
+#: app/Backend/Appointments/Helpers/AppointmentService.php:900
+#, php-format
+msgid "Please select a valid time! ( %s %s is busy! )"
+msgstr "Veuillez choisir une heure valable ! ( %s %s est occupé ! )"
+
+#: app/Backend/Appointments/Controller/Ajax.php:524
+#: app/Backend/Appointments/Controller/Ajax.php:618
+#, php-format
+msgid "%s can not be empty, because it's a required field!"
+msgstr "%s ne peut pas être vide, car c'est un champ obligatoire !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:534
+#: app/Backend/Appointments/Controller/Ajax.php:541
+#: app/Backend/Appointments/Controller/Ajax.php:582
+#: app/Backend/Appointments/Controller/Ajax.php:594
+msgid "Please fill custom fields form correctly!"
+msgstr "Veuillez remplir correctement les champs personnalisés du formulaire !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:548
+#: app/Backend/Appointments/Controller/Ajax.php:601
+msgid "Selected custom field not found!"
+msgstr "Champ personnalisé sélectionné non trouvé !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:560
+#, php-format
+msgid "\"%s\" can not be empty, because it's a required field!"
+msgstr "\"%s\" ne peut pas être vide, car c'est un champ obligatoire !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:568
+#: app/Backend/Settings/Controller/Ajax.php:215
+#: app/Frontend/Controller/AjaxHelper.php:224
+#, php-format
+msgid "Minimum length of \"%s\" field is %d!"
+msgstr "La longueur minimale du champ \"%s\" est %d!"
+
+#: app/Backend/Appointments/Controller/Ajax.php:573
+#: app/Backend/Settings/Controller/Ajax.php:216
+#: app/Frontend/Controller/AjaxHelper.php:229
+#, php-format
+msgid "Maximum length of \"%s\" field is %d!"
+msgstr "La longueur maximale du champ \"%s\" est %d!"
+
+#: app/Backend/Appointments/Controller/Ajax.php:626
+#: app/Backend/Settings/Controller/Ajax.php:217
+#: app/Frontend/Controller/AjaxHelper.php:270
+msgid "File extension is not allowed!"
+msgstr "L&#039;extension de fichier n&#039;est pas autorisée !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:1198
+#: app/Backend/Appointments/Controller/Ajax.php:1233
+msgid "Payment not found!"
+msgstr "Paiement introuvable!"
+
+#: app/Backend/Appointments/Controller/Ajax.php:1205
+#: app/Backend/Appointments/Controller/Ajax.php:1240
+#: app/Backend/Payments/Controller/Ajax.php:39
+#: app/Backend/Payments/Controller/Ajax.php:62
+msgid "Appointment not found or permission denied!"
+msgstr "Rendez-vous non trouvé ou autorisation refusée !"
+
+#: app/Backend/Appointments/Controller/Ajax.php:1247
+msgid "Due amound can't be a negative number!"
+msgstr "Le montant dû ne peut pas être un chiffre négatif!"
+
+#: app/Backend/Appointments/Controller/Main.php:34
+#: app/Backend/Appointments/view/modal/add_new.php:402
+#: app/Backend/Appointments/view/modal/edit.php:147
+#: app/Backend/Payments/Controller/Main.php:36
+#: app/Backend/Services/view/modal/add_new.php:103
+#: app/Backend/Staff/view/modal/add_new.php:56
+#: app/Frontend/view/client_panel/booknetic.php:194
+msgid "Date"
+msgstr "Date"
+
+#: app/Backend/Appointments/Controller/Main.php:38
+#: app/Backend/Customers/view/modal/add_new.php:19
+#: app/Backend/Payments/Controller/Main.php:40
+msgid "Customer"
+msgstr "Client"
+
+#: app/Backend/Appointments/Controller/Main.php:49
+#: app/Backend/Payments/Controller/Main.php:48
+msgid "Status"
+msgstr "Statut"
+
+#: app/Backend/Appointments/Controller/Main.php:54
+#: app/Backend/Appointments/view/modal/add_new.php:13
+#: app/Backend/Appointments/view/modal/edit.php:13
+#: app/Backend/Emailnotifications/Helpers/SendEmail.php:301
+#: app/Backend/Settings/view/modal/general_settings.php:100
+#: app/Backend/Smsnotifications/Helpers/SendSMS.php:209
+#: app/Backend/Whatsappnotifications/Helpers/SendMessage.php:209
+#: app/Frontend/Controller/ClientPanelAjax.php:161
+#: app/Frontend/view/client_panel/booknetic.php:84
+msgid "Approved"
+msgstr "Approuvé"
+
+#: app/Backend/Appointments/Controller/Main.php:55
+#: app/Backend/Appointments/view/modal/add_new.php:18
+#: app/Backend/Appointments/view/modal/edit.php:18
+#: app/Backend/Appointments/view/modal/payment.php:58
+#: app/Backend/Billing/Controller/Main.php:45
+#: app/Backend/Dashboard/view/index.php:70
+#: app/Backend/Dashboard/view/index.php:80
+#: app/Backend/Emailnotifications/Helpers/SendEmail.php:302
+#: app/Backend/Payments/Controller/Main.php:50
+#: app/Backend/Payments/Controller/Main.php:114
+#: app/Backend/Settings/view/modal/general_settings.php:101
+#: app/Backend/Smsnotifications/Helpers/SendSMS.php:210
+#: app/Backend/Whatsappnotifications/Helpers/SendMessage.php:210
+#: app/Frontend/Controller/ClientPanelAjax.php:165
+#: app/Frontend/view/client_panel/booknetic.php:86
+msgid "Pending"
+msgstr "En cours"
+
+#: app/Backend/Appointments/Controller/Main.php:56
+#: app/Backend/Appointments/view/modal/add_new.php:23
+#: app/Backend/Appointments/view/modal/edit.php:23
+#: app/Backend/Billing/Controller/Main.php:53
+#: app/Backend/Emailnotifications/Helpers/SendEmail.php:304
+#: app/Backend/Payments/Controller/Main.php:53
+#: app/Backend/Payments/Controller/Main.php:126
+#: app/Backend/Smsnotifications/Helpers/SendSMS.php:212
+#: app/Backend/Whatsappnotifications/Helpers/SendMessage.php:212
+#: app/Frontend/Controller/ClientPanelAjax.php:169
+#: app/Frontend/Controller/ClientPanelAjax.php:244
+#: app/Frontend/view/client_panel/booknetic.php:88
+msgid "Canceled"
+msgstr "Annulé"
+
+#: app/Backend/Appointments/Controller/Main.php:57
+#: app/Backend/Appointments/view/modal/add_new.php:28
+#: app/Backend/Appointments/view/modal/edit.php:28
+#: app/Backend/Emailnotifications/Helpers/SendEmail.php:305
+#: app/Backend/Smsnotifications/Helpers/SendSMS.php:213
+#: app/Backend/Whatsappnotifications/Helpers/SendMessage.php:213
+#: app/Frontend/Controller/ClientPanelAjax.php:173
+#: app/Frontend/view/client_panel/booknetic.php:90
+msgid "Rejected"
+msgstr "Rejeté"
+
+#: app/Backend/Appointments/Controller/Main.php:62
+#: app/Backend/Appointments/Middleware.php:25
+#: app/Backend/Dashboard/view/index.php:49
+#: app/Frontend/view/client_panel/booknetic.php:29
+msgid "Appointments"
+msgstr "Rendez-vous"
+
+#: app/Backend/Appointments/Controller/Main.php:63
+#: app/Backend/Base/view/index.php:39
+msgid "NEW APPOINTMENT"
+msgstr "NOUVEAU RDV"
+
+#: app/Backend/Appointments/Controller/Main.php:67
+#: app/Backend/Customers/Controller/Main.php:30
+#: app/Backend/Dashboard/view/index.php:90
+#: app/Backend/Dashboard/view/index.php:155
+#: app/Backend/Locations/Controller/Main.php:28
+#: app/Backend/Services/Controller/Main.php:106
+#: app/Backend/Staff/Controller/Main.php:30
+#: app/Frontend/view/client_panel/booknetic.php:40
+msgid "ID"
+msgstr "ID"
+
+#: app/Backend/Appointments/Controller/Main.php:75
+#: app/Backend/Appointments/view/modal/add_new.php:445
+#: app/Backend/Billing/Controller/Main.php:32
+#: app/Backend/Giftcards/view/modal/giftcard_usage_history.php:28
+#: app/Backend/Settings/Controller/Ajax.php:242
+#: app/Frontend/view/booking_panel/recurring_information.php:17
+#: app/Frontend/view/booking_panel/recurring_information.php:26
+msgid "DATE"
+msgstr "DATE"
+
+#: app/Backend/Appointments/Controller/Main.php:87
+#: app/Backend/Dashboard/view/index.php:92
+#: app/Backend/Dashboard/view/index.php:157
+msgid "CUSTOMER(S)"
+msgstr "CLIENT(S)"
+
+#: app/Backend/Appointments/Controller/Main.php:98
+#: app/Backend/Dashboard/view/index.php:114
+#, php-format
+msgid "+ %d MORE"
+msgstr "+ %d PLUS"
+
+#: app/Backend/Appointments/Controller/Main.php:112
+msgid "Customer (s)"
+msgstr "Client (s)"
+
+#: app/Backend/Appointments/Controller/Main.php:131
+#: app/Backend/Payments/Controller/Main.php:67
+#: app/Backend/Services/view/modal/add_new.php:185
+#: app/Frontend/view/client_panel/booknetic.php:45
+msgid "STAFF"
+msgstr "PERSONNEL"
+
+#: app/Backend/Appointments/Controller/Main.php:136
+#: app/Backend/Dashboard/view/index.php:93
+#: app/Backend/Dashboard/view/index.php:158
+#: app/Backend/Giftcards/view/modal/giftcard_usage_history.php:27
+#: app/Backend/Payments/Controller/Main.php:69
+#: app/Backend/Services/view/index.php:144
+#: app/Frontend/view/client_panel/booknetic.php:44
+msgid "SERVICE"
+msgstr "SERVICE"
+
+#: app/Backend/Appointments/Controller/Main.php:137
+msgid "PAYMENT"
+msgstr "PAIEMENT"
+
+#: app/Backend/Appointments/Controller/Main.php:141
+#: app/Backend/Services/Controller/Main.php:113
+#: app/Frontend/view/client_panel/booknetic.php:48
+msgid "DURATION"
+msgstr "DUREE"
+
+#: app/Backend/Appointments/Controller/Main.php:146
+#: app/Backend/Dashboard/view/index.php:95
+#: app/Backend/Dashboard/view/index.php:160
+msgid "CREATED AT"
+msgstr "CRÉÉ À"
+
+#: app/Backend/Appointments/Controller/Main.php:163 app/Providers/Ajax.php:12
+#: app/Providers/Controller.php:12 app/Providers/DataTable.php:44
+#: app/Providers/DataTable.php:667
+msgid "Permission denied!"
+msgstr "Autorisation refusée !"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:49
+msgid "Please fill \"Start date\" and \"End date\" fields!"
+msgstr "Veuillez remplir les champs \"Date de début\" et \"Date de fin\" !"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:70
+#: app/Backend/Appointments/Helpers/AppointmentService.php:99
+#, php-format
+msgid "Repeat frequency is %d for selected service!"
+msgstr "La fréquence de répétition est %d pour le service sélectionné !"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:94
+msgid "Repeat frequency is is invalid!"
+msgstr "La fréquence de répétition n'est pas valable !"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:104
+#: app/Backend/Appointments/Helpers/AppointmentService.php:138
+msgid "Please fill \"Time\" field!"
+msgstr "Veuillez remplir le champ \"Temps/heure\" !"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:191
+msgid ""
+"Error! Full period is wrong on Service options! Please edit your service "
+"info!"
+msgstr ""
+"Erreur ! La période complète est erronée sur les options de service ! "
+"Veuillez modifier vos informations de service !"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2160
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2165
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2170
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2178
+msgid "Coupon not found!"
+msgstr "Coupon introuvable!"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2187
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2227
+msgid "Coupon usage limit exceeded!"
+msgstr "La limite d'utilisation des coupons est dépassée !"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2343
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2351
+msgid "Giftcard not found!"
+msgstr "Carte cadeau introuvable!"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2414
+msgid "Giftcard balance is not enough!"
+msgstr "Le solde de la carte cadeau n’est pas suffisant!"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2623
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2647
+msgid "Selected date and time have not enough capacity"
+msgstr "La date et l’heure sélectionnées n’ont pas de capacité suffisante"
+
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2627
+#: app/Backend/Appointments/Helpers/AppointmentService.php:2654
+#, php-format
+msgid "This service requires minimum %d customers"
+msgstr "Le service requiert un minimum %d de clients"
+
+#: app/Backend/Appointments/view/index.php:17
+#: app/Backend/Dashboard/view/index.php:201
+msgid "Customer name"
+msgstr "Nom du client"
+
+#: app/Backend/Appointments/view/modal/add_new.php:81
+#: app/Backend/Calendar/view/index.php:76
+msgid "New appointment"
+msgstr "Nouveau RDV"
+
+#: app/Backend/Appointments/view/modal/add_new.php:92
+#: app/Backend/Appointments/view/modal/edit.php:100
+#: app/Integrations/WooCommerce/WooCommerceService.php:141
+#: app/Integrations/WooCommerce/WooCommerceService.php:342
+msgid "Appointment details"
+msgstr "Détails du RDV"
+
+#: app/Backend/Appointments/view/modal/add_new.php:93
+#: app/Backend/Appointments/view/modal/edit.php:102
+msgid "Extras"
+msgstr "Extras"
+
+#: app/Backend/Appointments/view/modal/add_new.php:113
+#: app/Backend/Appointments/view/modal/edit.php:120
+#: app/Backend/Services/view/modal/add_new.php:208
+msgid "Category"
+msgstr "Catégorie"
+
+#: app/Backend/Appointments/view/modal/add_new.php:132
+#: app/Backend/Settings/Controller/Ajax.php:233
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:13
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:13
+msgid "Days of week"
+msgstr "Jours de la semaine"
+
+#: app/Backend/Appointments/view/modal/add_new.php:137
+#: app/Backend/Base/view/index.php:89
+#: app/Backend/Settings/Controller/Ajax.php:178
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:29
+#: app/Providers/Frontend.php:257 app/Providers/Frontend.php:524
+msgid "Mon"
+msgstr "Lun"
+
+#: app/Backend/Appointments/view/modal/add_new.php:142
+#: app/Backend/Base/view/index.php:90
+#: app/Backend/Settings/Controller/Ajax.php:179
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:34
+#: app/Providers/Frontend.php:258 app/Providers/Frontend.php:525
+msgid "Tue"
+msgstr "Mar"
+
+#: app/Backend/Appointments/view/modal/add_new.php:147
+#: app/Backend/Base/view/index.php:91
+#: app/Backend/Settings/Controller/Ajax.php:180
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:39
+#: app/Providers/Frontend.php:259 app/Providers/Frontend.php:526
+msgid "Wed"
+msgstr "Mer"
+
+#: app/Backend/Appointments/view/modal/add_new.php:152
+#: app/Backend/Base/view/index.php:92
+#: app/Backend/Settings/Controller/Ajax.php:181
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:44
+#: app/Providers/Frontend.php:260 app/Providers/Frontend.php:527
+msgid "Thu"
+msgstr "Jeu"
+
+#: app/Backend/Appointments/view/modal/add_new.php:157
+#: app/Backend/Base/view/index.php:93
+#: app/Backend/Settings/Controller/Ajax.php:182
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:49
+#: app/Providers/Frontend.php:261 app/Providers/Frontend.php:528
+msgid "Fri"
+msgstr "Ven"
+
+#: app/Backend/Appointments/view/modal/add_new.php:162
+#: app/Backend/Base/view/index.php:94
+#: app/Backend/Settings/Controller/Ajax.php:183
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:54
+#: app/Providers/Frontend.php:262 app/Providers/Frontend.php:529
+msgid "Sat"
+msgstr "Sam"
+
+#: app/Backend/Appointments/view/modal/add_new.php:167
+#: app/Backend/Base/view/index.php:95
+#: app/Backend/Settings/Controller/Ajax.php:184
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:22
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:63
+#: app/Providers/Frontend.php:263 app/Providers/Frontend.php:530
+msgid "Sun"
+msgstr "Dim"
+
+#: app/Backend/Appointments/view/modal/add_new.php:174
+#: app/Backend/Appointments/view/modal/add_new.php:323
+#: app/Backend/Services/view/modal/add_new.php:455
+#: app/Backend/Settings/Controller/Ajax.php:186
+#: app/Backend/Settings/view/modal/business_hours_settings.php:46
+#: app/Backend/Settings/view/modal/general_settings.php:74
+#: app/Backend/Staff/view/modal/add_new.php:315
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:31
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:74
+msgid "Monday"
+msgstr "Lundi"
+
+#: app/Backend/Appointments/view/modal/add_new.php:183
+#: app/Backend/Appointments/view/modal/add_new.php:198
+#: app/Backend/Appointments/view/modal/add_new.php:213
+#: app/Backend/Appointments/view/modal/add_new.php:228
+#: app/Backend/Appointments/view/modal/add_new.php:243
+#: app/Backend/Appointments/view/modal/add_new.php:258
+#: app/Backend/Appointments/view/modal/add_new.php:273
+#: app/Backend/Services/view/modal/add_new.php:465
+#: app/Backend/Settings/view/modal/business_hours_settings.php:56
+#: app/Backend/Staff/view/modal/add_new.php:325
+msgid "Copy to all"
+msgstr "Dupliquer pour tous"
+
+#: app/Backend/Appointments/view/modal/add_new.php:189
+#: app/Backend/Appointments/view/modal/add_new.php:324
+#: app/Backend/Services/view/modal/add_new.php:455
+#: app/Backend/Settings/Controller/Ajax.php:187
+#: app/Backend/Settings/view/modal/business_hours_settings.php:46
+#: app/Backend/Staff/view/modal/add_new.php:315
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:32
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:89
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: app/Backend/Appointments/view/modal/add_new.php:204
+#: app/Backend/Appointments/view/modal/add_new.php:325
+#: app/Backend/Services/view/modal/add_new.php:455
+#: app/Backend/Settings/Controller/Ajax.php:188
+#: app/Backend/Settings/view/modal/business_hours_settings.php:46
+#: app/Backend/Staff/view/modal/add_new.php:315
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:33
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:104
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: app/Backend/Appointments/view/modal/add_new.php:219
+#: app/Backend/Appointments/view/modal/add_new.php:326
+#: app/Backend/Services/view/modal/add_new.php:455
+#: app/Backend/Settings/Controller/Ajax.php:189
+#: app/Backend/Settings/view/modal/business_hours_settings.php:46
+#: app/Backend/Staff/view/modal/add_new.php:315
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:34
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:119
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: app/Backend/Appointments/view/modal/add_new.php:234
+#: app/Backend/Appointments/view/modal/add_new.php:327
+#: app/Backend/Services/view/modal/add_new.php:455
+#: app/Backend/Settings/Controller/Ajax.php:190
+#: app/Backend/Settings/view/modal/business_hours_settings.php:46
+#: app/Backend/Staff/view/modal/add_new.php:315
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:35
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:134
+msgid "Friday"
+msgstr "Vendredi"
+
+#: app/Backend/Appointments/view/modal/add_new.php:249
+#: app/Backend/Appointments/view/modal/add_new.php:328
+#: app/Backend/Services/view/modal/add_new.php:455
+#: app/Backend/Settings/Controller/Ajax.php:191
+#: app/Backend/Settings/view/modal/business_hours_settings.php:46
+#: app/Backend/Staff/view/modal/add_new.php:315
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:36
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:149
+msgid "Saturday"
+msgstr "Samedi"
+
+#: app/Backend/Appointments/view/modal/add_new.php:264
+#: app/Backend/Appointments/view/modal/add_new.php:329
+#: app/Backend/Services/view/modal/add_new.php:455
+#: app/Backend/Settings/Controller/Ajax.php:192
+#: app/Backend/Settings/view/modal/business_hours_settings.php:46
+#: app/Backend/Settings/view/modal/general_settings.php:73
+#: app/Backend/Staff/view/modal/add_new.php:315
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:37
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:164
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: app/Backend/Appointments/view/modal/add_new.php:287
+#: app/Backend/Settings/Controller/Ajax.php:226
+#: app/Frontend/view/booking_panel/date_time_recurring_daily.php:16
+msgid "Every"
+msgstr "Tous"
+
+#: app/Backend/Appointments/view/modal/add_new.php:292
+#: app/Backend/Settings/Controller/Ajax.php:227
+#: app/Frontend/view/booking_panel/date_time_recurring_daily.php:20
+msgid "DAYS"
+msgstr "JOURS"
+
+#: app/Backend/Appointments/view/modal/add_new.php:296
+#: app/Backend/Appointments/view/modal/add_new.php:366
+#: app/Backend/Appointments/view/modal/add_new.php:409
+#: app/Backend/Appointments/view/modal/edit.php:154
+#: app/Backend/Settings/Controller/Ajax.php:228
+#: app/Frontend/view/booking_panel/date_time_non_recurring.php:20
+#: app/Frontend/view/booking_panel/date_time_recurring_daily.php:24
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:74
+#: app/Frontend/view/client_panel/booknetic.php:198
+msgid "Time"
+msgstr "Heure"
+
+#: app/Backend/Appointments/view/modal/add_new.php:310
+#: app/Backend/Settings/Controller/Ajax.php:234
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:18
+msgid "On"
+msgstr "On"
+
+#: app/Backend/Appointments/view/modal/add_new.php:312
+#: app/Backend/Settings/Controller/Ajax.php:235
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:20
+msgid "Specific day"
+msgstr "Journée spécifique"
+
+#: app/Backend/Appointments/view/modal/add_new.php:313
+#: app/Backend/Settings/Controller/Ajax.php:236
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:21
+msgid "First"
+msgstr "Premier"
+
+#: app/Backend/Appointments/view/modal/add_new.php:314
+#: app/Backend/Settings/Controller/Ajax.php:237
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:22
+msgid "Second"
+msgstr "Second"
+
+#: app/Backend/Appointments/view/modal/add_new.php:315
+#: app/Backend/Settings/Controller/Ajax.php:238
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:23
+msgid "Third"
+msgstr "Troisième"
+
+#: app/Backend/Appointments/view/modal/add_new.php:316
+#: app/Backend/Settings/Controller/Ajax.php:239
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:24
+msgid "Fourth"
+msgstr "Quatrième"
+
+#: app/Backend/Appointments/view/modal/add_new.php:317
+#: app/Backend/Settings/Controller/Ajax.php:240
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:25
+msgid "Last"
+msgstr "Dernier"
+
+#: app/Backend/Appointments/view/modal/add_new.php:379
+#: app/Backend/Settings/Controller/Ajax.php:229
+#: app/Frontend/view/booking_panel/date_time_recurring_daily.php:42
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:93
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:182
+msgid "Start date"
+msgstr "Date de début"
+
+#: app/Backend/Appointments/view/modal/add_new.php:386
+#: app/Backend/Settings/Controller/Ajax.php:230
+#: app/Frontend/view/booking_panel/date_time_recurring_daily.php:49
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:100
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:189
+msgid "End date"
+msgstr "Date de fin"
+
+#: app/Backend/Appointments/view/modal/add_new.php:393
+#: app/Backend/Settings/Controller/Ajax.php:231
+#: app/Frontend/view/booking_panel/date_time_recurring_daily.php:56
+#: app/Frontend/view/booking_panel/date_time_recurring_monthly.php:107
+#: app/Frontend/view/booking_panel/date_time_recurring_weekly.php:196
+msgid "Times"
+msgstr "Heures"
+
+#: app/Backend/Appointments/view/modal/add_new.php:405
+#: app/Backend/Appointments/view/modal/edit.php:150
+#: app/Backend/Base/view/index.php:21
+#: app/Backend/Settings/Controller/Ajax.php:195 app/Providers/Frontend.php:266
+#: app/Providers/Frontend.php:533
+msgid "Select..."
+msgstr "Choisissez..."
+
+#: app/Backend/Appointments/view/modal/add_new.php:420
+#: app/Backend/Appointments/view/modal/edit.php:166
+#: app/Backend/Appointments/view/modal/info.php:59
+#: app/Backend/Customers/Controller/Main.php:21
+#: app/Backend/Customers/Middleware.php:24
+msgid "Customers"
+msgstr "Clients"
+
+#: app/Backend/Appointments/view/modal/add_new.php:424
+#: app/Backend/Appointments/view/modal/edit.php:177
+#: app/Backend/Customers/view/modal/add_new.php:19
+msgid "Add Customer"
+msgstr "Ajouter un client"
+
+#: app/Backend/Appointments/view/modal/add_new.php:431
+#: app/Backend/Appointments/view/modal/edit.php:188
+#: app/Backend/Appointments/view/modal/service_extras.php:12
+msgid "Extras not found!"
+msgstr "Extras non trouvé!"
+
+#: app/Backend/Appointments/view/modal/add_new.php:444
+#: app/Frontend/view/booking_panel/recurring_information.php:16
+msgid "#"
+msgstr "#"
+
+#: app/Backend/Appointments/view/modal/add_new.php:446
+#: app/Backend/Settings/Controller/Ajax.php:243
+#: app/Frontend/view/booking_panel/recurring_information.php:18
+msgid "TIME"
+msgstr "HEURE"
+
+#: app/Backend/Appointments/view/modal/add_new.php:465
+#: app/Backend/Appointments/view/modal/edit.php:200
+msgid "Send notifications"
+msgstr "Envoyer les notifications"
+
+#: app/Backend/Appointments/view/modal/add_new.php:468
+#: app/Backend/Appointments/view/modal/edit.php:203
+#: app/Backend/Base/view/index.php:33
+#: app/Backend/Coupons/view/modal/add_new.php:112
+#: app/Backend/Customers/view/modal/add_new.php:132
+#: app/Backend/Customers/view/modal/import.php:86
+#: app/Backend/Emailnotifications/view/modal/send_test_email.php:25
+#: app/Backend/Giftcards/view/modal/add_new.php:80
+#: app/Backend/Locations/view/modal/add_new.php:71
+#: app/Backend/NotificationTab/view/modal/add_tab.php:101
+#: app/Backend/Payments/view/modal/info.php:113
+#: app/Backend/Services/view/modal/add_new.php:620
+#: app/Backend/Smsnotifications/view/modal/send_test_sms.php:25
+#: app/Backend/Staff/view/modal/add_new.php:412
+#: app/Backend/Whatsappnotifications/view/modal/send_test_message.php:25
+#: app/Frontend/view/client_panel/booknetic.php:204
+msgid "CANCEL"
+msgstr "ANNULER"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:16
+#: app/Backend/Appointments/view/modal/payment.php:18
+#: app/Backend/Services/view/modal/add_new.php:375
+msgid "Payment"
+msgstr "Paiement"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:26
+#: app/Backend/Payments/view/modal/info.php:27
+msgid "Staff:"
+msgstr "Personnel :"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:32
+#: app/Backend/Payments/view/modal/info.php:33
+msgid "Location:"
+msgstr "Lieu :"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:38
+#: app/Backend/Payments/view/modal/info.php:39
+msgid "Service:"
+msgstr "Service :"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:44
+#: app/Backend/Payments/view/modal/info.php:45
+msgid "Date, time:"
+msgstr "Date, heure :"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:59
+#: app/Backend/Giftcards/view/modal/giftcard_usage_history.php:25
+#: app/Backend/Payments/Controller/Main.php:62
+#: app/Backend/Payments/view/modal/info.php:59
+msgid "CUSTOMER"
+msgstr "CLIENT"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:60
+msgid "SUM AMOUNT"
+msgstr "MONTANT TOTAL"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:61
+#: app/Backend/Coupons/Controller/Main.php:29
+#: app/Backend/Payments/Controller/Main.php:96
+#: app/Backend/Payments/view/modal/info.php:61
+msgid "DISCOUNT"
+msgstr "REDUCTION"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:62
+#: app/Backend/Payments/view/modal/info.php:62
+msgid "GIFTCARD"
+msgstr "CARTE CADEAU"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:63
+#: app/Backend/Payments/view/modal/info.php:63
+msgid "PAID"
+msgstr "PAYÉ"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:64
+#: app/Backend/Payments/view/modal/info.php:64
+msgid "DUE"
+msgstr "À RÉGLER"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:65
+#: app/Backend/Billing/Controller/Main.php:41
+#: app/Backend/Payments/Controller/Main.php:110
+#: app/Backend/Payments/view/modal/info.php:65
+#: app/Frontend/view/client_panel/booknetic.php:49
+msgid "STATUS"
+msgstr "STATUT"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:92
+msgid "PAY"
+msgstr "PAYER"
+
+#: app/Backend/Appointments/view/modal/appointment_payments.php:106
+#: app/Backend/Appointments/view/modal/info.php:183
+#: app/Backend/Base/view/modal/permission_denied.php:17
+#: app/Backend/Billing/view/index.php:114
+#: app/Backend/Billing/view/index.php:127
+#: app/Backend/Billing/view/modal/share_page.php:59
+#: app/Backend/Emailnotifications/view/modal/help_to_find_custom_field_id.php:37
+#: app/Backend/Giftcards/view/modal/giftcard_usage_history.php:61
+#: app/Backend/Invoices/view/modal/help_to_find_custom_field_id.php:37
+#: app/Backend/Services/view/modal/add_new.php:644
+#: app/Backend/Services/view/modal/add_new.php:677
+#: app/Backend/Services/view/modal/add_new_category.php:48
+#: app/Backend/Settings/view/modal/keywords_list.php:102
+#: app/Backend/Smsnotifications/view/modal/help_to_find_custom_field_id.php:37
+#: app/Backend/Whatsappnotifications/view/modal/help_to_find_custom_field_id.php:37
+#: app/Providers/Helper.php:116
+msgid "CLOSE"
+msgstr "FERMER"
+
+#: app/Backend/Appointments/view/modal/custom_form.php:45
+msgid "No custom data found!"
+msgstr "Aucune donnée personnalisée trouvée !"
+
+#: app/Backend/Appointments/view/modal/edit.php:37
+msgid "Waiting"
+msgstr "En attente"
+
+#: app/Backend/Appointments/view/modal/edit.php:91
+msgid "Edit Appointment"
+msgstr "Modifier le RDV"
+
+#: app/Backend/Appointments/view/modal/edit.php:101
+msgid "Custom fields"
+msgstr "Champs personnalisés"
+
+#: app/Backend/Appointments/view/modal/info.php:16
+msgid "Appointment info"
+msgstr "Info du RDV"
+
+#: app/Backend/Appointments/view/modal/info.php:24
+msgid "APPOINTMENT INFO"
+msgstr "INFO DU RDV"
+
+#: app/Backend/Appointments/view/modal/info.php:25
+msgid "CUSTOM FIELDS"
+msgstr "CHAMPS PERSONALISÉS"
+
+#: app/Backend/Appointments/view/modal/info.php:26
+#: app/Backend/Services/view/modal/add_new.php:187
+msgid "EXTRAS"
+msgstr "EXTRAS"
+
+#: app/Backend/Appointments/view/modal/info.php:43
+msgid "Date, time"
+msgstr "Date, heure"
+
+#: app/Backend/Appointments/view/modal/info.php:143
+msgid "Extra name"
+msgstr "Nom de l'Extra"
+
+#: app/Backend/Appointments/view/modal/info.php:143
+#: app/Backend/Services/view/modal/add_new.php:144
+#: app/Backend/Services/view/modal/add_new.php:255
+#: app/Backend/Services/view/modal/add_new.php:603
+msgid "Duration"
+msgstr "Durée"
+
+#: app/Backend/Appointments/view/modal/info.php:143
+#: app/Backend/Services/view/modal/add_new.php:148
+#: app/Backend/Services/view/modal/add_new.php:224
+#: app/Backend/Services/view/modal/add_new.php:586
+msgid "Price"
+msgstr "Prix"
+
+#: app/Backend/Appointments/view/modal/info.php:177
+msgid "START MEETING"
+msgstr "COMMENCER LA RÉUNION"
+
+#: app/Backend/Appointments/view/modal/info.php:181
+#: app/Backend/Payments/view/modal/info.php:112
+#: app/Backend/Settings/Controller/Ajax.php:244
+#: app/Frontend/view/booking_panel/recurring_information.php:34
+msgid "EDIT"
+msgstr "MODIFIER"
+
+#: app/Backend/Appointments/view/modal/info.php:182
+#: app/Backend/Dashboard/view/index.php:94
+#: app/Backend/Dashboard/view/index.php:159
+msgid "PAYMENTS"
+msgstr "PAIEMENTS"
+
+#: app/Backend/Appointments/view/modal/payment.php:28
+msgid "Service amount"
+msgstr "Montant du service"
+
+#: app/Backend/Appointments/view/modal/payment.php:32
+msgid "Extras amount"
+msgstr "Montant des extras"
+
+#: app/Backend/Appointments/view/modal/payment.php:39
+#: app/Backend/Coupons/view/modal/add_new.php:43
+#: app/Frontend/view/booking_panel/confirm_details.php:74
+msgid "Discount"
+msgstr "Réduction"
+
+#: app/Backend/Appointments/view/modal/payment.php:43
+msgid "Tax amount"
+msgstr "Montant de TVA"
+
+#: app/Backend/Appointments/view/modal/payment.php:51
+msgid "Paid amount"
+msgstr "Montant payé"
+
+#: app/Backend/Appointments/view/modal/payment.php:56
+msgid "Payment status"
+msgstr "Statut du paiement"
+
+#: app/Backend/Appointments/view/modal/payment.php:59
+#: app/Backend/Billing/Controller/Main.php:49
+#: app/Backend/Payments/Controller/Main.php:51
+#: app/Backend/Payments/Controller/Main.php:118
+msgid "Paid"
+msgstr "Payé"
+
+#: app/Backend/Appointments/view/modal/payment.php:60
+#: app/Backend/Payments/Controller/Main.php:52
+#: app/Backend/Payments/Controller/Main.php:122
+msgid "Paid (deposit)"
+msgstr "Payé (acompte)"
+
+#: app/Backend/Base/view/data_table.php:20
+msgid "EXPORT TO CSV"
+msgstr "EXPORTER AU FORMAT CSV"
+
+#: app/Backend/Base/view/data_table.php:25
+#: app/Backend/Customers/view/modal/import.php:87
+msgid "IMPORT"
+msgstr "IMPORTER"
+
+#: app/Backend/Base/view/data_table.php:52
+msgid "Quick search"
+msgstr "Recherche rapide"
+
+#: app/Backend/Base/view/data_table.php:177
+msgid "Info"
+msgstr "Info"
+
+#: app/Backend/Base/view/data_table.php:178
+#: app/Backend/Emailnotifications/view/index.php:74
+#: app/Backend/Smsnotifications/view/index.php:68
+#: app/Backend/Whatsappnotifications/view/index.php:68
+msgid "Edit"
+msgstr "Modifier"
+
+#: app/Backend/Base/view/data_table.php:179
+#: app/Backend/Emailnotifications/view/index.php:75
+#: app/Backend/Smsnotifications/view/index.php:69
+#: app/Backend/Whatsappnotifications/view/index.php:69
+msgid "Delete"
+msgstr "Effacer"
+
+#: app/Backend/Base/view/data_table.php:187
+msgid "No any data!"
+msgstr "Pas de donnée!"
+
+#: app/Backend/Base/view/data_table.php:196
+#, php-format
+msgid "Showing %d of %d total"
+msgstr "Indiquant %d du %d total"
+
+#: app/Backend/Base/view/data_table.php:239
+msgid "Need Help?"
+msgstr "Besoin d'aide?"
+
+#: app/Backend/Base/view/data_table.php:249
+msgid "Selected"
+msgstr "Sélectionné"
+
+#: app/Backend/Base/view/disabled.php:11 app/Backend/Base/view/index.php:46
+#: app/Providers/Frontend.php:54 app/Providers/Frontend.php:65
+msgid "Loading..."
+msgstr "En cours de chargement..."
+
+#: app/Backend/Base/view/disabled.php:11 app/Backend/Base/view/install.php:11
+msgid "( it can take some time, please wait... )"
+msgstr "(ça peut prendre du temps)"
+
+#: app/Backend/Base/view/disabled.php:21
+msgid "Your plugin is disabled. Please activate the plugin."
+msgstr "Votre plugin est désactivé. Veuillez activer le plugin."
+
+#: app/Backend/Base/view/disabled.php:24
+#, php-format
+msgid "Reason: %s"
+msgstr "Raison : %s"
+
+#: app/Backend/Base/view/disabled.php:27
+msgid "Enter the purchase key"
+msgstr "Entrez la clé d’achat"
+
+#: app/Backend/Base/view/disabled.php:30
+msgid "RE-ACTIVATE"
+msgstr "RÉACTIVER"
+
+#: app/Backend/Base/view/index.php:18
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+#: app/Backend/Base/view/index.php:22 app/Providers/Frontend.php:267
+#: app/Providers/Frontend.php:534
+msgid "Searching..."
+msgstr "Recherche en cours…"
+
+#: app/Backend/Base/view/index.php:23
+msgid "Please firstly choose a service!"
+msgstr "Veuillez d’abord choisir un service!"
+
+#: app/Backend/Base/view/index.php:25
+msgid "This time slot is not available!"
+msgstr "Ce créneau n'est pas disponible!"
+
+#: app/Backend/Base/view/index.php:27
+msgid "Deleted"
+msgstr "Supprimé"
+
+#: app/Backend/Base/view/index.php:30
+msgid "Are you sure you want to delete?"
+msgstr "Etes-vous sûr de vouloir supprimer?"
+
+#: app/Backend/Base/view/index.php:31
+msgid "Rows deleted!"
+msgstr "Lignes supprimées !"
+
+#: app/Backend/Base/view/index.php:34
+msgid "Dear user"
+msgstr "Cher utilisateur"
+
+#: app/Backend/Base/view/index.php:38
+msgid "Group appointment"
+msgstr "RDV de groupe"
+
+#: app/Backend/Base/view/index.php:42
+msgid "Select services..."
+msgstr "Sélectionnez les services..."
+
+#: app/Backend/Base/view/index.php:43
+msgid "Changes has been saved!"
+msgstr "Changements sauvegardés!"
+
+#: app/Backend/Base/view/index.php:47
+msgid "Apply"
+msgstr "Appliquer"
+
+#: app/Backend/Base/view/index.php:48
+#: app/Frontend/view/client_panel/booknetic.php:98
+msgid "Cancel"
+msgstr "Annuler"
+
+#: app/Backend/Base/view/index.php:49
+msgid "From"
+msgstr "DE"
+
+#: app/Backend/Base/view/index.php:50
+msgid "To"
+msgstr "À"
+
+#: app/Backend/Base/view/index.php:53
+msgid "Appointment count"
+msgstr "Nombre de RDV"
+
+#: app/Backend/Base/view/index.php:56
+msgid "Fill the form correctly!"
+msgstr "Remplissez le formulaire correctement!"
+
+#: app/Backend/Base/view/index.php:57
+msgid "Saved succesfully!"
+msgstr "Enregistré avec succès !"
+
+#: app/Backend/Base/view/index.php:58
+msgid "Please type email!"
+msgstr "Veuillez indiquer un e-mail!"
+
+#: app/Backend/Base/view/index.php:59
+msgid "Please type phone number!"
+msgstr "Veuillez indiquer un numéro de téléphone!"
+
+#: app/Backend/Base/view/index.php:62
+msgid "Are you sure that you want to delete this service extra?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce service Extra ?"
+
+#: app/Backend/Base/view/index.php:63
+msgid "No more Staff exists for select!"
+msgstr "Il n'y a plus de personnel à sélectionner !"
+
+#: app/Backend/Base/view/index.php:64
+msgid "Are you sure to delete this special day?"
+msgstr "Êtes-vous sûr de vouloir supprimer cette journée spéciale ?"
+
+#: app/Backend/Base/view/index.php:65
+msgid "time(s) per month"
+msgstr "fréquence mensuelle"
+
+#: app/Backend/Base/view/index.php:66
+msgid "time(s) per week"
+msgstr "fréquence hebdo"
+
+#: app/Backend/Base/view/index.php:67
+msgid "Every n day(s)"
+msgstr "Chaque n jour(s)"
+
+#: app/Backend/Base/view/index.php:68
+msgid "Are you sure you want to delete this service?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce service?"
+
+#: app/Backend/Base/view/index.php:69
+msgid "Are you sure you want to delete this category?"
+msgstr "Êtes-vous sûr de vouloir supprimer cette catégorie ?"
+
+#: app/Backend/Base/view/index.php:70
+#: app/Backend/Services/view/modal/add_new_category.php:38
+msgid "Category name"
+msgstr "Nom de la catégorie"
+
+#: app/Backend/Base/view/index.php:71
+msgid "ADD CATEGORY"
+msgstr "AJOUTER UNE CATEGORIE"
+
+#: app/Backend/Base/view/index.php:75
+#: app/Backend/Settings/Controller/Ajax.php:164 app/Providers/Frontend.php:243
+#: app/Providers/Frontend.php:510
+msgid "January"
+msgstr "Janvier"
+
+#: app/Backend/Base/view/index.php:76
+#: app/Backend/Settings/Controller/Ajax.php:165 app/Providers/Frontend.php:244
+#: app/Providers/Frontend.php:511
+msgid "February"
+msgstr "Février"
+
+#: app/Backend/Base/view/index.php:77
+#: app/Backend/Settings/Controller/Ajax.php:166 app/Providers/Frontend.php:245
+#: app/Providers/Frontend.php:512
+msgid "March"
+msgstr "Mars"
+
+#: app/Backend/Base/view/index.php:78
+#: app/Backend/Settings/Controller/Ajax.php:167 app/Providers/Frontend.php:246
+#: app/Providers/Frontend.php:513
+msgid "April"
+msgstr "Avril"
+
+#: app/Backend/Base/view/index.php:79
+#: app/Backend/Settings/Controller/Ajax.php:168 app/Providers/Frontend.php:247
+#: app/Providers/Frontend.php:514
+msgid "May"
+msgstr "Mai"
+
+#: app/Backend/Base/view/index.php:80
+#: app/Backend/Settings/Controller/Ajax.php:169 app/Providers/Frontend.php:248
+#: app/Providers/Frontend.php:515
+msgid "June"
+msgstr "Juin"
+
+#: app/Backend/Base/view/index.php:81
+#: app/Backend/Settings/Controller/Ajax.php:170 app/Providers/Frontend.php:249
+#: app/Providers/Frontend.php:516
+msgid "July"
+msgstr "Juillet"
+
+#: app/Backend/Base/view/index.php:82
+#: app/Backend/Settings/Controller/Ajax.php:171 app/Providers/Frontend.php:250
+#: app/Providers/Frontend.php:517
+msgid "August"
+msgstr "Août"
+
+#: app/Backend/Base/view/index.php:83
+#: app/Backend/Settings/Controller/Ajax.php:172 app/Providers/Frontend.php:251
+#: app/Providers/Frontend.php:518
+msgid "September"
+msgstr "Septembre"
+
+#: app/Backend/Base/view/index.php:84
+#: app/Backend/Settings/Controller/Ajax.php:173 app/Providers/Frontend.php:252
+#: app/Providers/Frontend.php:519
+msgid "October"
+msgstr "Octobre"
+
+#: app/Backend/Base/view/index.php:85
+#: app/Backend/Settings/Controller/Ajax.php:174 app/Providers/Frontend.php:253
+#: app/Providers/Frontend.php:520
+msgid "November"
+msgstr "Novembre"
+
+#: app/Backend/Base/view/index.php:86
+#: app/Backend/Settings/Controller/Ajax.php:175 app/Providers/Frontend.php:254
+#: app/Providers/Frontend.php:521
+msgid "December"
+msgstr "Décembre"
+
+#: app/Backend/Base/view/index.php:97
+msgid "Your session has expired. Please refresh the page and try again."
+msgstr ""
+"Votre session a expiré. Merci de rafraichir la page et d’essayer à nouveau."
+
+#: app/Backend/Base/view/index.php:98
+msgid "Graphic view"
+msgstr "Vue graphique"
+
+#: app/Backend/Base/view/index.php:214
+msgid "Back to WordPress"
+msgstr "Retour à WordPress"
+
+#: app/Backend/Base/view/index.php:223
+msgid "Share your page "
+msgstr "Partagez votre lien de RDV "
+
+#: app/Backend/Base/view/index.php:240
+msgid "WORDPRESS"
+msgstr "WORDPRESS"
+
+#: app/Backend/Base/view/index.php:246 app/Backend/Base/view/index.php:267
+#: app/Backend/Billing/view/modal/share_page.php:14
+msgid "Share your page"
+msgstr "Partagez votre lien de RDV"
+
+#: app/Backend/Base/view/index.php:259
+#, php-format
+msgid "Hello %s"
+msgstr "Bonjour %s"
+
+#: app/Backend/Base/view/index.php:271
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: app/Backend/Base/view/index.php:307
+msgid "Starting guide"
+msgstr "Guide de démarrage"
+
+#: app/Backend/Base/view/index.php:314 app/Backend/Settings/view/index.php:94
+#: app/Backend/Settings/view/index.php:209
+#: app/Backend/Settings/view/modal/company_settings.php:21
+msgid "Company details"
+msgstr "Détails de l'entreprise"
+
+#: app/Backend/Base/view/index.php:315
+#: app/Backend/Settings/view/modal/business_hours_settings.php:40
+msgid "Business hours"
+msgstr "Horaires d'ouverture"
+
+#: app/Backend/Base/view/index.php:322
+msgid "Create location"
+msgstr "Ajoutez un lieu"
+
+#: app/Backend/Base/view/index.php:323
+msgid "Create staff"
+msgstr "Ajoutez le personnel"
+
+#: app/Backend/Base/view/index.php:327
+msgid "Create service"
+msgstr "Ajoutez un service"
+
+#: app/Backend/Base/view/install.php:11
+msgid "Installing..."
+msgstr "Installation..."
+
+#: app/Backend/Base/view/install.php:26
+msgid "Purchase code"
+msgstr "Code d’achat"
+
+#: app/Backend/Base/view/install.php:29
+msgid "Where did You find us?"
+msgstr "Où nous avez-vous trouvés?"
+
+#: app/Backend/Base/view/install.php:38
+msgid "Email | Subscribe newsletter"
+msgstr "Email | S'abonner à la newsletter"
+
+#: app/Backend/Base/view/install.php:39
+msgid "INSTALL"
+msgstr "INSTALLER"
+
+#: app/Backend/Base/view/install.php:40
+msgid "Install process can take 30-60 sec., please wait..."
+msgstr ""
+"Le processus d'installation peut prendre 30 à 60 secondes, veuillez "
+"patienter..."
+
+#: app/Backend/Base/view/modal/permission_denied.php:12
+msgid "Upgrade needed!"
+msgstr "Mise à niveau nécessaire!"
+
+#: app/Backend/Base/view/modal/permission_denied.php:19
+msgid "UPGRADE NOW"
+msgstr "METTRE À JOUR MAINTENANT"
+
+#: app/Backend/Billing/Controller/Main.php:28
+#: app/Backend/Billing/Middleware.php:20
+msgid "Billing"
+msgstr "Facturation"
+
+#: app/Backend/Billing/Controller/Main.php:33
+msgid "Plan"
+msgstr "Forfait"
+
+#: app/Backend/Billing/Controller/Main.php:34
+#: app/Backend/Payments/view/modal/info.php:60
+msgid "AMOUNT"
+msgstr "MONTANT"
+
+#: app/Backend/Billing/Controller/Main.php:36
+msgid "PAYMENT METHOD"
+msgstr "MÉTHODE DE PAIEMENT"
+
+#: app/Backend/Billing/view/index.php:13
+#, php-format
+msgid "Your current plan is %s."
+msgstr "Votre forfait actuel est le forfait %s."
+
+#: app/Backend/Billing/view/index.php:14
+#, php-format
+msgid "The plan expiration date is %s."
+msgstr "La date d’expiration du plan est %s."
+
+#: app/Backend/Billing/view/index.php:19
+msgid "CANCEL SUBSCRIPTION"
+msgstr "ANNULER L’ABONNEMENT"
+
+#: app/Backend/Billing/view/index.php:21
+#: app/Backend/Emailnotifications/view/index.php:39
+#: app/Backend/Smsnotifications/view/index.php:34
+#: app/Backend/Whatsappnotifications/view/index.php:34
+msgid "UPGRADE PLAN"
+msgstr "MISE À NIVEAU DU FORFAIT"
+
+#: app/Backend/Billing/view/index.php:28
+msgid "Choose a plan"
+msgstr "Choisir un forfait"
+
+#: app/Backend/Billing/view/index.php:29
+msgid "Upgrade your account"
+msgstr "Mise à niveau de votre compte"
+
+#: app/Backend/Billing/view/index.php:32 app/Backend/Reports/view/index.php:29
+#: app/Backend/Reports/view/index.php:76
+#: app/Backend/Services/view/modal/add_new.php:324
+msgid "Monthly"
+msgstr "Mensuel"
+
+#: app/Backend/Billing/view/index.php:37
+msgid "Annually"
+msgstr "Annuel"
+
+#: app/Backend/Billing/view/index.php:52 app/Backend/Billing/view/index.php:58
+#, php-format
+msgid "%d%% off ( Normally %s )"
+msgstr "%d%% off ( Normalement %s )"
+
+#: app/Backend/Billing/view/index.php:54
+msgid "per month"
+msgstr "par mois"
+
+#: app/Backend/Billing/view/index.php:60
+msgid "per year"
+msgstr "par an"
+
+#: app/Backend/Billing/view/index.php:66
+msgid "CHOOSE"
+msgstr "CHOISIR"
+
+#: app/Backend/Billing/view/index.php:75
+msgid "back"
+msgstr "retour"
+
+#: app/Backend/Billing/view/index.php:77
+msgid "Select payment method"
+msgstr "Sélectionner une méthode de paiement"
+
+#: app/Backend/Billing/view/index.php:78
+#, php-format
+msgid "You have chosen %s plan"
+msgstr "Vous avez choisi le forfait %s"
+
+#: app/Backend/Billing/view/index.php:86
+#: app/Backend/Settings/Controller/Ajax.php:131
+#: app/Frontend/Controller/Ajax.php:599
+msgid "Credit card"
+msgstr "Carte de crédit"
+
+#: app/Backend/Billing/view/index.php:100
+msgid "No available payment methods!"
+msgstr "Aucune méthode de Paiement disponible!"
+
+#: app/Backend/Billing/view/index.php:111
+msgid "Payment Successful"
+msgstr "Paiement réussi"
+
+#: app/Backend/Billing/view/index.php:112
+msgid "It might take some time to activate your new plan."
+msgstr ""
+"Il faudra peut-être un certain temps pour activer votre nouveau forfait."
+
+#: app/Backend/Billing/view/index.php:124
+msgid "Payment Canceled"
+msgstr "Paiement annulé"
+
+#: app/Backend/Billing/view/index.php:125
+msgid "We aren't able to process your payment. Please try again."
+msgstr ""
+"Nous ne sommes pas en mesure de traiter votre paiement. Veuillez réessayer."
+
+#: app/Backend/Billing/view/index.php:141
+msgid "Are you sure you want to cancel subscription?"
+msgstr "Êtes-vous sûr de vouloir résilier cet abonnement ?"
+
+#: app/Backend/Billing/view/index.php:142
+#: app/Frontend/view/client_panel/booknetic.php:220
+#: app/Frontend/view/client_panel/booknetic.php:235
+msgid "YES"
+msgstr "OUI"
+
+#: app/Backend/Billing/view/index.php:143
+#: app/Frontend/view/client_panel/booknetic.php:219
+#: app/Frontend/view/client_panel/booknetic.php:234
+msgid "NO"
+msgstr "NON"
+
+#: app/Backend/Billing/view/modal/share_page.php:23
+msgid "Your page URL"
+msgstr "L'URL de votre lien de RDV"
+
+#: app/Backend/Billing/view/modal/share_page.php:25
+msgid "Schedule time with me"
+msgstr "Planifiez du temps avec moi"
+
+#: app/Backend/Billing/view/modal/share_page.php:25
+#, php-format
+msgid "You can see my real-time availability and schedule time with me at %s"
+msgstr ""
+"Vous pouvez voir ma disponibilité en temps réel et les horaires avec moi à %s"
+
+#: app/Backend/Billing/view/modal/share_page.php:25
+msgid "Send link via Email"
+msgstr "Envoyer un lien par e-mail"
+
+#: app/Backend/Billing/view/modal/share_page.php:31
+msgid "The QR for your page"
+msgstr "Le QR code de votre page"
+
+#: app/Backend/Billing/view/modal/share_page.php:35
+msgid "Click to download QR"
+msgstr "Cliquer pour télécharger le QR code"
+
+#: app/Backend/Billing/view/modal/share_page.php:42
+msgid "Customer panel URL"
+msgstr "URL de l’espace client"
+
+#: app/Backend/Billing/view/modal/share_page.php:50
+msgid "Add to your Website"
+msgstr "Ajoutez l'URL de votre site Web"
+
+#: app/Backend/Calendar/Middleware.php:24
+#: app/Backend/Calendar/view/index.php:24
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: app/Backend/Calendar/view/index.php:46
+#: app/Backend/Giftcards/view/modal/add_new.php:37
+#: app/Backend/Reports/view/index.php:45 app/Backend/Reports/view/index.php:92
+msgid "Location filter"
+msgstr "Filtre par lieu"
+
+#: app/Backend/Calendar/view/index.php:57 app/Backend/Reports/view/index.php:37
+#: app/Backend/Reports/view/index.php:84
+msgid "Service filter"
+msgstr "Filtre par service"
+
+#: app/Backend/Calendar/view/index.php:81
+msgid "TODAY"
+msgstr "AUJOURD'HUI"
+
+#: app/Backend/Calendar/view/index.php:82
+#: app/Backend/Services/view/modal/add_new.php:344
+msgid "month"
+msgstr "mois"
+
+#: app/Backend/Calendar/view/index.php:83
+#: app/Backend/Services/view/modal/add_new.php:345 app/Providers/Helper.php:71
+#: app/Providers/Helper.php:85
+msgid "week"
+msgstr "semaine"
+
+#: app/Backend/Calendar/view/index.php:84
+#: app/Backend/Services/view/modal/add_new.php:346 app/Providers/Helper.php:72
+#: app/Providers/Helper.php:81
+msgid "day"
+msgstr "jour"
+
+#: app/Backend/Calendar/view/index.php:85
+msgid "list"
+msgstr "liste"
+
+#: app/Backend/Calendar/view/index.php:86
+msgid "all-day"
+msgstr "journée entière"
+
+#: app/Backend/Coupons/Controller/Ajax.php:88
+msgid "Discount cannot be negative number!"
+msgstr "La réduction ne peut pas être un nombre négatif !"
+
+#: app/Backend/Coupons/Controller/Ajax.php:92
+msgid "Discount percent count cannot be more than 100%!"
+msgstr "La réduction ne peut pas être >100% !"
+
+#: app/Backend/Coupons/Controller/Ajax.php:113
+msgid "Please type the coupon code field!"
+msgstr "Veuillez saisir le champ du coupon de réduction !"
+
+#: app/Backend/Coupons/Controller/Main.php:20
+#: app/Backend/Coupons/Middleware.php:34
+msgid "Coupons"
+msgstr "Coupons"
+
+#: app/Backend/Coupons/Controller/Main.php:21
+#: app/Backend/Coupons/view/modal/add_new.php:113
+msgid "ADD COUPON"
+msgstr "AJOUTER COUPON"
+
+#: app/Backend/Coupons/Controller/Main.php:27
+#: app/Backend/Giftcards/Controller/Main.php:31
+#: app/Backend/Invoices/Controller/Main.php:26
+msgid "№"
+msgstr "№"
+
+#: app/Backend/Coupons/Controller/Main.php:28
+#: app/Backend/Giftcards/Controller/Main.php:32
+msgid "CODE"
+msgstr "CODE"
+
+#: app/Backend/Coupons/Controller/Main.php:33
+msgid "USAGE LIMIT"
+msgstr "LIMITE D'UTILISATION"
+
+#: app/Backend/Coupons/Controller/Main.php:34
+msgid "Times Used"
+msgstr "Heures Utilisées"
+
+#: app/Backend/Coupons/view/modal/add_new.php:15
+msgid "Add Coupon"
+msgstr "Ajouter un coupon"
+
+#: app/Backend/Coupons/view/modal/add_new.php:25
+msgid "Type"
+msgstr "Type"
+
+#: app/Backend/Coupons/view/modal/add_new.php:27
+msgid "One coupon"
+msgstr "Un coupon de réduction"
+
+#: app/Backend/Coupons/view/modal/add_new.php:28
+msgid "Coupon series"
+msgstr "Séries de coupons de réduction"
+
+#: app/Backend/Coupons/view/modal/add_new.php:32
+msgid "Amount"
+msgstr "Montant"
+
+#: app/Backend/Coupons/view/modal/add_new.php:39
+#: app/Backend/Giftcards/view/modal/add_new.php:26
+msgid "Code"
+msgstr "Code"
+
+#: app/Backend/Coupons/view/modal/add_new.php:56
+msgid "Applies date from"
+msgstr "S'applique à partir de"
+
+#: app/Backend/Coupons/view/modal/add_new.php:57
+#: app/Backend/Coupons/view/modal/add_new.php:61
+msgid "Life time"
+msgstr "Durée de vie"
+
+#: app/Backend/Coupons/view/modal/add_new.php:60
+msgid "Applies date to"
+msgstr "S'applique à la date"
+
+#: app/Backend/Coupons/view/modal/add_new.php:67
+msgid "Usage limit"
+msgstr "Limite d'utilisation"
+
+#: app/Backend/Coupons/view/modal/add_new.php:68
+msgid "No limit"
+msgstr "Pas de limite"
+
+#: app/Backend/Coupons/view/modal/add_new.php:74
+msgid "Once per customer"
+msgstr "Une fois par client"
+
+#: app/Backend/Coupons/view/modal/add_new.php:81
+#: app/Backend/Giftcards/view/modal/add_new.php:51
+msgid "Services filter"
+msgstr "Filtre sur les services"
+
+#: app/Backend/Coupons/view/modal/add_new.php:95
+#: app/Backend/Giftcards/view/modal/add_new.php:64
+#: app/Backend/Reports/view/index.php:53 app/Backend/Reports/view/index.php:100
+msgid "Staff filter"
+msgstr "Filtre sur le personnel"
+
+#: app/Backend/Customers/Controller/Ajax.php:88
+msgid "Customer not found or permission denied!"
+msgstr "Client non trouvé ou permission refusée!"
+
+#: app/Backend/Customers/Controller/Ajax.php:107
+msgid "There is another customer with the same email adress!"
+msgstr "Un utilisateur avec la même adresse email existe déjà!"
+
+#: app/Backend/Customers/Controller/Ajax.php:118
+#: app/Backend/Staff/Controller/Ajax.php:239
+msgid "Please select WordPress user!"
+msgstr "Veuillez sélectionner l’utilisateur WordPress!"
+
+#: app/Backend/Customers/Controller/Ajax.php:124
+#: app/Backend/Staff/Controller/Ajax.php:245
+msgid "Please type the password of the WordPress user!"
+msgstr "Veuillez taper le mot de passe de l’utilisateur WordPress!"
+
+#: app/Backend/Customers/Controller/Ajax.php:209
+#: app/Backend/Locations/Controller/Ajax.php:76
+#: app/Backend/Services/Controller/Ajax.php:420
+#: app/Backend/Services/Controller/Ajax.php:658
+#: app/Backend/Settings/Controller/Ajax.php:774
+#: app/Backend/Staff/Controller/Ajax.php:333
+msgid "Only JPG and PNG images allowed!"
+msgstr "Seules les images JPG et PNG sont autorisées !"
+
+#: app/Backend/Customers/Controller/Ajax.php:285
+msgid "Please select CSV file!"
+msgstr "Sélectionner un fichier CSV!"
+
+#: app/Backend/Customers/Controller/Ajax.php:297
+msgid "Too many fields detected on CSV file!"
+msgstr "Trop de champs détectés sur le fichier CSV !"
+
+#: app/Backend/Customers/Controller/Main.php:22
+#: app/Backend/Customers/view/modal/add_new.php:133
+msgid "ADD CUSTOMER"
+msgstr "AJOUTER UN CLIENT"
+
+#: app/Backend/Customers/Controller/Main.php:31
+msgid "CUSTOMER NAME"
+msgstr "NOM DU CLIENT"
+
+#: app/Backend/Customers/Controller/Main.php:36
+msgid "First name"
+msgstr "Prénom"
+
+#: app/Backend/Customers/Controller/Main.php:37
+msgid "Last name"
+msgstr "Nom"
+
+#: app/Backend/Customers/Controller/Main.php:38
+#: app/Backend/Customers/view/modal/add_new.php:40
+#: app/Backend/Customers/view/modal/import.php:49
+#: app/Backend/Emailnotifications/view/modal/send_test_email.php:19
+#: app/Backend/Emailnotifications/view/modal/send_test_email.php:20
+#: app/Backend/Staff/view/modal/add_new.php:130
+#: app/Frontend/view/booking_panel/information.php:49
+#: app/Frontend/view/client_panel/booknetic.php:122
+msgid "Email"
+msgstr "Email"
+
+#: app/Backend/Customers/Controller/Main.php:40
+#: app/Backend/Locations/Controller/Main.php:35
+#: app/Backend/Staff/Controller/Main.php:36
+msgid "PHONE"
+msgstr "TÉLÉPHONE"
+
+#: app/Backend/Customers/Controller/Main.php:41
+msgid "LAST APPOINTMENT"
+msgstr "DERNIER RDV"
+
+#: app/Backend/Customers/Controller/Main.php:43
+msgid "GENDER"
+msgstr "SEXE"
+
+#: app/Backend/Customers/Controller/Main.php:47
+#: app/Backend/Customers/view/modal/add_new.php:112
+#: app/Backend/Customers/view/modal/import.php:61
+#: app/Frontend/view/client_panel/booknetic.php:132
+msgid "Date of birth"
+msgstr "Date de naissance"
+
+#: app/Backend/Customers/Controller/Main.php:49
+#: app/Backend/Customers/view/modal/add_new.php:122
+#: app/Backend/Customers/view/modal/import.php:65
+#: app/Backend/Services/view/modal/add_new.php:425
+#: app/Backend/Staff/view/modal/add_new.php:224
+msgid "Note"
+msgstr "Note"
+
+#: app/Backend/Customers/Controller/Main.php:64
+msgid "The Customer has been added some Appointments. Firstly remove them!"
+msgstr "Ce client a déjà ajouté des rendez-vous. Tout d'abord, supprimez-les !"
+
+#: app/Backend/Customers/view/modal/add_new.php:29
+#: app/Backend/Customers/view/modal/import.php:41
+msgid "First Name"
+msgstr "Prénom"
+
+#: app/Backend/Customers/view/modal/add_new.php:33
+#: app/Backend/Customers/view/modal/import.php:45
+msgid "Last Name"
+msgstr "Nom"
+
+#: app/Backend/Customers/view/modal/add_new.php:44
+#: app/Backend/Customers/view/modal/import.php:53
+#: app/Backend/Locations/view/modal/add_new.php:46
+#: app/Backend/Settings/view/modal/company_settings.php:44
+#: app/Backend/Staff/view/modal/add_new.php:134
+#: app/Frontend/view/booking_panel/information.php:53
+#: app/Frontend/view/client_panel/booknetic.php:126
+msgid "Phone"
+msgstr "Numéro de téléphone"
+
+#: app/Backend/Customers/view/modal/add_new.php:56
+#: app/Backend/Staff/view/modal/add_new.php:146
+msgid "Allow to log in"
+msgstr "Autoriser à se connecter"
+
+#: app/Backend/Customers/view/modal/add_new.php:66
+#: app/Backend/Staff/view/modal/add_new.php:156
+msgid "Use existing WordPress user"
+msgstr "Utiliser l’utilisateur WordPress existant"
+
+#: app/Backend/Customers/view/modal/add_new.php:67
+#: app/Backend/Staff/view/modal/add_new.php:157
+msgid "Create new WordPress user"
+msgstr "Créer un nouvel utilisateur WordPress"
+
+#: app/Backend/Customers/view/modal/add_new.php:75
+#: app/Backend/Staff/view/modal/add_new.php:165
+msgid "WordPress user"
+msgstr "Utilisateur WordPress"
+
+#: app/Backend/Customers/view/modal/add_new.php:89
+#: app/Backend/Staff/view/modal/add_new.php:179
+msgid "User password"
+msgstr "Mot de passe de l’utilisateur"
+
+#: app/Backend/Customers/view/modal/add_new.php:97
+#: app/Backend/Locations/view/modal/add_new.php:31
+#: app/Backend/Staff/view/modal/add_new.php:187
+msgid "Image"
+msgstr "Image"
+
+#: app/Backend/Customers/view/modal/add_new.php:99
+#: app/Backend/Customers/view/modal/import.php:34
+#: app/Backend/Customforms/Helpers/FormElements.php:235
+#: app/Backend/Locations/view/modal/add_new.php:33
+#: app/Backend/Settings/view/modal/backup_settings.php:25
+#: app/Backend/Staff/view/modal/add_new.php:189
+msgid "BROWSE"
+msgstr "PARCOURIR"
+
+#: app/Backend/Customers/view/modal/add_new.php:99
+msgid "PNG, JPG, max 800x800 to 5mb)"
+msgstr "PNG, JPG, max 800x800 à 5Mb)"
+
+#: app/Backend/Customers/view/modal/add_new.php:105
+#: app/Backend/Customers/view/modal/add_new.php:106
+#: app/Backend/Customers/view/modal/import.php:57
+#: app/Frontend/view/client_panel/booknetic.php:136
+msgid "Gender"
+msgstr "Sexe"
+
+#: app/Backend/Customers/view/modal/add_new.php:107
+#: app/Frontend/view/client_panel/booknetic.php:139
+msgid "Male"
+msgstr "Masculin"
+
+#: app/Backend/Customers/view/modal/add_new.php:108
+#: app/Frontend/view/client_panel/booknetic.php:140
+msgid "Female"
+msgstr "Féminin"
+
+#: app/Backend/Customers/view/modal/import.php:15
+msgid "Import"
+msgstr "Importer"
+
+#: app/Backend/Customers/view/modal/import.php:29
+msgid "You may import list of clients in CSV format."
+msgstr "Vous pouvez importer la liste des clients au format CSV."
+
+#: app/Backend/Customers/view/modal/import.php:32
+msgid "Select file"
+msgstr "Choisissez le fichier"
+
+#: app/Backend/Customers/view/modal/import.php:34
+msgid "(CSV, max 10k customers)"
+msgstr "(CSV, max 10k clients)"
+
+#: app/Backend/Customers/view/modal/import.php:72
+msgid "Delimiter"
+msgstr "Délimiter"
+
+#: app/Backend/Customers/view/modal/import.php:74
+msgid "Comma ( , )"
+msgstr "Virgule ( , )"
+
+#: app/Backend/Customers/view/modal/import.php:75
+msgid "Semicolon ( ; )"
+msgstr "Point-virgule ( ; )"
+
+#: app/Backend/Customforms/Controller/Main.php:23
+msgid "Custom forms"
+msgstr "Formulaire personnalisé"
+
+#: app/Backend/Customforms/Controller/Main.php:24
+msgid "CREATE NEW FORM"
+msgstr "CRÉER UN FORMULAIRE"
+
+#: app/Backend/Customforms/Controller/Main.php:28
+#: app/Backend/Invoices/Controller/Main.php:27
+#: app/Backend/Locations/Controller/Main.php:30
+#: app/Backend/Services/Controller/Main.php:107
+msgid "NAME"
+msgstr "NOM"
+
+#: app/Backend/Customforms/Helpers/FormElements.php:146
+#: app/Backend/Customforms/Helpers/FormElements.php:193
+msgid "Choice 1"
+msgstr "Choix 1"
+
+#: app/Backend/Customforms/Helpers/FormElements.php:153
+#: app/Backend/Customforms/Helpers/FormElements.php:200
+msgid "Choice 2"
+msgstr "Choix 2"
+
+#: app/Backend/Customforms/Middleware.php:34
+msgid "Custom Forms"
+msgstr "Formulaires personnalisés"
+
+#: app/Backend/Customforms/view/edit_form.php:29
+msgid "Customize"
+msgstr "Personaliser"
+
+#: app/Backend/Customforms/view/edit_form.php:33
+msgid "Form name"
+msgstr "Nom du formulaire"
+
+#: app/Backend/Customforms/view/edit_form.php:48
+msgid "SAVE FORM"
+msgstr "ENREGISTRER LE FORMULAIRE"
+
+#: app/Backend/Customforms/view/edit_form.php:59
+msgid "Elements"
+msgstr "Éléments"
+
+#: app/Backend/Customforms/view/edit_form.php:66
+#: app/Backend/Customforms/view/edit_form.php:177
+msgid "Label"
+msgstr "Étiquette"
+
+#: app/Backend/Customforms/view/edit_form.php:71
+msgid "Text input"
+msgstr "Saisie de texte"
+
+#: app/Backend/Customforms/view/edit_form.php:76
+msgid "Textarea"
+msgstr "Zone de texte"
+
+#: app/Backend/Customforms/view/edit_form.php:81
+msgid "Number input"
+msgstr "Saisie de numéro"
+
+#: app/Backend/Customforms/view/edit_form.php:86
+msgid "Date input"
+msgstr "Saisie de la date"
+
+#: app/Backend/Customforms/view/edit_form.php:91
+msgid "Time input"
+msgstr "Saisie de l'heure"
+
+#: app/Backend/Customforms/view/edit_form.php:96
+msgid "Select"
+msgstr "Choisissez"
+
+#: app/Backend/Customforms/view/edit_form.php:101
+msgid "Check-box"
+msgstr "Case à cocher"
+
+#: app/Backend/Customforms/view/edit_form.php:106
+msgid "Radio buttons"
+msgstr "Radio buttons"
+
+#: app/Backend/Customforms/view/edit_form.php:111
+msgid "File"
+msgstr "Fichier"
+
+#: app/Backend/Customforms/view/edit_form.php:116
+msgid "Link"
+msgstr "Lien"
+
+#: app/Backend/Customforms/view/edit_form.php:127
+msgid "Form"
+msgstr "Formulaire"
+
+#: app/Backend/Customforms/view/edit_form.php:178
+msgid "Max: 255 symbol"
+msgstr "Max: 255 symboles"
+
+#: app/Backend/Customforms/view/edit_form.php:184
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: app/Backend/Customforms/view/edit_form.php:185
+#: app/Backend/Customforms/view/edit_form.php:226
+msgid "Max: 200 symbol"
+msgstr "Max: 200 symboles"
+
+#: app/Backend/Customforms/view/edit_form.php:191
+msgid "Min length"
+msgstr "Longueur min"
+
+#: app/Backend/Customforms/view/edit_form.php:195
+msgid "Max length"
+msgstr "Longueur max"
+
+#: app/Backend/Customforms/view/edit_form.php:202
+msgid "Help text"
+msgstr "Texte d'aide"
+
+#: app/Backend/Customforms/view/edit_form.php:203
+msgid "Max: 500 symbol"
+msgstr "Max: 500 symboles"
+
+#: app/Backend/Customforms/view/edit_form.php:209
+msgid "Allowed file formats"
+msgstr "Formats de fichiers autorisés"
+
+#: app/Backend/Customforms/view/edit_form.php:218
+msgid "Is required"
+msgstr "Obligatoire"
+
+#: app/Backend/Customforms/view/edit_form.php:225
+msgid "URL"
+msgstr "URL"
+
+#: app/Backend/Customforms/view/edit_form.php:233
+msgid "Choices"
+msgstr "Choix"
+
+#: app/Backend/Customforms/view/edit_form.php:235
+msgid "Add new"
+msgstr "Ajouter nouveau"
+
+#: app/Backend/Dashboard/Middleware.php:24
+#: app/Backend/Dashboard/view/index.php:20
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: app/Backend/Dashboard/view/index.php:26
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: app/Backend/Dashboard/view/index.php:27
+msgid "Yesterday"
+msgstr "Hier"
+
+#: app/Backend/Dashboard/view/index.php:28
+msgid "Tomorrow"
+msgstr "Demain"
+
+#: app/Backend/Dashboard/view/index.php:29
+#: app/Backend/Reports/view/index.php:122
+#: app/Backend/Reports/view/index.php:124
+#: app/Backend/Reports/view/index.php:144
+#: app/Backend/Reports/view/index.php:146
+msgid "This week"
+msgstr "Cette semaine"
+
+#: app/Backend/Dashboard/view/index.php:30
+msgid "Last week"
+msgstr "Semaine passée"
+
+#: app/Backend/Dashboard/view/index.php:31
+#: app/Backend/Reports/view/index.php:126
+#: app/Backend/Reports/view/index.php:148
+msgid "This month"
+msgstr "Ce mois"
+
+#: app/Backend/Dashboard/view/index.php:32
+#: app/Backend/Reports/view/index.php:128
+#: app/Backend/Reports/view/index.php:150
+msgid "This year"
+msgstr "Cette année"
+
+#: app/Backend/Dashboard/view/index.php:33
+msgid "Custom"
+msgstr "Personnaliser"
+
+#: app/Backend/Dashboard/view/index.php:56
+msgid "Durations"
+msgstr "Durées"
+
+#: app/Backend/Dashboard/view/index.php:63
+msgid "Revenue"
+msgstr "Revenu"
+
+#: app/Backend/Dashboard/view/index.php:79
+msgid "Upcoming"
+msgstr "A venir"
+
+#: app/Backend/Dashboard/view/index.php:91
+#: app/Backend/Dashboard/view/index.php:156
+#: app/Backend/Payments/Controller/Main.php:57
+#: app/Frontend/view/client_panel/booknetic.php:46
+msgid "APPOINTMENT DATE"
+msgstr "DATE DE RENDEZ-VOUS"
+
+#: app/Backend/Dashboard/view/index.php:96
+#: app/Backend/Dashboard/view/index.php:139
+#: app/Backend/Dashboard/view/index.php:161
+#: app/Backend/Dashboard/view/index.php:183
+#: app/Backend/Giftcards/view/modal/giftcard_usage_history.php:29
+msgid "INFO"
+msgstr "INFO"
+
+#: app/Backend/Emailnotifications/Controller/Ajax.php:111
+msgid ""
+"You have reached your allowed maximum Email limit. Please upgrade your plan."
+msgstr ""
+"Vous avez atteint votre limite maximale d'email. Veuillez mettre votre plan "
+"à niveau."
+
+#: app/Backend/Emailnotifications/Controller/Ajax.php:168
+msgid "Couldn't send email."
+msgstr "Envoi email impossible."
+
+#: app/Backend/Emailnotifications/Helpers/SendEmail.php:303
+#: app/Backend/Smsnotifications/Helpers/SendSMS.php:211
+#: app/Backend/Whatsappnotifications/Helpers/SendMessage.php:211
+msgid "Waiting for payment"
+msgstr "En attente de paiement"
+
+#: app/Backend/Emailnotifications/Middleware.php:34
+#: app/Backend/Emailnotifications/view/index.php:46
+#: app/Backend/NotificationTab/Controller/Ajax.php:20
+msgid "Email Notifications"
+msgstr "Notifications d'email"
+
+#: app/Backend/Emailnotifications/Middleware.php:36
+#: app/Backend/Smsnotifications/Middleware.php:36
+#: app/Backend/Whatsappnotifications/Middleware.php:35
+msgid "Notifications"
+msgstr "Notifications"
+
+#: app/Backend/Emailnotifications/view/index.php:12
+#: app/Backend/Smsnotifications/view/index.php:11
+#: app/Backend/Whatsappnotifications/view/index.php:11
+msgid "New Appointment"
+msgstr "Nouveau Rdv"
+
+#: app/Backend/Emailnotifications/view/index.php:13
+#: app/Backend/Smsnotifications/view/index.php:12
+#: app/Backend/Whatsappnotifications/view/index.php:12
+msgid "Appointment re-scheduled"
+msgstr "Rdv re-programmé"
+
+#: app/Backend/Emailnotifications/view/index.php:14
+#: app/Backend/Smsnotifications/view/index.php:13
+#: app/Backend/Whatsappnotifications/view/index.php:13
+msgid "Appointment approved"
+msgstr "Rdv approuvé"
+
+#: app/Backend/Emailnotifications/view/index.php:15
+#: app/Backend/Smsnotifications/view/index.php:14
+#: app/Backend/Whatsappnotifications/view/index.php:14
+msgid "Appointment pending"
+msgstr "Rdv en attente"
+
+#: app/Backend/Emailnotifications/view/index.php:16
+#: app/Backend/Smsnotifications/view/index.php:15
+#: app/Backend/Whatsappnotifications/view/index.php:15
+msgid "Appointment rejected"
+msgstr "Rdv refusé"
+
+#: app/Backend/Emailnotifications/view/index.php:17
+#: app/Backend/Smsnotifications/view/index.php:16
+#: app/Backend/Whatsappnotifications/view/index.php:16
+msgid "Appointment canceled"
+msgstr "Rdv annulé"
+
+#: app/Backend/Emailnotifications/view/index.php:18
+#: app/Backend/Smsnotifications/view/index.php:17
+#: app/Backend/Whatsappnotifications/view/index.php:17
+msgid "Reminder before appointment"
+msgstr "Rappel avant RDV"
+
+#: app/Backend/Emailnotifications/view/index.php:19
+#: app/Backend/Smsnotifications/view/index.php:18
+#: app/Backend/Whatsappnotifications/view/index.php:18
+msgid "Reminder after appointment"
+msgstr "Rappel après RDV"
+
+#: app/Backend/Emailnotifications/view/index.php:20
+#: app/Backend/Smsnotifications/view/index.php:19
+#: app/Backend/Whatsappnotifications/view/index.php:19
+msgid "Access to Customer Panel"
+msgstr "Accès à l’espace client"
+
+#: app/Backend/Emailnotifications/view/index.php:37
+#: app/Backend/Smsnotifications/view/index.php:32
+#: app/Backend/Whatsappnotifications/view/index.php:32
+#, php-format
+msgid "Your monthly balance is %s/%s."
+msgstr "Votre solde mensuel est de %s/%s."
+
+#: app/Backend/Emailnotifications/view/index.php:48
+#: app/Backend/Invoices/view/edit_invoice.php:20
+#: app/Backend/Settings/view/modal/booking_panel_labels_settings.php:16
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:69
+#: app/Backend/Settings/view/modal/business_hours_settings.php:35
+#: app/Backend/Settings/view/modal/company_settings.php:17
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:15
+#: app/Backend/Settings/view/modal/email_settings.php:15
+#: app/Backend/Settings/view/modal/general_settings.php:14
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:15
+#: app/Backend/Settings/view/modal/holidays_settings.php:14
+#: app/Backend/Settings/view/modal/integrations_facebook_api_settings.php:16
+#: app/Backend/Settings/view/modal/integrations_google_login_settings.php:16
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:15
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:59
+#: app/Backend/Settings/view/modal/payments_settings.php:14
+#: app/Backend/Settings/view/modal/sms_settings.php:14
+#: app/Backend/Settings/view/wc_settings.php:21
+#: app/Backend/Smsnotifications/view/index.php:43
+#: app/Backend/Whatsappnotifications/view/index.php:43
+msgid "SAVE CHANGES"
+msgstr "ENREGISTRER LES MODIFICATIONS"
+
+#: app/Backend/Emailnotifications/view/index.php:49
+msgid "SEND TEST EMAIL"
+msgstr "ENVOYER UN EMAIL DE TEST"
+
+#: app/Backend/Emailnotifications/view/index.php:60
+#: app/Backend/Smsnotifications/view/index.php:54
+#: app/Backend/Whatsappnotifications/view/index.php:54
+msgid "DEFAULT"
+msgstr "DEFAULT"
+
+#: app/Backend/Emailnotifications/view/index.php:90
+#: app/Backend/Smsnotifications/view/index.php:85
+#: app/Backend/Whatsappnotifications/view/index.php:85
+msgid "TO CUSTOMER"
+msgstr "AU CLIENT"
+
+#: app/Backend/Emailnotifications/view/index.php:91
+#: app/Backend/Smsnotifications/view/index.php:86
+#: app/Backend/Whatsappnotifications/view/index.php:86
+msgid "TO STAFF"
+msgstr "AU PERSONNEL"
+
+#: app/Backend/Emailnotifications/view/index.php:94
+#: app/Backend/Smsnotifications/view/index.php:89
+#: app/Backend/Whatsappnotifications/view/index.php:89
+msgid "Appointment Notifications"
+msgstr "Notifications des rdv"
+
+#: app/Backend/Emailnotifications/view/index.php:155
+msgid "Email subject"
+msgstr "Objet de l'email"
+
+#: app/Backend/Emailnotifications/view/index.php:159
+#: app/Backend/Smsnotifications/view/index.php:150
+#: app/Backend/Whatsappnotifications/view/index.php:150
+msgid "Remind after"
+msgstr "Rappeler après"
+
+#: app/Backend/Emailnotifications/view/index.php:170
+#: app/Backend/Smsnotifications/view/index.php:161
+#: app/Backend/Whatsappnotifications/view/index.php:161
+msgid "Remind before"
+msgstr "Rappeler avant"
+
+#: app/Backend/Emailnotifications/view/index.php:183
+msgid "Email body"
+msgstr "Corps de l'email"
+
+#: app/Backend/Emailnotifications/view/index.php:192
+msgid "Attach PDF"
+msgstr "Joindre un PDF"
+
+#: app/Backend/Emailnotifications/view/index.php:206
+#: app/Backend/Smsnotifications/view/index.php:183
+#: app/Backend/Whatsappnotifications/view/index.php:183
+msgid ""
+"To send reminders on time, you need to configure the following cron task:"
+msgstr ""
+"Pour envoyer des rappels à temps, vous devez configurer la tâche cron "
+"suivante :"
+
+#: app/Backend/Emailnotifications/view/index.php:208
+#: app/Backend/Smsnotifications/view/index.php:185
+#: app/Backend/Whatsappnotifications/view/index.php:185
+msgid "Every 15 minutes"
+msgstr "Toutes les 15 minutes"
+
+#: app/Backend/Emailnotifications/view/index.php:220
+#: app/Backend/Invoices/view/edit_invoice.php:61
+#: app/Backend/Smsnotifications/view/index.php:196
+#: app/Backend/Whatsappnotifications/view/index.php:196
+msgid "SHORT TAGS"
+msgstr "SHORT TAGS"
+
+#: app/Backend/Emailnotifications/view/index.php:223
+#: app/Backend/Invoices/view/edit_invoice.php:64
+#: app/Backend/Settings/view/modal/keywords_list.php:20
+#: app/Backend/Smsnotifications/view/index.php:199
+#: app/Backend/Whatsappnotifications/view/index.php:199
+msgid "Appointment Info"
+msgstr "Info du rdv"
+
+#: app/Backend/Emailnotifications/view/index.php:247
+#: app/Backend/Invoices/view/edit_invoice.php:87
+#: app/Backend/Settings/view/modal/keywords_list.php:41
+#: app/Backend/Smsnotifications/view/index.php:222
+#: app/Backend/Whatsappnotifications/view/index.php:222
+msgid "Service Info"
+msgstr "Service Info"
+
+#: app/Backend/Emailnotifications/view/index.php:257
+#: app/Backend/Invoices/view/edit_invoice.php:97
+#: app/Backend/Settings/view/modal/keywords_list.php:51
+#: app/Backend/Smsnotifications/view/index.php:232
+#: app/Backend/Whatsappnotifications/view/index.php:232
+msgid "Customer Info"
+msgstr "Info client"
+
+#: app/Backend/Emailnotifications/view/index.php:270
+#: app/Backend/Invoices/view/edit_invoice.php:110
+#: app/Backend/Settings/view/modal/keywords_list.php:62
+#: app/Backend/Smsnotifications/view/index.php:245
+#: app/Backend/Whatsappnotifications/view/index.php:245
+msgid "Staff Info"
+msgstr "Info sur le personnel"
+
+#: app/Backend/Emailnotifications/view/index.php:278
+#: app/Backend/Invoices/view/edit_invoice.php:118
+#: app/Backend/Settings/view/modal/keywords_list.php:70
+#: app/Backend/Smsnotifications/view/index.php:253
+#: app/Backend/Whatsappnotifications/view/index.php:253
+msgid "Location Info"
+msgstr "Info sur le lieu"
+
+#: app/Backend/Emailnotifications/view/index.php:286
+#: app/Backend/Invoices/view/edit_invoice.php:126
+#: app/Backend/Settings/view/modal/keywords_list.php:78
+#: app/Backend/Smsnotifications/view/index.php:261
+#: app/Backend/Whatsappnotifications/view/index.php:261
+msgid "Company Info"
+msgstr "Info sur l'entreprise"
+
+#: app/Backend/Emailnotifications/view/index.php:294
+#: app/Backend/Invoices/view/edit_invoice.php:134
+#: app/Backend/Settings/view/modal/keywords_list.php:90
+#: app/Backend/Smsnotifications/view/index.php:269
+#: app/Backend/Whatsappnotifications/view/index.php:269
+msgid "Zoom Info"
+msgstr "Informations Zoom"
+
+#: app/Backend/Emailnotifications/view/modal/help_to_find_custom_field_id.php:13
+#: app/Backend/Invoices/view/modal/help_to_find_custom_field_id.php:13
+#: app/Backend/Smsnotifications/view/modal/help_to_find_custom_field_id.php:13
+#: app/Backend/Whatsappnotifications/view/modal/help_to_find_custom_field_id.php:13
+msgid "Find custom field ID"
+msgstr "Trouver un ID de champ personnalisé"
+
+#: app/Backend/Emailnotifications/view/modal/help_to_find_custom_field_id.php:19
+#: app/Backend/Invoices/view/modal/help_to_find_custom_field_id.php:19
+#: app/Backend/Smsnotifications/view/modal/help_to_find_custom_field_id.php:19
+#: app/Backend/Whatsappnotifications/view/modal/help_to_find_custom_field_id.php:19
+msgid "Custom field:"
+msgstr "Champ personnalisé :"
+
+#: app/Backend/Emailnotifications/view/modal/help_to_find_custom_field_id.php:31
+#: app/Backend/Invoices/view/modal/help_to_find_custom_field_id.php:31
+#: app/Backend/Smsnotifications/view/modal/help_to_find_custom_field_id.php:31
+#: app/Backend/Whatsappnotifications/view/modal/help_to_find_custom_field_id.php:31
+msgid "Keyword to use:"
+msgstr "Mot-clé à utiliser :"
+
+#: app/Backend/Emailnotifications/view/modal/help_to_find_custom_field_id.php:32
+#: app/Backend/Invoices/view/modal/help_to_find_custom_field_id.php:32
+#: app/Backend/Smsnotifications/view/modal/help_to_find_custom_field_id.php:32
+#: app/Backend/Whatsappnotifications/view/modal/help_to_find_custom_field_id.php:32
+msgid "Fistly select the custom field"
+msgstr "Sélectionnez d'abord le champ personnalisé"
+
+#: app/Backend/Emailnotifications/view/modal/send_test_email.php:13
+msgid "Send test email"
+msgstr "Envoyer email de test"
+
+#: app/Backend/Emailnotifications/view/modal/send_test_email.php:26
+#: app/Backend/Smsnotifications/view/modal/send_test_sms.php:26
+#: app/Backend/Whatsappnotifications/view/modal/send_test_message.php:26
+msgid "SEND"
+msgstr "ENVOYER"
+
+#: app/Backend/Giftcards/Controller/Ajax.php:91
+msgid "The code already exists!"
+msgstr "Le code existe déjà!"
+
+#: app/Backend/Giftcards/Controller/Ajax.php:96
+msgid "Amount cannot be zero or negative number!"
+msgstr "Le montant ne peut être nul ou négatif!"
+
+#: app/Backend/Giftcards/Controller/Ajax.php:125
+msgid "Please type the giftcard code field!"
+msgstr "Veuillez saisir le code de la carte cadeau !"
+
+#: app/Backend/Giftcards/Controller/Ajax.php:142
+msgid "The gift card balance cannot be less than the amount spent!"
+msgstr ""
+"Le solde de la carte cadeau ne peut être inférieur au montant dépensé !"
+
+#: app/Backend/Giftcards/Controller/Ajax.php:219
+msgid "Giftcard is not used yet!"
+msgstr "La carte cadeau n’est pas encore utilisée!"
+
+#: app/Backend/Giftcards/Controller/Main.php:24
+#: app/Backend/Giftcards/Middleware.php:24
+msgid "Giftcards"
+msgstr "Cartes cadeaux"
+
+#: app/Backend/Giftcards/Controller/Main.php:25
+#: app/Backend/Giftcards/view/modal/add_new.php:81
+msgid "ADD GIFTCARD"
+msgstr "AJOUTER UNE CARTE-CADEAU"
+
+#: app/Backend/Giftcards/Controller/Main.php:37
+msgid "BALANCE"
+msgstr "SOLDE"
+
+#: app/Backend/Giftcards/Controller/Main.php:41
+msgid "SPENT"
+msgstr "DÉPENSÉ"
+
+#: app/Backend/Giftcards/Controller/Main.php:49
+msgid "LEFTOVER"
+msgstr "RESTANT"
+
+#: app/Backend/Giftcards/Controller/Main.php:60
+msgid "USAGE HISTORY"
+msgstr "HISTORIQUE D UTILISATION"
+
+#: app/Backend/Giftcards/view/modal/add_new.php:16
+msgid "Add Giftcard"
+msgstr "Ajouter une carte cadeau"
+
+#: app/Backend/Giftcards/view/modal/add_new.php:30
+msgid "Amount ("
+msgstr "Montant ("
+
+#: app/Backend/Giftcards/view/modal/giftcard_usage_history.php:13
+msgid "Usage history"
+msgstr "Historique d utilisation"
+
+#: app/Backend/Giftcards/view/modal/giftcard_usage_history.php:26
+msgid "USED AMOUNT"
+msgstr "MONTANT DÉPENSÉ"
+
+#: app/Backend/Invoices/Controller/Main.php:21
+#: app/Backend/Invoices/Middleware.php:34
+#: app/Backend/Invoices/view/edit_invoice.php:18
+msgid "Invoices"
+msgstr "Factures"
+
+#: app/Backend/Invoices/Controller/Main.php:22
+msgid "ADD INVOICE"
+msgstr "AJOUTER LA FACTURE"
+
+#: app/Backend/Invoices/view/edit_invoice.php:21
+msgid "SAVE & DOWNLOAD PREVIEW"
+msgstr "TÉLÉCHARGER & APERÇU"
+
+#: app/Backend/Invoices/view/edit_invoice.php:31
+msgid "INVOICE"
+msgstr "FACTURE"
+
+#: app/Backend/Invoices/view/edit_invoice.php:36
+#: app/Backend/Invoices/view/edit_invoice.php:38
+msgid "PDF Name"
+msgstr "Nom du PDF"
+
+#: app/Backend/Invoices/view/edit_invoice.php:48
+msgid "Content"
+msgstr "Contenu"
+
+#: app/Backend/Locations/Controller/Main.php:20
+#: app/Backend/Locations/Middleware.php:24
+#: app/Backend/Staff/view/modal/add_new.php:195
+msgid "Locations"
+msgstr "Lieux"
+
+#: app/Backend/Locations/Controller/Main.php:21
+#: app/Backend/Locations/view/modal/add_new.php:72
+msgid "ADD LOCATION"
+msgstr "AJOUTER UN LIEU"
+
+#: app/Backend/Locations/Controller/Main.php:36
+msgid "ADDRESS"
+msgstr "ADRESSE"
+
+#: app/Backend/Locations/Controller/Main.php:51
+msgid "This location is using some Appointments. Firstly remove them!"
+msgstr "Ce lieu est utilisé pour certains rendez-vous. Enlevez-les d'abord !"
+
+#: app/Backend/Locations/view/modal/add_new.php:15
+msgid "Add Location"
+msgstr "Ajouter un lieu"
+
+#: app/Backend/Locations/view/modal/add_new.php:25
+msgid "Location Name"
+msgstr "Nom du lieu"
+
+#: app/Backend/Locations/view/modal/add_new.php:33
+#: app/Backend/Staff/view/modal/add_new.php:189
+msgid "(PNG, JPG, max 800x800 to 5mb)"
+msgstr "(PNG, JPG, max 800x800 à 5 Mo)"
+
+#: app/Backend/Locations/view/modal/add_new.php:38
+#: app/Backend/Settings/view/modal/company_settings.php:37
+msgid "Address"
+msgstr "Adresse"
+
+#: app/Backend/Locations/view/modal/add_new.php:53
+msgid "Description"
+msgstr "Description"
+
+#: app/Backend/Locations/view/modal/add_new.php:67
+msgid "UNHIDE LOCATION"
+msgstr "AFFICHER LE LIEU"
+
+#: app/Backend/Locations/view/modal/add_new.php:67
+msgid "HIDE LOCATION"
+msgstr "MASQUER LE LIEU"
+
+#: app/Backend/NotificationTab/Controller/Ajax.php:21
+#: app/Backend/Smsnotifications/Middleware.php:34
+#: app/Backend/Smsnotifications/view/index.php:41
+msgid "SMS Notifications"
+msgstr "Notifications par SMS"
+
+#: app/Backend/NotificationTab/Controller/Ajax.php:22
+#: app/Backend/Whatsappnotifications/Middleware.php:34
+msgid "WhatsApp Notifications"
+msgstr "Notifications WhatsApp"
+
+#: app/Backend/NotificationTab/Controller/Ajax.php:96
+msgid "You did not choose a notification type!"
+msgstr "Vous n’avez pas choisi le type de notification!"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:21
+msgid "Tab Edit"
+msgstr "Modifier l’onglet"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:21
+msgid "Add Tab"
+msgstr "Ajouter un onglet"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:29
+msgid "Select Type"
+msgstr "Sélectionner le type"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:47
+msgid "Tab Name"
+msgstr "Nom de l’onglet"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:48
+msgid "Enter Tab Name"
+msgstr "Entre le nom de l’onglet"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:51
+msgid "Select Language"
+msgstr "Sélectionner la langue"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:61
+msgid "Select Service"
+msgstr "Sélectionner un service"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:73
+msgid "Select Staff"
+msgstr "Sélectionner le personnel"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:85
+msgid "Select Location"
+msgstr "Sélectionnez un lieu"
+
+#: app/Backend/NotificationTab/view/modal/add_tab.php:102
+msgid "ADD TAB"
+msgstr "AJOUTER UN ONGLET"
+
+#: app/Backend/Payments/Controller/Main.php:32
+#: app/Backend/Payments/Middleware.php:24
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:64
+#: app/Backend/Settings/view/modal/payments_settings.php:19
+#: app/Backend/Settings/view/wc_settings.php:27
+msgid "Payments"
+msgstr "Paiements"
+
+#: app/Backend/Payments/Controller/Main.php:71
+#: app/Backend/Payments/view/modal/info.php:66
+msgid "METHOD"
+msgstr "METHODE"
+
+#: app/Backend/Payments/Controller/Main.php:74
+msgid "Paid from giftcard: "
+msgstr "Réglé en carte cadeau : "
+
+#: app/Backend/Payments/Controller/Main.php:80
+msgid "SERVICE AMOUNT"
+msgstr "MONTANT DU SERVICE"
+
+#: app/Backend/Payments/Controller/Main.php:85
+msgid "EXTRAS AMOUNT"
+msgstr "MONTANT DES EXTRAS"
+
+#: app/Backend/Payments/Controller/Main.php:91
+msgid "TAX AMOUNT"
+msgstr "MONTANT DES TAXES"
+
+#: app/Backend/Payments/Controller/Main.php:101
+msgid "PAID AMOUNT"
+msgstr "MONTANT PAYÉ"
+
+#: app/Backend/Payments/view/modal/info.php:17
+msgid "Payment info"
+msgstr "Information de paiement"
+
+#: app/Backend/Payments/view/modal/info.php:107
+msgid "COMPLETE PAYMENT"
+msgstr "FINALISER LE PAIEMENT"
+
+#: app/Backend/Reports/Middleware.php:24 app/Backend/Reports/view/index.php:14
+msgid "Reports"
+msgstr "Rapports"
+
+#: app/Backend/Reports/view/index.php:24
+msgid "Reports by the number of appointments"
+msgstr "Rapport par nombre de RDV"
+
+#: app/Backend/Reports/view/index.php:26 app/Backend/Reports/view/index.php:28
+#: app/Backend/Reports/view/index.php:73 app/Backend/Reports/view/index.php:75
+#: app/Backend/Services/view/modal/add_new.php:326
+#: app/Backend/Settings/Controller/Ajax.php:225
+#: app/Frontend/view/booking_panel/date_time_recurring_daily.php:12
+msgid "Daily"
+msgstr "Quotidien"
+
+#: app/Backend/Reports/view/index.php:30 app/Backend/Reports/view/index.php:77
+msgid "Annualy"
+msgstr "Annuel"
+
+#: app/Backend/Reports/view/index.php:71
+msgid "Reports by appointment earnings"
+msgstr "Rapports par montant de RDV"
+
+#: app/Backend/Reports/view/index.php:120
+msgid "Most earning locations"
+msgstr "Lieux plus rentables"
+
+#: app/Backend/Reports/view/index.php:125
+#: app/Backend/Reports/view/index.php:147
+msgid "Previous week"
+msgstr "Semaine précédente"
+
+#: app/Backend/Reports/view/index.php:127
+#: app/Backend/Reports/view/index.php:149
+msgid "Previous month"
+msgstr "Mois précédent"
+
+#: app/Backend/Reports/view/index.php:129
+#: app/Backend/Reports/view/index.php:151
+msgid "Previous year"
+msgstr "Année précédente"
+
+#: app/Backend/Reports/view/index.php:142
+msgid "Most earning staffs"
+msgstr "Personnel le plus rentable"
+
+#: app/Backend/Services/Controller/Ajax.php:155
+msgid "Firstly remove sub categories!"
+msgstr "Commencez par supprimer les sous-categories!"
+
+#: app/Backend/Services/Controller/Ajax.php:162
+msgid "Firstly delete sub services."
+msgstr "Supprimez d'abord les sous-services."
+
+#: app/Backend/Services/Controller/Ajax.php:211
+msgid "This category is already exist! Please choose an other name."
+msgstr "Cette catégorie existe déjà ! Veuillez choisir un autre nom."
+
+#: app/Backend/Services/Controller/Ajax.php:283
+#: app/Backend/Services/Controller/Ajax.php:397
+msgid "Deposit can not exceed the price!"
+msgstr "L’acompte ne peut pas dépasser le prix !"
+
+#: app/Backend/Services/Controller/Ajax.php:290
+msgid "Please fill \"Full period\" field!"
+msgstr "Veuillez remplir le champ \"Période complète\" !"
+
+#: app/Backend/Services/Controller/Ajax.php:295
+msgid "Please fill \"Repeat\" field!"
+msgstr "Veuillez remplir le champ \"Répéter\" !"
+
+#: app/Backend/Services/Controller/Ajax.php:300
+msgid "Please fill \"Frequency\" field!"
+msgstr "Veuillez remplir le champ \"Fréquence\" !"
+
+#: app/Backend/Services/Controller/Ajax.php:314
+msgid "Capacity field is wrong!"
+msgstr "Le champ de capacité est faux !"
+
+#: app/Backend/Services/Controller/Ajax.php:320
+#: app/Backend/Services/Controller/Ajax.php:339
+#: app/Backend/Settings/Controller/Ajax.php:655
+#: app/Backend/Settings/Controller/Ajax.php:661
+#: app/Backend/Settings/Controller/Ajax.php:676
+#: app/Backend/Staff/Controller/Ajax.php:182
+#: app/Backend/Staff/Controller/Ajax.php:201
+msgid "Please fill the weekly schedule correctly!"
+msgstr "Veuillez remplir correctement le programme hebdomadaire !"
+
+#: app/Backend/Services/Controller/Ajax.php:373
+msgid "This service name is already exist! Please choose an other name."
+msgstr "Ce nom de service existe déjà ! Veuillez choisir un autre nom."
+
+#: app/Backend/Services/Controller/Ajax.php:392
+msgid "Duplicate Staff selected!"
+msgstr "Dupliquer le personnel sélectionné!"
+
+#: app/Backend/Services/Controller/Ajax.php:644
+msgid "Max quantity can not be zero!"
+msgstr "La quantité maximale ne peut pas être zéro!"
+
+#: app/Backend/Services/Controller/Ajax.php:730
+#, php-format
+msgid "This extra is using some Appointments (ID: %d). Firstly remove them!"
+msgstr ""
+"Ce supplément utilise certains rendez-vous (ID : %d). Commencez par les "
+"supprimer !"
+
+#: app/Backend/Services/Controller/Ajax.php:763
+msgid "There is no category or service attached with this extra!"
+msgstr "Il n’y a pas de catégorie ou service rattaché à cet extra!"
+
+#: app/Backend/Services/Controller/Ajax.php:791
+msgid "Success!"
+msgstr "Succès!"
+
+#: app/Backend/Services/Controller/Ajax.php:822
+msgid "Requested Service Extra not found!"
+msgstr "Le service supplémentaire demandé n'a pas été trouvé !"
+
+#: app/Backend/Services/Controller/Main.php:100
+#: app/Backend/Services/Middleware.php:24
+#: app/Backend/Services/view/index.php:84
+#: app/Backend/Staff/view/modal/add_new.php:210
+msgid "Services"
+msgstr "Services"
+
+#: app/Backend/Services/Controller/Main.php:101
+#: app/Backend/Services/view/modal/add_new.php:645
+msgid "ADD SERVICE"
+msgstr "AJOUTER UN SERVICE"
+
+#: app/Backend/Services/Controller/Main.php:108
+#: app/Backend/Services/view/index.php:143
+msgid "CATEGORY"
+msgstr "CATEGORIE"
+
+#: app/Backend/Services/Controller/Main.php:109
+#: app/Frontend/view/client_panel/booknetic.php:47
+msgid "PRICE"
+msgstr "PRIX"
+
+#: app/Backend/Services/Controller/Main.php:132
+msgid "This service is using some Appointments. Firstly remove them!"
+msgstr ""
+"Ce service est utilisé pour certains rendez-vous. Commencez par les "
+"supprimer !"
+
+#: app/Backend/Services/view/index.php:54
+msgid "Staff not selected"
+msgstr "Personnel non choisi"
+
+#: app/Backend/Services/view/index.php:88
+msgid "Go to center"
+msgstr "Aller au centre"
+
+#: app/Backend/Services/view/index.php:128
+msgid "Categories"
+msgstr "Catégories"
+
+#: app/Backend/Services/view/index.php:140
+msgid "What do you want to create?"
+msgstr "Que voulez-vous créer ?"
+
+#: app/Backend/Services/view/modal/add_new.php:15
+#: app/Backend/Settings/view/modal/business_hours_settings.php:14
+#: app/Backend/Staff/view/modal/add_new.php:15
+msgid "Breaks"
+msgstr "Pauses"
+
+#: app/Backend/Services/view/modal/add_new.php:54
+msgid "Specific price"
+msgstr "Prix spécifique"
+
+#: app/Backend/Services/view/modal/add_new.php:109
+#: app/Backend/Services/view/modal/add_new.php:470
+#: app/Backend/Settings/view/modal/business_hours_settings.php:59
+#: app/Backend/Staff/view/modal/add_new.php:62
+#: app/Backend/Staff/view/modal/add_new.php:328
+msgid "Start time"
+msgstr "Heure de début"
+
+#: app/Backend/Services/view/modal/add_new.php:112
+#: app/Backend/Services/view/modal/add_new.php:476
+#: app/Backend/Settings/view/modal/business_hours_settings.php:62
+#: app/Backend/Staff/view/modal/add_new.php:65
+#: app/Backend/Staff/view/modal/add_new.php:331
+msgid "End time"
+msgstr "Heure de fin"
+
+#: app/Backend/Services/view/modal/add_new.php:128
+#: app/Backend/Services/view/modal/add_new.php:502
+#: app/Backend/Settings/view/modal/business_hours_settings.php:87
+#: app/Backend/Staff/view/modal/add_new.php:81
+#: app/Backend/Staff/view/modal/add_new.php:356
+msgid "Add break"
+msgstr "Ajouter une pause"
+
+#: app/Backend/Services/view/modal/add_new.php:129
+#: app/Backend/Staff/view/modal/add_new.php:82
+msgid "Remove special day"
+msgstr "Supprimer le jour spécial"
+
+#: app/Backend/Services/view/modal/add_new.php:140
+#: app/Backend/Services/view/modal/add_new.php:575
+#: app/Frontend/view/booking_panel/information.php:39
+#: app/Frontend/view/client_panel/booknetic.php:112
+msgid "Name"
+msgstr "Prénom"
+
+#: app/Backend/Services/view/modal/add_new.php:152
+#: app/Backend/Services/view/modal/add_new.php:579
+msgid "Max. quantity"
+msgstr "Quantité max"
+
+#: app/Backend/Services/view/modal/add_new.php:160
+msgid "Copy to all services"
+msgstr "Dupliquer pour tous les services"
+
+#: app/Backend/Services/view/modal/add_new.php:161
+msgid "Copy to the same category services"
+msgstr "Dupliquer pour la même catégorie de services"
+
+#: app/Backend/Services/view/modal/add_new.php:175
+msgid "Add Service"
+msgstr "Ajouter un service"
+
+#: app/Backend/Services/view/modal/add_new.php:184
+msgid "SERVICE DETAILS"
+msgstr "DÉTAILS DU SERVICE"
+
+#: app/Backend/Services/view/modal/add_new.php:186
+msgid "TIME SHEET"
+msgstr "FEUILLE DE TEMPS"
+
+#: app/Backend/Services/view/modal/add_new.php:204
+msgid "Service name"
+msgstr "Nom du service"
+
+#: app/Backend/Services/view/modal/add_new.php:229
+#: app/Frontend/view/booking_panel/confirm_details.php:150
+#: app/Frontend/view/booking_panel/confirm_details.php:162
+msgid "Deposit"
+msgstr "Acompte"
+
+#: app/Backend/Services/view/modal/add_new.php:241
+#: app/Frontend/view/booking_panel/confirm_details.php:68
+msgid "Tax"
+msgstr "TVA"
+
+#: app/Backend/Services/view/modal/add_new.php:261
+#: app/Backend/Settings/view/modal/general_settings.php:27
+msgid "Time slot length"
+msgstr "Durée du créneau horaire"
+
+#: app/Backend/Services/view/modal/add_new.php:263
+msgid "Default"
+msgstr "Par défaut"
+
+#: app/Backend/Services/view/modal/add_new.php:264
+msgid "Slot length as service duration"
+msgstr "La durée des créneaux horaires comme durée de service"
+
+#: app/Backend/Services/view/modal/add_new.php:272
+msgid "Buffer Time Before"
+msgstr "Durée Tampon Avant"
+
+#: app/Backend/Services/view/modal/add_new.php:278
+msgid "Buffer Time After"
+msgstr "Durée Tampon Après"
+
+#: app/Backend/Services/view/modal/add_new.php:290
+#: app/Backend/Services/view/modal/add_new.php:592
+msgid "Hide price in booking panel:"
+msgstr "Masquer le prix dans le panneau de réservation:"
+
+#: app/Backend/Services/view/modal/add_new.php:301
+#: app/Backend/Services/view/modal/add_new.php:609
+msgid "Hide duration in booking panel:"
+msgstr "Masquer la durée dans le panneau de réservation:"
+
+#: app/Backend/Services/view/modal/add_new.php:313
+msgid "Recurring"
+msgstr "Récurrent"
+
+#: app/Backend/Services/view/modal/add_new.php:322
+msgid "Repeat"
+msgstr "Répéter"
+
+#: app/Backend/Services/view/modal/add_new.php:325
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+#: app/Backend/Services/view/modal/add_new.php:336
+msgid "Fixed full period"
+msgstr "Période complète fixe"
+
+#: app/Backend/Services/view/modal/add_new.php:347
+msgid "time(s)"
+msgstr "heure(s)"
+
+#: app/Backend/Services/view/modal/add_new.php:359
+msgid "Fixed frequency"
+msgstr "Fréquence fixe"
+
+#: app/Backend/Services/view/modal/add_new.php:366
+msgid "time per week"
+msgstr "fréquence hebdomadaire"
+
+#: app/Backend/Services/view/modal/add_new.php:377
+msgid "The Customer pays separately for each appointment"
+msgstr "Le client paie séparément pour chaque rendez-vous"
+
+#: app/Backend/Services/view/modal/add_new.php:378
+msgid "The Customer pays full amount of recurring appointments"
+msgstr "La Cliente paie la totalité des rendez-vous récurrents"
+
+#: app/Backend/Services/view/modal/add_new.php:388
+msgid "Fix time"
+msgstr "Heure fixe"
+
+#: app/Backend/Services/view/modal/add_new.php:394
+msgid "Capacity"
+msgstr "Capacité"
+
+#: app/Backend/Services/view/modal/add_new.php:396
+msgid "Alone"
+msgstr "Seul"
+
+#: app/Backend/Services/view/modal/add_new.php:397
+msgid "Group"
+msgstr "Groupe"
+
+#: app/Backend/Services/view/modal/add_new.php:401
+msgid "Min. / Max. capacity"
+msgstr "Capacité Min / Max"
+
+#: app/Backend/Services/view/modal/add_new.php:413
+msgid "Activate Zoom for the service"
+msgstr "Activer Zoom pour le service"
+
+#: app/Backend/Services/view/modal/add_new.php:435
+#: app/Backend/Staff/view/modal/add_new.php:106
+msgid "WEEKLY SCHEDULE"
+msgstr "CALENDRIER HEBDOMADAIRE"
+
+#: app/Backend/Services/view/modal/add_new.php:436
+#: app/Backend/Staff/view/modal/add_new.php:107
+msgid "SPECIAL DAYS"
+msgstr "JOURS SPÉCIAUX"
+
+#: app/Backend/Services/view/modal/add_new.php:444
+#: app/Backend/Staff/view/modal/add_new.php:304
+msgid "Configure specific timesheet"
+msgstr "Configurer une feuille de temps spécifique"
+
+#: app/Backend/Services/view/modal/add_new.php:485
+#: app/Backend/Settings/view/modal/business_hours_settings.php:70
+#: app/Backend/Staff/view/modal/add_new.php:339
+msgid "Add day off"
+msgstr "Ajouter congés"
+
+#: app/Backend/Services/view/modal/add_new.php:530
+#: app/Backend/Staff/view/modal/add_new.php:385
+msgid "ADD SPECIAL DAY"
+msgstr "AJOUTER UNE JOURNÉE SPÉCIALE"
+
+#: app/Backend/Services/view/modal/add_new.php:546
+msgid "Add staff"
+msgstr "Ajouter une membre du personnel"
+
+#: app/Backend/Services/view/modal/add_new.php:562
+msgid "NEW EXTRA"
+msgstr "NOUVEL EXTRA"
+
+#: app/Backend/Services/view/modal/add_new.php:621
+msgid "SAVE EXTRA"
+msgstr "ENREGISTRER L'EXTRA"
+
+#: app/Backend/Services/view/modal/add_new.php:640
+msgid "UNHIDE SERVICE"
+msgstr "AFFICHER LE SERVICE"
+
+#: app/Backend/Services/view/modal/add_new.php:640
+msgid "HIDE SERVICE"
+msgstr "CACHER LE SERVICE"
+
+#: app/Backend/Services/view/modal/add_new.php:645
+msgid "SAVE SERVICE"
+msgstr "ENREGISTRER LE SERVICE"
+
+#: app/Backend/Services/view/modal/add_new.php:650
+msgid "Select colors"
+msgstr "Choisissez les couleurs"
+
+#: app/Backend/Services/view/modal/add_new.php:671
+msgid "Hex"
+msgstr "Hex"
+
+#: app/Backend/Services/view/modal/add_new_category.php:16
+msgid "Add Category"
+msgstr "Ajouter une catégorie"
+
+#: app/Backend/Services/view/modal/add_new_category.php:26
+msgid "Parent category"
+msgstr "Catégorie parente"
+
+#: app/Backend/Services/view/modal/add_new_category.php:28
+msgid "Root category"
+msgstr "Catégorie racine"
+
+#: app/Backend/Settings/Controller/Ajax.php:74
+msgid "Selected settings not found!"
+msgstr "Paramètres sélectionnés non trouvés !"
+
+#: app/Backend/Settings/Controller/Ajax.php:123
+#: app/Frontend/Controller/Ajax.php:593
+msgid "Local"
+msgstr "Paiement sur Place"
+
+#: app/Backend/Settings/Controller/Ajax.php:127
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:17
+#: app/Frontend/Controller/Ajax.php:596
+msgid "Paypal"
+msgstr "Paypal"
+
+#: app/Backend/Settings/Controller/Ajax.php:135
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:21
+#: app/Frontend/Controller/Ajax.php:602
+msgid "Square"
+msgstr "Square"
+
+#: app/Backend/Settings/Controller/Ajax.php:161
+#: app/Frontend/view/booking_panel/staff.php:24
+msgid "Any staff"
+msgstr "N’importe quel employé"
+
+#: app/Backend/Settings/Controller/Ajax.php:162
+#: app/Frontend/view/booking_panel/staff.php:26
+msgid "Select an available staff"
+msgstr "Sélectionnez un personnel disponible"
+
+#: app/Backend/Settings/Controller/Ajax.php:197
+#: app/Backend/Settings/view/modal/booking_panel_labels_settings.php:320
+msgid "Add coupon"
+msgstr "Ajouter un coupon"
+
+#: app/Backend/Settings/Controller/Ajax.php:200 app/Providers/Frontend.php:270
+msgid "Please select location."
+msgstr "SVP, choisissez le lieu."
+
+#: app/Backend/Settings/Controller/Ajax.php:201 app/Providers/Frontend.php:271
+msgid "Please select staff."
+msgstr "Veuillez sélectionner le personnel."
+
+#: app/Backend/Settings/Controller/Ajax.php:202
+#: app/Frontend/Controller/Ajax.php:306 app/Frontend/Controller/Ajax.php:313
+#: app/Providers/Frontend.php:272
+msgid "Please select service"
+msgstr "Veuillez sélectionner une prestation"
+
+#: app/Backend/Settings/Controller/Ajax.php:203 app/Providers/Frontend.php:273
+msgid "Please select week day(s)"
+msgstr "Veuillez sélectionner le(s) jour(s) de la semaine"
+
+#: app/Backend/Settings/Controller/Ajax.php:204 app/Providers/Frontend.php:274
+msgid "Please select week day(s) and time(s) correctly"
+msgstr ""
+"Veuillez sélectionner correctement le jour et l&#039;heure de la semaine"
+
+#: app/Backend/Settings/Controller/Ajax.php:205 app/Providers/Frontend.php:275
+msgid "Please select start date"
+msgstr "Choisissez le jour de début"
+
+#: app/Backend/Settings/Controller/Ajax.php:206 app/Providers/Frontend.php:276
+msgid "Please select end date"
+msgstr "Choisissez le jour de fin"
+
+#: app/Backend/Settings/Controller/Ajax.php:207 app/Providers/Frontend.php:277
+msgid "Please select date."
+msgstr "Choisissez le jour."
+
+#: app/Backend/Settings/Controller/Ajax.php:208 app/Providers/Frontend.php:278
+msgid "Please select time."
+msgstr "Veuillez choisir l&#039;heure."
+
+#: app/Backend/Settings/Controller/Ajax.php:209 app/Providers/Frontend.php:279
+msgid "Please select an available time"
+msgstr "Veuillez sélectionner une heure disponible"
+
+#: app/Backend/Settings/Controller/Ajax.php:211 app/Providers/Frontend.php:281
+msgid "Please enter a valid email address!"
+msgstr "Entrez une adresse mail valide !"
+
+#: app/Backend/Settings/Controller/Ajax.php:212 app/Providers/Frontend.php:282
+msgid "Please enter a valid phone number!"
+msgstr "Veuillez entrer un numéro de téléphone valide!"
+
+#: app/Backend/Settings/Controller/Ajax.php:213 app/Providers/Frontend.php:285
+msgid "CONFIRM BOOKING"
+msgstr "CONFIRMER LA RÉSERVATION"
+
+#: app/Backend/Settings/Controller/Ajax.php:218
+#: app/Frontend/view/booking_panel/locations.php:12
+msgid "There is no any Location for select."
+msgstr "Il n&#039;y a pas de lieu à sélectionner."
+
+#: app/Backend/Settings/Controller/Ajax.php:219
+#: app/Frontend/view/booking_panel/staff.php:12
+msgid "Staff not found. Please go back and select a different option."
+msgstr ""
+"Personnel introuvable. Veuillez revenir en arrière et sélectionner une autre "
+"option."
+
+#: app/Backend/Settings/Controller/Ajax.php:220
+#: app/Frontend/view/booking_panel/services.php:11
+msgid "Service not found. Please go back and select a different option."
+msgstr ""
+"Service introuvable. Veuillez revenir en arrière et sélectionnez une option "
+"différente."
+
+#: app/Backend/Settings/Controller/Ajax.php:221
+#: app/Frontend/Controller/Ajax.php:521
+msgid "There isn't any available staff for the selected date/time."
+msgstr "Il n’y a pas de personnel disponible pour la date/heure sélectionnée."
+
+#: app/Backend/Settings/Controller/Ajax.php:222
+#: app/Frontend/view/booking_panel/extras.php:11
+msgid ""
+"Extras not found in this service. You can select other service or click the "
+"<span class=\"booknetic_text_primary\">\"Next step\"</span> button."
+msgstr ""
+"Extras non trouvés dans ce service. Vous pouvez sélectionner un autre "
+"service ou cliquer sur le bouton <span class=\"booknetic_text_primary\">"
+"\"Next step\"</span>."
+
+#: app/Backend/Settings/Controller/Ajax.php:246 app/Providers/Helper.php:31
+#: app/Providers/Helper.php:45
+msgid "w"
+msgstr "w"
+
+#: app/Backend/Settings/Controller/Ajax.php:247 app/Providers/Helper.php:32
+#: app/Providers/Helper.php:41
+msgid "d"
+msgstr "d"
+
+#: app/Backend/Settings/Controller/Ajax.php:248 app/Providers/Helper.php:33
+msgid "h"
+msgstr "h"
+
+#: app/Backend/Settings/Controller/Ajax.php:249 app/Providers/Helper.php:34
+msgid "m"
+msgstr "m"
+
+#: app/Backend/Settings/Controller/Ajax.php:250 app/Providers/Helper.php:35
+msgid "s"
+msgstr "s"
+
+#: app/Backend/Settings/Controller/Ajax.php:382
+msgid "The Extra step cannot be ordered before the Service step."
+msgstr "L’étape Extra ne peut pas être commandée avant l’étape Service."
+
+#: app/Backend/Settings/Controller/Ajax.php:387
+msgid "The Date & Time step cannot be ordered before the Service step."
+msgstr "L’étape Date & Heure ne peut pas être commandée avant l’étape Service."
+
+#: app/Backend/Settings/Controller/Ajax.php:392
+msgid "You must add at least one Location to hide the Location step."
+msgstr "Vous devez ajouter au moins un Lieu pour masquer l’étape Lieu."
+
+#: app/Backend/Settings/Controller/Ajax.php:397
+msgid "You must add at least one Staff to hide the Staff step."
+msgstr ""
+"Vous devez ajouter au moins un membre du personnel pour masquer l’étape "
+"Staff."
+
+#: app/Backend/Settings/Controller/Ajax.php:402
+msgid "You must add at least one Service to hide the Service step."
+msgstr "Vous devez ajouter au moins un Service pour masquer l’étape Service."
+
+#: app/Backend/Settings/Controller/Ajax.php:409
+#: app/Backend/Settings/Controller/Ajax.php:417
+msgid "Confirmation number is invalid!"
+msgstr "Le numéro de confirmation est invalide !"
+
+#: app/Backend/Settings/Controller/Ajax.php:591
+msgid "Other payment cannot be activated. Please contact the service provider."
+msgstr ""
+"Les autres types de paiement ne peuvent être activés. Merci de contacter "
+"votre fournisseur."
+
+#: app/Backend/Settings/Controller/Ajax.php:596
+msgid "Please enable at least one payment gateway."
+msgstr "Veuillez activer au moins une passerelle de paiement."
+
+#: app/Backend/Settings/Controller/Ajax.php:832
+msgid "Please fill the SMTP credentials!"
+msgstr "Veuillez remplir les identifiants SMTP !"
+
+#: app/Backend/Settings/Controller/Ajax.php:837
+msgid "Please type the sender name field!"
+msgstr "Veuillez saisir le champ du nom de l'expéditeur !"
+
+#: app/Backend/Settings/Controller/Ajax.php:844
+msgid "Please type the sender email field!"
+msgstr "Veuillez saisir le champ e-mail de l'expéditeur !"
+
+#: app/Backend/Settings/Helpers/BackupService.php:27
+msgid "Could not create a zip file!"
+msgstr "Ne peut pas créer un fichier zip!"
+
+#: app/Backend/Settings/Helpers/BackupService.php:102
+msgid "Unable to read the backup file!1"
+msgstr "Impossible de lire le fichier de sauvegarde!1"
+
+#: app/Backend/Settings/Helpers/BackupService.php:107
+msgid "Unable to read the backup file!2"
+msgstr "Impossible de lire le fichier de sauvegarde!2"
+
+#: app/Backend/Settings/Middleware.php:25
+#: app/Backend/Settings/view/index.php:21
+#: app/Backend/Settings/view/index.php:31
+#: app/Backend/Settings/view/wc_settings.php:18
+msgid "Settings"
+msgstr "Réglages"
+
+#: app/Backend/Settings/view/index.php:39
+#: app/Backend/Settings/view/index.php:179
+#: app/Backend/Settings/view/modal/general_settings.php:19
+msgid "General settings"
+msgstr "Réglages généraux"
+
+#: app/Backend/Settings/view/index.php:40
+#: app/Backend/Settings/view/index.php:180
+msgid "You can customize general settings about booking from here"
+msgstr ""
+"Vous pouvez personnaliser les paramètres généraux de la réservation à partir "
+"d'ici"
+
+#: app/Backend/Settings/view/index.php:49
+#: app/Backend/Settings/view/index.php:189
+#: app/Backend/Settings/view/modal/booking_panel_labels_settings.php:21
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:74
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:20
+msgid "Front-end panels"
+msgstr "Panneaux Frontend"
+
+#: app/Backend/Settings/view/index.php:50
+#: app/Backend/Settings/view/index.php:190
+msgid ""
+"You can customize booking and customer panel and change labels from here"
+msgstr ""
+"Vous pouvez personnaliser les paramètres généraux de la réservation à partir "
+"d'ici"
+
+#: app/Backend/Settings/view/index.php:57
+msgid "Booking Steps"
+msgstr "Étapes de réservation"
+
+#: app/Backend/Settings/view/index.php:60
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:21
+msgid "Customer Panel"
+msgstr "Espace client"
+
+#: app/Backend/Settings/view/index.php:63
+#: app/Backend/Settings/view/modal/booking_panel_labels_settings.php:22
+msgid "Labels"
+msgstr "Étiquettes"
+
+#: app/Backend/Settings/view/index.php:73
+#: app/Backend/Settings/view/index.php:199
+msgid "Payment settings"
+msgstr "Paramètres de paiement"
+
+#: app/Backend/Settings/view/index.php:74
+#: app/Backend/Settings/view/index.php:200
+msgid ""
+"Currency, price format , general settings about payment , paypal, stripe and "
+"so on"
+msgstr ""
+"Devise, format de prix, paramètres généraux sur le paiement, paypal, stripe, "
+"etc."
+
+#: app/Backend/Settings/view/index.php:81
+msgid "General"
+msgstr "Général"
+
+#: app/Backend/Settings/view/index.php:84
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:65
+#: app/Backend/Settings/view/wc_settings.php:28
+msgid "Payment methods"
+msgstr "Méthodes de paiement "
+
+#: app/Backend/Settings/view/index.php:95
+#: app/Backend/Settings/view/index.php:210
+msgid "Enter your company name, logo, address, phone number, website from here"
+msgstr ""
+"Entrez le nom de votre entreprise, votre logo, votre adresse, votre numéro "
+"de téléphone, votre site web à partir d'ici"
+
+#: app/Backend/Settings/view/index.php:104
+#: app/Backend/Settings/view/index.php:219
+msgid "Business Hours"
+msgstr "Horaires d'ouverture"
+
+#: app/Backend/Settings/view/index.php:105
+#: app/Backend/Settings/view/index.php:220
+msgid "You will be able to co-ordinate your company's overall work schedule"
+msgstr ""
+"Vous serez en mesure de coordonner l'horaire de travail global de votre "
+"entreprise"
+
+#: app/Backend/Settings/view/index.php:114
+#: app/Backend/Settings/view/index.php:229
+#: app/Backend/Settings/view/modal/holidays_settings.php:18
+msgid "Holidays"
+msgstr "Vacances"
+
+#: app/Backend/Settings/view/index.php:115
+msgid "You can select dates that you are unavailable or on holiday"
+msgstr "Vous pouvez sélectionner les dates d’absence ou de vacances"
+
+#: app/Backend/Settings/view/index.php:124
+#: app/Backend/Settings/view/index.php:239
+#: app/Backend/Settings/view/modal/email_settings.php:20
+msgid "Email settings"
+msgstr "Réglages email"
+
+#: app/Backend/Settings/view/index.php:125
+#: app/Backend/Settings/view/index.php:240
+msgid "You must set this settings for email notifications"
+msgstr "Vous devez définir ces paramètres pour les notifications par email"
+
+#: app/Backend/Settings/view/index.php:135
+#: app/Backend/Settings/view/index.php:249
+msgid "Integrations settings"
+msgstr "Paramètres d’intégration"
+
+#: app/Backend/Settings/view/index.php:136
+#: app/Backend/Settings/view/index.php:250
+msgid "You can change settings for integrated services from here."
+msgstr ""
+"Vous pouvez modifier les paramètres des services intégrés à partir d’ici."
+
+#: app/Backend/Settings/view/index.php:140
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:20
+#: app/Backend/Staff/view/modal/add_new.php:235
+msgid "Google calendar"
+msgstr "Calendrier Google"
+
+#: app/Backend/Settings/view/index.php:141
+msgid "SMS / WhatsApp"
+msgstr "SMS / WhatsApp"
+
+#: app/Backend/Settings/view/index.php:142
+msgid "Zoom"
+msgstr "Zoom"
+
+#: app/Backend/Settings/view/index.php:143
+msgid "Continue with Facebook"
+msgstr "Continuer avec Facebook"
+
+#: app/Backend/Settings/view/index.php:144
+msgid "Continue with Google"
+msgstr "Continuer avec Google"
+
+#: app/Backend/Settings/view/index.php:151
+#: app/Backend/Settings/view/index.php:256
+#: app/Backend/Settings/view/modal/backup_settings.php:19
+msgid "Export & Import data"
+msgstr "Exporter et importer des données"
+
+#: app/Backend/Settings/view/index.php:152
+#: app/Backend/Settings/view/index.php:257
+msgid "You can export all Booknetic data and import from here."
+msgstr ""
+"Vous pouvez exporter toutes les données Booknetic et importer à partir d’ici."
+
+#: app/Backend/Settings/view/index.php:159
+#: app/Backend/Settings/view/index.php:264
+#: app/Backend/Settings/view/modal/connect_zoom_settings.php:19
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:20
+msgid "Integration with Zoom"
+msgstr "Intégration avec Zoom"
+
+#: app/Backend/Settings/view/index.php:160
+#: app/Backend/Settings/view/index.php:265
+msgid "You can change settings for zoom integration from here."
+msgstr ""
+"Vous pouvez modifier les paramètres d’intégration de Zoom à partir d’ici."
+
+#: app/Backend/Settings/view/index.php:230
+msgid ""
+"You can easily set with selecting special days, holidays over the calendar"
+msgstr ""
+"Vous pouvez facilement définir en sélectionnant des jours spéciaux, des "
+"jours fériés sur le calendrier"
+
+#: app/Backend/Settings/view/modal/backup_settings.php:15
+msgid "EXPORT DATA"
+msgstr "EXPORTER LES DONNÉES"
+
+#: app/Backend/Settings/view/modal/backup_settings.php:25
+msgid "Select file to restore"
+msgstr "Sélectionnez le fichier pour restaurer"
+
+#: app/Backend/Settings/view/modal/backup_settings.php:28
+msgid "IMPORT DATA"
+msgstr "IMPORTER LES DONNÉES"
+
+#: app/Backend/Settings/view/modal/booking_panel_labels_settings.php:35
+msgid "TRANSLATE"
+msgstr "TRADUIRE"
+
+#: app/Backend/Settings/view/modal/booking_panel_labels_settings.php:37
+msgid "SET AS DEFAULT LANGUAGE"
+msgstr "DÉFINIR COMME LANGAGE PAR DÉFAUT"
+
+#: app/Backend/Settings/view/modal/booking_panel_labels_settings.php:60
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:29
+msgid "Other"
+msgstr "Autre"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:54
+msgid "Finish"
+msgstr "Terminer"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:75
+msgid "Steps"
+msgstr "Étapes"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:115
+msgid "Hide address of Location"
+msgstr "Masquer l’adresse du lieu"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:125
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:188
+msgid "No settings found for this step."
+msgstr "Aucun réglage trouvé pour cette étape."
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:131
+msgid "Footer text per staff"
+msgstr "Texte footer par personnel"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:133
+msgid "Show both phone number and emaill address"
+msgstr "Afficher à la fois le numéro de téléphone et l’adresse email"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:134
+msgid "Show only Staff email address"
+msgstr "Afficher uniquement l’adresse email du personnel"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:135
+msgid "Show only Staff phone number"
+msgstr "Afficher uniquement le numéro de téléphone du personnel"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:136
+msgid "Don't show both phone number and emaill address"
+msgstr "Ne pas afficher à la fois le numéro de téléphone et l’adresse email"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:142
+msgid "Enable Any staff option"
+msgstr "Activer l’option N’importe quel employé"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:151
+msgid "Auto assignment rule"
+msgstr "Règle d’attribution automatique"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:153
+msgid "Least assigned by the day"
+msgstr "Moins attribué par jour"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:154
+msgid "Most assigned by the day"
+msgstr "Plus attribué par jour"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:155
+msgid "Least assigned by the week"
+msgstr "Moins attribué par semaine"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:156
+msgid "Most assigned by the week"
+msgstr "Plus attribué par semaine"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:157
+msgid "Least assigned by the month"
+msgstr "Moins attribué par mois"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:158
+msgid "Most assigned by the month"
+msgstr "Plus attribué par mois"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:159
+msgid "Most expensive"
+msgstr "Le plus cher"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:160
+msgid "Least expensive"
+msgstr "Le moins cher"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:170
+msgid "If a Service does not have an extra skip the step"
+msgstr "Si un Service n’a pas d’Extra, sautez l’étape"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:183
+msgid "The time format for the booking form"
+msgstr "Le format de temps pour le formulaire de réservation"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:185
+msgid "Show both Start and End time (e.g.: 10:00 - 11:00)"
+msgstr "Afficher les heures de début et de fin (par ex : 10:00 - 11:00)"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:186
+msgid "Show only Start time (e.g.: 10:00)"
+msgstr "Afficher uniquement l'heure de début (par ex : 10:00)"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:192
+msgid "Hide the number of available slots"
+msgstr "Masquer le nombre de créneaux horaires disponibles"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:206
+msgid "Separate First and Last name inputs"
+msgstr "Séparer les champs du prénom et du nom"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:216
+msgid "Set Email as a required field"
+msgstr "Définir l'adresse électronique comme un champ obligatoire"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:226
+msgid "Set Phone number as a required field"
+msgstr "Définir le numéro de téléphone comme champ obligatoire"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:235
+msgid "Default phone country code"
+msgstr "Code pays du téléphone par défaut"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:245
+msgid "Hide payment methods section"
+msgstr "Masquer la section sur les modes de paiement"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:256
+msgid "Hide coupon section"
+msgstr "Masquer la section coupon de réduction"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:268
+msgid "Hide giftcard section"
+msgstr "Masquer la section carte cadeau "
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:279
+msgid "Do not show the discount row if a coupon is not added"
+msgstr "Ne pas afficher la ligne du code promo si ce dernier n’est pas ajouté"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:289
+msgid "Hide price section"
+msgstr "Masquer la section prix"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:302
+msgid "URL of \"FINISH BOOKING\" button"
+msgstr "URL du bouton \"TERMINER LA RÉSERVATION\""
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:303
+msgid "Default: Reload current page."
+msgstr "Par défaut : Recharger la page en cours."
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:308
+msgid "Hide the \"ADD TO GOOGLE CALENDAR\" button"
+msgstr "Masquer le bouton \"AJOUTER À GOOGLE CALENDAR\""
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:318
+msgid "Hide the \"START NEW BOOKING\" button"
+msgstr "Masquer le bouton \"COMMENCER UNE NOUVELLE RÉSERVATION\""
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:328
+msgid "Hide a confirmation number"
+msgstr "Masquer un numéro de confirmation"
+
+#: app/Backend/Settings/view/modal/booking_panel_steps_settings.php:338
+msgid "Starting confirmation number"
+msgstr "Numéro de confirmation de départ"
+
+#: app/Backend/Settings/view/modal/business_hours_settings.php:16
+#: app/Backend/Staff/view/modal/add_new.php:17
+msgid "Break start"
+msgstr "Début de la pause"
+
+#: app/Backend/Settings/view/modal/business_hours_settings.php:17
+#: app/Backend/Staff/view/modal/add_new.php:18
+msgid "Break end"
+msgstr "Fin de la pause"
+
+#: app/Backend/Settings/view/modal/company_settings.php:33
+msgid "Company name"
+msgstr "Nom de l'entreprise"
+
+#: app/Backend/Settings/view/modal/company_settings.php:48
+msgid "Website"
+msgstr "Site web"
+
+#: app/Backend/Settings/view/modal/company_settings.php:57
+msgid "Display a company logo on the  Booking panel"
+msgstr "Afficher un logo d’entreprise sur le panneau de réservation"
+
+#: app/Backend/Settings/view/modal/connect_zoom_settings.php:28
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:56
+msgid "CLICK TO CONNECT ZOOM ACCOUNT"
+msgstr "CLIQUEZ POUR CONNECTER LE COMPTE ZOOM"
+
+#: app/Backend/Settings/view/modal/connect_zoom_settings.php:32
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:60
+#, php-format
+msgid "Zoom account ( %s ) has been connected successfully."
+msgstr "Le compte Zoom ( %s ) a été connecté avec succès."
+
+#: app/Backend/Settings/view/modal/connect_zoom_settings.php:33
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:61
+msgid "DISCONNECT"
+msgstr "DECONNECTER"
+
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:31
+#: app/Backend/Settings/view/modal/general_settings.php:42
+#: app/Backend/Settings/view/modal/general_settings.php:52
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:30
+#: app/Backend/Settings/view/modal/integrations_facebook_api_settings.php:31
+#: app/Backend/Settings/view/modal/integrations_google_login_settings.php:31
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:30
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:35
+#: app/Backend/Settings/view/modal/general_settings.php:43
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:34
+#: app/Backend/Settings/view/modal/integrations_facebook_api_settings.php:35
+#: app/Backend/Settings/view/modal/integrations_google_login_settings.php:35
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:34
+msgid "Enabled"
+msgstr "Activé"
+
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:46
+msgid "Page of Customer Panel"
+msgstr "Page de l’espace client"
+
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:55
+msgid "Time restriction to change appointments"
+msgstr "Restrictions temporelles de modification de RDV"
+
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:67
+msgid "Allow customers to reschedule their appointments"
+msgstr "Permettre aux clients de reporter leurs rendez-vous"
+
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:79
+msgid "Allow customers to cancel their appointments"
+msgstr "Permettre aux clients d’annuler leurs rendez-vous"
+
+#: app/Backend/Settings/view/modal/customer_panel_settings.php:91
+msgid "Allow customers to delete their account"
+msgstr "Permettre aux clients de supprimer leur compte"
+
+#: app/Backend/Settings/view/modal/email_settings.php:27
+msgid "Mail Gateway"
+msgstr "Passerelle Email"
+
+#: app/Backend/Settings/view/modal/email_settings.php:29
+msgid "WordPress Mail"
+msgstr "WordPress Mail"
+
+#: app/Backend/Settings/view/modal/email_settings.php:30
+msgid "SMTP"
+msgstr "SMTP"
+
+#: app/Backend/Settings/view/modal/email_settings.php:38
+msgid "SMTP Hostname"
+msgstr "SMTP Hostname"
+
+#: app/Backend/Settings/view/modal/email_settings.php:42
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: app/Backend/Settings/view/modal/email_settings.php:46
+msgid "SMTP Secure"
+msgstr "SMTP Secure"
+
+#: app/Backend/Settings/view/modal/email_settings.php:48
+msgid "TLS"
+msgstr "TLS"
+
+#: app/Backend/Settings/view/modal/email_settings.php:49
+msgid "SSL"
+msgstr "SSL"
+
+#: app/Backend/Settings/view/modal/email_settings.php:50
+msgid "Disabled ( not recommend )"
+msgstr "Désactivé (non recommandé)"
+
+#: app/Backend/Settings/view/modal/email_settings.php:57
+msgid "Username"
+msgstr "Identifiant"
+
+#: app/Backend/Settings/view/modal/email_settings.php:61
+msgid "Password"
+msgstr "Mot de passe"
+
+#: app/Backend/Settings/view/modal/email_settings.php:69
+msgid "Sender E-mail"
+msgstr "E-mail de l'expéditeur"
+
+#: app/Backend/Settings/view/modal/email_settings.php:73
+#: app/Backend/Settings/view/modal/email_settings.php:80
+msgid "Sender Name"
+msgstr "Nom de l'expéditeur"
+
+#: app/Backend/Settings/view/modal/general_settings.php:40
+msgid "Set slot length as service duration"
+msgstr "Fixer la durée du créneau horaire comme durée de service"
+
+#: app/Backend/Settings/view/modal/general_settings.php:50
+msgid "Minimum time requirement prior to booking"
+msgstr "Délai minimum requis avant la réservation"
+
+#: app/Backend/Settings/view/modal/general_settings.php:64
+msgid "Limited booking days"
+msgstr "Jours de réservation limités"
+
+#: app/Backend/Settings/view/modal/general_settings.php:71
+msgid "Week starts on"
+msgstr "La semaine commence le"
+
+#: app/Backend/Settings/view/modal/general_settings.php:79
+msgid "Date format"
+msgstr "Format de date"
+
+#: app/Backend/Settings/view/modal/general_settings.php:89
+msgid "Time format"
+msgstr "Format de l'heure"
+
+#: app/Backend/Settings/view/modal/general_settings.php:91
+msgid "24 hour format"
+msgstr "Format 24 heures"
+
+#: app/Backend/Settings/view/modal/general_settings.php:92
+msgid "12 hour format"
+msgstr "Format 12 heures"
+
+#: app/Backend/Settings/view/modal/general_settings.php:98
+msgid "Default appointment status"
+msgstr "Statut du rendez vous par défaut"
+
+#: app/Backend/Settings/view/modal/general_settings.php:107
+msgid "Show time slots in client time-zone"
+msgstr "Afficher les créneaux horaires dans le fuseau horaire du client"
+
+#: app/Backend/Settings/view/modal/general_settings.php:119
+msgid "Google Maps API Key"
+msgstr "Clé API Google Maps"
+
+#: app/Backend/Settings/view/modal/general_settings.php:128
+msgid "Activate Google reCAPTCHA"
+msgstr "Activer Google reCAPTCHA"
+
+#: app/Backend/Settings/view/modal/general_settings.php:136
+msgid "Site Key"
+msgstr "Clé du site"
+
+#: app/Backend/Settings/view/modal/general_settings.php:140
+msgid "Secret Key"
+msgstr "Clé secrète"
+
+#: app/Backend/Settings/view/modal/general_settings.php:149
+msgid "Allow admins to book appointments outside working hours"
+msgstr ""
+"Autoriser les admins à prendre des réservations en dehors des horaires "
+"d’ouverture"
+
+#: app/Backend/Settings/view/modal/general_settings.php:158
+msgid "Only registered users can book"
+msgstr "Seuls les clients enregistrer peuvent réserver"
+
+#: app/Backend/Settings/view/modal/general_settings.php:170
+msgid "Remove branding"
+msgstr "Supprimer le branding"
+
+#: app/Backend/Settings/view/modal/general_settings.php:183
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:43
+#: app/Backend/Settings/view/modal/integrations_facebook_api_settings.php:44
+#: app/Backend/Settings/view/modal/integrations_google_login_settings.php:44
+msgid "Redirect URI"
+msgstr "URL de redirection"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:50
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:120
+msgid "Client ID"
+msgstr "Client ID"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:54
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:125
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:61
+msgid "Event title"
+msgstr "Titre d'evenement"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:68
+msgid "Event description"
+msgstr "Description d'evenement"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:70
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:78
+#: app/Backend/Settings/view/modal/keywords_list.php:13
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:215
+msgid "List of keywords"
+msgstr "Liste des mots clés"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:76
+msgid "Sync method for busy slots from Google Calendar"
+msgstr ""
+"Méthode de synchronisation des créneaux occupés à partir de Google Agenda"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:76
+msgid ""
+"1. Live sync;<br/>If you have a few staff, this method would be more "
+"convenient for you. When your customers are booking, the plugin will connect "
+"to the google calendar and sync busy slots in real-time.<br/>2. Background "
+"sync;<br/>For this method, first, you must configure the Cron jobs ( <a "
+"href='https://www.booknetic.com/documentation/cron-job' target='_blank'>How "
+"to?</a> ). The shorter you set the Cron jobs interval, the more accuracy you "
+"will get. This method is usually designed for businesses with a large number "
+"of employees and using the \"Any Staff\" option. Because in this case, when "
+"your customer selects Any staff option, it might take more than 30-60 "
+"seconds to sync all Staff busy slots with Google calendar. By choosing this "
+"method, the plugin Cron Jobs will connect to the Google Calendars in the "
+"background at the interval you set up and will store the busy slots of all "
+"your employees in your local databases. During booking, it will read the "
+"information directly from your database. Errors in this method are "
+"inevitable. For example, if you configure your cron jobs to run every 15 "
+"minutes, the busy slot you add to your Google calendar will be stored in the "
+"plugin's local database every 15 minutes. That is, within these 15 minutes, "
+"someone can book an appointment in that time slot. Therefore, the shorter "
+"you configure the Cron jobs, the less likely there will be errors."
+msgstr ""
+"1. Live sync;<br/>Si vous disposez de quelques collaborateurs, cette méthode "
+"vous conviendra mieux. Lorsque vos clients réserveront, le plugin se "
+"connectera au calendrier Google et synchronisera les créneaux occupés en "
+"temps réel.<br/>2. Synchronisation en arrière-plan;<br/>Pour cette méthode, "
+"vous devez d'abord configurer les emplois Cron ( <a href='https://www."
+"booknetic.com/documentation/cron-job' target='_blank'>Comment?</a> ). Plus "
+"l'intervalle entre les jobs Cron est court, plus la précision sera grande. "
+"Cette méthode est généralement conçue pour les entreprises ayant un grand "
+"nombre d'employés et utilisant l'option \"Tout le personnel\". En effet, "
+"dans ce cas, lorsque votre client sélectionne l'option \"Tout le personnel"
+"\", il peut falloir plus de 30 à 60 secondes pour synchroniser tous les "
+"créneaux occupés par le personnel avec le calendrier Google. En choisissant "
+"cette méthode, le plugin Cron Jobs se connectera aux calendriers Google en "
+"arrière-plan à l'intervalle que vous aurez défini et stockera les créneaux "
+"occupés de tous vos employés dans vos bases de données locales. Lors de la "
+"réservation, il lira les informations directement à partir de votre base de "
+"données. Des erreurs dans cette méthode sont inévitables. Par exemple, si "
+"vous configurez vos jobs cron pour qu'ils s'exécutent toutes les 15 minutes, "
+"le créneau occupé que vous ajoutez à votre calendrier Google sera stocké "
+"dans la base de données locale du plugin toutes les 15 minutes. Autrement "
+"dit, au cours de ces 15 minutes, quelqu'un peut prendre un rendez-vous dans "
+"ce créneau horaire. Par conséquent, plus vous configurez les emplois Cron, "
+"moins il y a de chances qu'il y ait des erreurs."
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:78
+msgid "Live sync"
+msgstr "Live sync"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:79
+msgid "Background sync"
+msgstr "Synchronisation en arrière-plan"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:80
+msgid "Don't sync busy slots"
+msgstr "Ne pas synchroniser les créneaux occupés"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:84
+msgid "Since what date do events in Google calendar sync?"
+msgstr ""
+"Depuis quelle date les événements dans le calendrier Google sont-ils "
+"synchronisés ?"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:86
+msgid "Events up to 1 month"
+msgstr "Événements jusqu'à 1 mois"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:87
+msgid "Events up to 2 month"
+msgstr "Événements jusqu'à 2 mois"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:88
+msgid "Events up to 3 month"
+msgstr "Événements jusqu'à 3 mois"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:96
+msgid "Add customers as attendees in your calendar events"
+msgstr "Ajoutez des clients comme participants dans votre calendrier"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:105
+msgid "Send email invitations to attendees by Google"
+msgstr "Envoyer des invitations par email aux participants par Google"
+
+#: app/Backend/Settings/view/modal/google_calendar_settings.php:117
+msgid "Customers can see other attendees"
+msgstr "Les clients peuvent voir les autres participants"
+
+#: app/Backend/Settings/view/modal/integrations_facebook_api_settings.php:21
+msgid "Facebook API / Continue with Facebook button"
+msgstr "API Facebook / Continuer avec le bouton Facebook"
+
+#: app/Backend/Settings/view/modal/integrations_facebook_api_settings.php:51
+#: app/Backend/Settings/view/modal/integrations_google_login_settings.php:51
+msgid "App ID"
+msgstr "App ID"
+
+#: app/Backend/Settings/view/modal/integrations_facebook_api_settings.php:58
+#: app/Backend/Settings/view/modal/integrations_google_login_settings.php:58
+msgid "App Secret"
+msgstr "App Secret"
+
+#: app/Backend/Settings/view/modal/integrations_google_login_settings.php:21
+msgid "Google API / Continue with Google button"
+msgstr "Google API / Continuer avec le bouton Google"
+
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:44
+msgid "API Key"
+msgstr "Clé API"
+
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:49
+msgid "API Secret"
+msgstr "API Secret"
+
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:71
+msgid "Meeting topic"
+msgstr "Sujet de réunion"
+
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:76
+msgid "Meeting description"
+msgstr "Description de la réunion"
+
+#: app/Backend/Settings/view/modal/integrations_zoom_settings.php:83
+msgid "Set random password for meetings"
+msgstr "Définir un mot de passe aléatoire pour les réunions"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:13
+#: app/Providers/Helper.php:511
+msgid "Stripe"
+msgstr "Stripe"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:25
+msgid "Local payment"
+msgstr "Paiement sur place"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:29
+msgid "Woocommerce"
+msgstr "WooCommerce"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:107
+#, php-format
+msgid ""
+"You can't use Paypal with the %s plan. Please upgrade your plan to use "
+"Paypal."
+msgstr ""
+"Vous ne pouvez pas utiliser Paypal avec le forfait %s. Veuillez mettre à "
+"jour votre forfait pour utiliser Paypal."
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:112
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:166
+msgid "Mode"
+msgstr "Mode"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:114
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:168
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:115
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:169
+msgid "Live"
+msgstr "En ligne"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:138
+#, php-format
+msgid ""
+"You can't use Stripe with the %s plan. Please upgrade your plan to use "
+"Stripe."
+msgstr ""
+"Vous ne pouvez pas utiliser Stripe avec le forfait %s. Veuillez mettre votre "
+"forfait à niveau pour utiliser Stripe."
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:143
+msgid "Publishable key"
+msgstr "Clé publique"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:148
+msgid "Secret key"
+msgstr "Clé secrete"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:161
+#, php-format
+msgid ""
+"You can't use Square with the %s plan. Please upgrade your plan to use "
+"Square."
+msgstr ""
+"Vous ne pouvez pas utiliser Square avec le forfait %s. Veuillez mettre votre "
+"forfait à niveau pour utiliser Square."
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:174
+msgid "Access Token"
+msgstr "Jeton d'authentification"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:179
+msgid "Location ID"
+msgstr "ID du Lieu"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:196
+msgid "Skip the Confirmation step"
+msgstr "Passer l'étape de confirmation"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:196
+msgid ""
+"If you use Deposit Payments or Coupons, then you can have a confirmation "
+"step for your customers. Otherwise, it will redirect to WooCommerce by "
+"automatically skipping this step."
+msgstr ""
+"Si vous utilisez la méthode d’acompte ou de codes promos, vous pouvez alors "
+"avoir une étape de confirmations pour vos clients. Sinon, ils seront "
+"redirigés vers Woocommerce automatiquement en sautant cette étape."
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:205
+msgid "Redirect customer to"
+msgstr "Rediriger le client vers"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:207
+msgid "Cart page"
+msgstr "Page panier"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:208
+msgid "Checkout page"
+msgstr "Page de paiement"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:213
+msgid "Woocommerce order details"
+msgstr "Détails de la commande Woocommerce"
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:219
+msgid ""
+"Other payment methods are not activated. Please contact the service provider."
+msgstr ""
+"Les autres méthodes de paiement ne sont pas activées. Veuillez contacter "
+"votre fournisseur."
+
+#: app/Backend/Settings/view/modal/payment_gateways_settings.php:233
+msgid "Set up"
+msgstr "Installation"
+
+#: app/Backend/Settings/view/modal/payments_settings.php:27
+msgid "Currency"
+msgstr "Devise"
+
+#: app/Backend/Settings/view/modal/payments_settings.php:38
+msgid "Currency symbol"
+msgstr "Symbole de la devise"
+
+#: app/Backend/Settings/view/modal/payments_settings.php:42
+msgid "Currency format"
+msgstr "Format de la devise"
+
+#: app/Backend/Settings/view/modal/payments_settings.php:54
+msgid "Price number format"
+msgstr "Format de nombre du prix"
+
+#: app/Backend/Settings/view/modal/payments_settings.php:63
+msgid "Price number of decimals"
+msgstr "Nombre de décimales sur le prix"
+
+#: app/Backend/Settings/view/modal/payments_settings.php:76
+msgid "How long to wait for payment"
+msgstr "Combien de temps attendre pour le paiement"
+
+#: app/Backend/Settings/view/modal/payments_settings.php:76
+msgid ""
+"Newly booked appointment default status will be \"Waiting for payment\" in "
+"the defined timeframe."
+msgstr ""
+"Les nouveaux RDV ont pour statut par défaut « En attente de paiement »."
+
+#: app/Backend/Settings/view/modal/payments_settings.php:91
+msgid "Customer can pay full amount"
+msgstr "Le client peut payer le montant total"
+
+#: app/Backend/Settings/view/modal/sms_settings.php:19
+msgid "SMS/WhatsApp settings"
+msgstr "Paramètres SMS/WhatsApp"
+
+#: app/Backend/Settings/view/modal/sms_settings.php:25
+msgid "Account SID"
+msgstr "Account SID"
+
+#: app/Backend/Settings/view/modal/sms_settings.php:32
+msgid "Auth Token"
+msgstr "Auth Token"
+
+#: app/Backend/Settings/view/modal/sms_settings.php:39
+msgid "Sender phone number for SMS"
+msgstr "Numéro Téléphone Expéditeur pour SMS"
+
+#: app/Backend/Settings/view/modal/sms_settings.php:46
+msgid "Sender phone number for WhatsApp"
+msgstr "Numéro Téléphone Expéditeur pour WhatsApp"
+
+#: app/Backend/Smsnotifications/Controller/Ajax.php:75
+msgid ""
+"You have reached your allowed maximum SMS limit. Please upgrade your plan."
+msgstr ""
+"Vous avez atteint votre limite maximale autorisée de SMS. Veuillez mettre "
+"votre forfait à niveau."
+
+#: app/Backend/Smsnotifications/Controller/Ajax.php:91
+msgid "Please configure SMS settings!"
+msgstr "Veuillez configurer les paramètres des SMS !"
+
+#: app/Backend/Smsnotifications/view/index.php:44
+msgid "SEND TEST SMS"
+msgstr "ENVOYER UN SMS DE TEST"
+
+#: app/Backend/Smsnotifications/view/index.php:146
+#: app/Backend/Whatsappnotifications/view/index.php:146
+msgid "APPOINTMENT APPROVED"
+msgstr "RENDEZ-VOUS APPROUVÉ"
+
+#: app/Backend/Smsnotifications/view/index.php:174
+msgid "SMS body"
+msgstr "Corps du SMS"
+
+#: app/Backend/Smsnotifications/view/modal/send_test_sms.php:13
+msgid "Send test SMS"
+msgstr "Envoyer un SMS de test"
+
+#: app/Backend/Smsnotifications/view/modal/send_test_sms.php:19
+#: app/Backend/Smsnotifications/view/modal/send_test_sms.php:20
+#: app/Backend/Whatsappnotifications/view/modal/send_test_message.php:19
+#: app/Backend/Whatsappnotifications/view/modal/send_test_message.php:20
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: app/Backend/Staff/Controller/Ajax.php:35
+msgid "Staff not found!"
+msgstr "Aucun personnel trouvé!"
+
+#: app/Backend/Staff/Controller/Ajax.php:72
+#: app/Backend/Staff/Controller/Ajax.php:146
+#: app/Backend/Staff/Controller/Main.php:53
+msgid "You do not have sufficient permissions to perform this action"
+msgstr ""
+"Vous ne disposez pas des autorisations suffisantes pour effectuer cette "
+"action"
+
+#: app/Backend/Staff/Controller/Ajax.php:141
+msgid "Staff not found or permission denied!"
+msgstr "Personnel non trouvé ou autorisation refusée !"
+
+#: app/Backend/Staff/Controller/Ajax.php:166
+msgid "Please select location!"
+msgstr "Veuillez choisir un lieu !"
+
+#: app/Backend/Staff/Controller/Ajax.php:249
+msgid "The WordPress user with the same email address already exists!"
+msgstr "L’utilisateur WordPress avec la même adresse email existe déjà!"
+
+#: app/Backend/Staff/Controller/Ajax.php:641
+msgid "Firstly click the login button!"
+msgstr "Cliquez d'abord sur le bouton de connexion !"
+
+#: app/Backend/Staff/Controller/Main.php:25
+#: app/Backend/Staff/view/modal/add_new.php:413
+msgid "ADD STAFF"
+msgstr "AJOUTER LE MEMBRE DU PERSONNEL"
+
+#: app/Backend/Staff/Controller/Main.php:31
+msgid "STAFF NAME"
+msgstr "NOM PERSONNEL"
+
+#: app/Backend/Staff/Controller/Main.php:35
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: app/Backend/Staff/Controller/Main.php:62
+msgid "This staff has been added some Appointments. Firstly remove them!"
+msgstr ""
+"Ce personnel a été ajouté à certains RDV. Commencez par les supprimer !"
+
+#: app/Backend/Staff/view/modal/add_new.php:95
+msgid "Add Staff"
+msgstr "Ajouter une membre de l'équipe"
+
+#: app/Backend/Staff/view/modal/add_new.php:105
+msgid "DETAILS"
+msgstr "DETAILS"
+
+#: app/Backend/Staff/view/modal/add_new.php:108
+msgid "HOLIDAYS"
+msgstr "VACANCES"
+
+#: app/Backend/Staff/view/modal/add_new.php:118
+msgid "Full Name"
+msgstr "Nom complet"
+
+#: app/Backend/Staff/view/modal/add_new.php:123
+msgid "Profession"
+msgstr "Profession"
+
+#: app/Backend/Staff/view/modal/add_new.php:275
+msgid "Zoom user"
+msgstr "Utilisateur Zoom"
+
+#: app/Backend/Staff/view/modal/add_new.php:408
+msgid "UNHIDE STAFF"
+msgstr "AFFICHER LE PERSONNEL"
+
+#: app/Backend/Staff/view/modal/add_new.php:408
+msgid "HIDE STAFF"
+msgstr "MASQUER LE PERSONNEL"
+
+#: app/Backend/Staff/view/modal/add_new.php:413
+msgid "SAVE STAFF"
+msgstr "ENREGISTER LE PERSONNEL"
+
+#: app/Backend/Whatsappnotifications/Controller/Ajax.php:75
+msgid ""
+"You have reached your allowed maximum WhatsApp message limit. Please upgrade "
+"your plan."
+msgstr ""
+"Vous avez atteint votre limite maximale de messages WhatsApp. Veuillez "
+"mettre votre forfait à niveau."
+
+#: app/Backend/Whatsappnotifications/Controller/Ajax.php:91
+msgid "Please configure WhatsApp settings!"
+msgstr "Veuillez configurer les paramètres WhatsApp!"
+
+#: app/Backend/Whatsappnotifications/view/index.php:41
+msgid "Whatsapp Notifications"
+msgstr "Notifications WhatsApp"
+
+#: app/Backend/Whatsappnotifications/view/index.php:44
+msgid "SEND TEST MESSAGE"
+msgstr "ENVOYER UN MESSAGE DE TEST"
+
+#: app/Backend/Whatsappnotifications/view/index.php:174
+msgid "Message body"
+msgstr "Corps du message"
+
+#: app/Backend/Whatsappnotifications/view/modal/send_test_message.php:13
+msgid "Send test message"
+msgstr "Envoyer un message de test"
+
+#: app/Frontend/Controller/Ajax.php:210
+msgid "Fistly You have to select Service, Staff and Date fields!"
+msgstr ""
+"Vous devez d'abord sélectionner les champs Service, Personnel et Date !"
+
+#: app/Frontend/Controller/Ajax.php:381
+msgid "Please choose dates"
+msgstr "Choisissez le jour"
+
+#: app/Frontend/Controller/Ajax.php:785
+msgid "There is no Location to match your request."
+msgstr "Il n’y a pas de lieu pour correspondre à votre demande."
+
+#: app/Frontend/Controller/Ajax.php:808
+msgid "Please select payment method!"
+msgstr "Veuillez sélectionnez la méthode de paiement!"
+
+#: app/Frontend/Controller/AjaxHelper.php:377
+#: app/Frontend/Controller/AjaxHelper.php:385
+msgid "Please refresh the page and try again."
+msgstr "Merci de rafraichir la page et d'essayer à nouveau."
+
+#: app/Frontend/Controller/ClientPanelAjax.php:51
+msgid "Profile data was saved successfully"
+msgstr "Les données de profil ont été enregistrées avec succès"
+
+#: app/Frontend/Controller/ClientPanelAjax.php:67
+msgid "Password does not match!"
+msgstr "Le mot de passe ne correspond pas!"
+
+#: app/Frontend/Controller/ClientPanelAjax.php:79
+msgid "Current password is wrong!"
+msgstr "Le mot de passe actuel est faux!"
+
+#: app/Frontend/Controller/ClientPanelAjax.php:84
+msgid "Password was changed successfully"
+msgstr "Le mot de passe a été changé avec succès"
+
+#: app/Frontend/Controller/ClientPanelAjax.php:96
+msgid "You can not change the date and time to past."
+msgstr "Vous ne pouvez pas modifier la date et l’heure dans le passé."
+
+#: app/Frontend/Controller/ClientPanelAjax.php:127
+#: app/Frontend/Controller/ClientPanelAjax.php:221
+#, php-format
+msgid ""
+"Minimum time requirement prior to change the appointment date and time is %s"
+msgstr "Délai minimum requis avant la modification de réservation est %s"
+
+#: app/Frontend/Controller/ClientPanelAjax.php:134
+#, php-format
+msgid "You cannot change the appointment less than %s in advance"
+msgstr "Vous ne pouvez pas modifier le rendez-vous moins de %s à l'avance"
+
+#: app/Frontend/Controller/ClientPanelAjax.php:139
+msgid "You have not changed the date and time."
+msgstr "Vous n’avez pas modifié la date et l’heure."
+
+#: app/Frontend/Controller/ClientPanelAjax.php:177
+msgid "Appointment was rescheduled successfully!"
+msgstr "Rendez-vous reporté avec succès!"
+
+#: app/Frontend/Controller/ClientPanelAjax.php:242
+msgid "You have canceled the appointment!"
+msgstr "Vous avez annulé le rendez-vous!"
+
+#: app/Frontend/view/booking_panel/booknetic.php:12
+msgid ""
+"You can't receive appointments. Please upgrade your plan to receive "
+"appointments."
+msgstr ""
+"Vous ne pouvez recevoir de RDV. Merci de mettre à niveau votre forfait pour "
+"recevoir des RDV."
+
+#: app/Frontend/view/booking_panel/booknetic.php:107
+msgid "We aren’t able to process your payment. Please, try again."
+msgstr ""
+"Nous ne sommes pas en mesure de traiter votre paiement. Veuillez réessayer."
+
+#: app/Frontend/view/booking_panel/booknetic.php:115
+msgid "TRY AGAIN"
+msgstr "RÉESSAYER"
+
+#: app/Frontend/view/booking_panel/booknetic.php:120
+msgid "Thank you for your request!"
+msgstr "Merci pour votre requête!"
+
+#: app/Frontend/view/booking_panel/booknetic.php:121
+msgid "Your confirmation number:"
+msgstr "Votre numéro de confirmation:"
+
+#: app/Frontend/view/booking_panel/booknetic.php:124
+msgid "ADD TO GOOGLE CALENDAR"
+msgstr "AJOUTER AU CALENDRIER GOOGLE"
+
+#: app/Frontend/view/booking_panel/booknetic.php:125
+msgid "START NEW BOOKING"
+msgstr "DEBUTER UN NOUVEAU RDV"
+
+#: app/Frontend/view/booking_panel/booknetic.php:126
+msgid "FINISH BOOKING"
+msgstr "TERMINER LA RESERVATION"
+
+#: app/Frontend/view/booking_panel/booknetic.php:130
+#, php-format
+msgid "Powered by %s"
+msgstr "Propulsé par %s"
+
+#: app/Frontend/view/booking_panel/confirm_details.php:79
+msgid "Charge for Gift Card"
+msgstr "Prix pour la carte cadeau"
+
+#: app/Frontend/view/booking_panel/confirm_details.php:88
+msgid "Coupon"
+msgstr "Code promo"
+
+#: app/Frontend/view/booking_panel/confirm_details.php:89
+msgid "OK"
+msgstr "OK"
+
+#: app/Frontend/view/booking_panel/confirm_details.php:93
+#: app/Providers/Helper.php:514
+msgid "Giftcard"
+msgstr "Carte cadeau"
+
+#: app/Frontend/view/booking_panel/confirm_details.php:94
+msgid "ADD"
+msgstr "AJOUTER"
+
+#: app/Frontend/view/booking_panel/confirm_details.php:99
+msgid "Total price"
+msgstr "Prix total"
+
+#: app/Frontend/view/booking_panel/confirm_details.php:153
+msgid "Full amount"
+msgstr "Montant total"
+
+#: app/Frontend/view/booking_panel/confirm_details.php:180
+msgid "Please wait, You are automatically redirecting to order page..."
+msgstr ""
+"Veuillez patienter, vous allez être redirigé automatiquement vers la page de "
+"commande..."
+
+#: app/Frontend/view/booking_panel/date_time_non_recurring.php:22
+#: app/Providers/Frontend.php:283
+msgid "Select date"
+msgstr "Choisissez le jour"
+
+#: app/Frontend/view/booking_panel/date_time_non_recurring.php:33
+msgid "Bring People with You"
+msgstr "Amener des gens avec vous"
+
+#: app/Frontend/view/booking_panel/date_time_non_recurring.php:37
+msgid "Number of people:"
+msgstr "Nombre d’accompagnateurs :"
+
+#: app/Frontend/view/booking_panel/information.php:20
+msgid "CONTINUE WITH FACEBOOK"
+msgstr "CONTINUER AVEC FACEBOOK"
+
+#: app/Frontend/view/booking_panel/information.php:31
+msgid "CONTINUE WITH GOOGLE"
+msgstr "CONTINUER AVEC GOOGLE"
+
+#: app/Frontend/view/booking_panel/information.php:43
+#: app/Frontend/view/client_panel/booknetic.php:116
+msgid "Surname"
+msgstr "Nom"
+
+#: app/Frontend/view/client_panel/booknetic.php:25
+msgid "LOGOUT"
+msgstr "DÉCONNEXION"
+
+#: app/Frontend/view/client_panel/booknetic.php:30
+msgid "Profile"
+msgstr "Profil"
+
+#: app/Frontend/view/client_panel/booknetic.php:31
+msgid "Change password"
+msgstr "Changer le mot de passe"
+
+#: app/Frontend/view/client_panel/booknetic.php:42
+msgid "Company"
+msgstr "Entreprise"
+
+#: app/Frontend/view/client_panel/booknetic.php:95
+msgid "Reschedule"
+msgstr "Replanifier"
+
+#: app/Frontend/view/client_panel/booknetic.php:150
+msgid "DELETE MY PROFILE"
+msgstr "SUPPRIMER MON PROFIL"
+
+#: app/Frontend/view/client_panel/booknetic.php:160
+msgid "Current password"
+msgstr "Mot de passe actuel"
+
+#: app/Frontend/view/client_panel/booknetic.php:166
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: app/Frontend/view/client_panel/booknetic.php:172
+msgid "Repeat new password"
+msgstr "Répéter le nouveau mot de passe"
+
+#: app/Frontend/view/client_panel/booknetic.php:180
+msgid "CHANGE PASSWORD"
+msgstr "CHANGER DE MOT DE PASSE"
+
+#: app/Frontend/view/client_panel/booknetic.php:205
+msgid "RESCHEDULE"
+msgstr "REPORTER"
+
+#: app/Frontend/view/client_panel/booknetic.php:216
+msgid "Are you sure you want to cancel the appointment?"
+msgstr "Etes-vous sûr de vouloir annuler le rendez-vous?"
+
+#: app/Frontend/view/client_panel/booknetic.php:231
+msgid "Are you sure you want to delete your profile?"
+msgstr "Etes-vous sûr de vouloir supprimer votre profil?"
+
+#: app/Integrations/LoginButtons/FacebookLogin.php:69
+#: app/Integrations/LoginButtons/GoogleLogin.php:82
+msgid ""
+"An error occurred while processing your request! Please close the window and "
+"try again!"
+msgstr ""
+"Une erreur s’est produite lors du traitement de votre demande! Veuillez "
+"fermer la fenêtre et essayer à nouveau!"
+
+#: app/Integrations/PaymentGateways/Paypal.php:175
+#: app/Integrations/PaymentGateways/Square.php:98
+#: app/Integrations/PaymentGateways/Square.php:106
+#: app/Integrations/PaymentGateways/Square.php:137
+#: app/Integrations/PaymentGateways/Square.php:151
+msgid "Couldn't create a payment!"
+msgstr "Impossible de créer un paiement !"
+
+#: app/Integrations/Zoom/ZoomService.php:568 app/Providers/Backend.php:155
+#: app/Providers/Backend.php:165
+msgid "An error occurred, please try again later"
+msgstr "Une erreur s'est produite, veuillez réessayer plus tard"
+
+#: app/Providers/Backend.php:220
+msgid "Please enter the purchase code!"
+msgstr "Veuillez entrer le code d’achat!"
+
+#: app/Providers/Backend.php:230
+#, php-format
+msgid ""
+"Your server can not access our license server via CURL! Our license server "
+"is \"%s\". Please contact your hosting provider/server administrator and ask "
+"them to solve the problem. If you are sure that problem is not your server/"
+"hosting side then contact FS Poster administrators."
+msgstr ""
+"Votre serveur ne peut pas accéder à notre serveur de licences via CURL ! "
+"Notre serveur de licence est \"%s\". Veuillez contacter votre fournisseur "
+"d'hébergement ou l'administrateur de votre serveur et leur demander de "
+"résoudre le problème. Si vous êtes sûr que le problème n'est pas du côté de "
+"votre serveur/hébergeur, contactez les administrateurs de FS Poster."
+
+#: app/Providers/Backend.php:237
+#, php-format
+msgid "Reactivation failed! Response: %s"
+msgstr "La réactivation a échoué ! Réponse: %s"
+
+#: app/Providers/Backend.php:242 app/Providers/Backend.php:446
+#, php-format
+msgid "Error! Response: %s"
+msgstr "Erreur! Réponse: %s"
+
+#: app/Providers/Backend.php:250
+msgid "Plugin reactivated!"
+msgstr "Plugin réactivé!"
+
+#: app/Providers/Backend.php:300 app/Providers/Backend.php:356
+#, php-format
+msgid "%s - action not exists in %s module!"
+msgstr "%s - l'action n'existe pas dans le module %s !"
+
+#: app/Providers/Backend.php:438
+#, php-format
+msgid ""
+"Booknetic! Your server can not access our license server via CURL! Our "
+"license server is \"%s\". Please contact your hosting provider/server "
+"administrator and ask them to solve the problem. If you are sure that "
+"problem is not your server/hosting side then contact Booknetic "
+"administrators."
+msgstr ""
+"Booknetic ! Votre serveur ne peut pas accéder à notre serveur de licences "
+"via CURL ! Notre serveur de licence est \"%s\". Veuillez contacter votre "
+"hébergeur/administrateur de serveur et leur demander de résoudre le "
+"problème. Si vous êtes sûr que le problème n'est pas du côté de votre "
+"serveur/hébergeur, alors contactez les administrateurs de Booknetic."
+
+#: app/Providers/Backend.php:441
+#, php-format
+msgid "Booknetic! Installation error! Rosponse error! Response: %s"
+msgstr "Booknetic ! Erreur d'installation ! Erreur de réponse ! Réponse : %s"
+
+#: app/Providers/Bootstrap.php:107
+msgid "Booknetic Customers"
+msgstr "Booknetic Clients"
+
+#: app/Providers/Bootstrap.php:124
+msgid "Booknetic Staff"
+msgstr "Personnel Booknetic"
+
+#: app/Providers/DataTable.php:663
+msgid "Please set table name for deleting rows!"
+msgstr "Veuillez indiquer le nom du tableau pour la suppression des lignes !"
+
+#: app/Providers/Frontend.php:221 app/Providers/Frontend.php:479
+msgid "Redirecting..."
+msgstr "Redirection..."
+
+#: app/Providers/Frontend.php:342
+msgid "Select staff"
+msgstr "Sélectionner le personnel"
+
+#: app/Providers/Frontend.php:349
+msgid "Select location"
+msgstr "Sélectionnez un lieu"
+
+#: app/Providers/Frontend.php:356
+msgid "Select service extras"
+msgstr "Sélectionnez les services supplémentaires"
+
+#: app/Providers/Frontend.php:363
+msgid "Fill information"
+msgstr "Remplissez les informations"
+
+#: app/Providers/Frontend.php:370
+msgid "Select Date & Time"
+msgstr "Choisissez la date et le créneau"
+
+#: app/Providers/Frontend.php:376 app/Providers/Frontend.php:377
+msgid "Recurring info"
+msgstr "Informations récurrentes"
+
+#: app/Providers/Frontend.php:384
+msgid "Confirm Details"
+msgstr "Confirmer les détails"
+
+#: app/Providers/Helper.php:71 app/Providers/Helper.php:85
+msgid "weeks"
+msgstr "semaines"
+
+#: app/Providers/Helper.php:72 app/Providers/Helper.php:81
+msgid "days"
+msgstr "jours"
+
+#: app/Providers/Helper.php:73
+msgid "hour"
+msgstr "heure"
+
+#: app/Providers/Helper.php:73
+msgid "hours"
+msgstr "heures"
+
+#: app/Providers/Helper.php:74
+msgid "minute"
+msgstr "minute"
+
+#: app/Providers/Helper.php:74
+msgid "minutes"
+msgstr "minutes"
+
+#: app/Providers/Helper.php:75
+msgid "second"
+msgstr "seconde"
+
+#: app/Providers/Helper.php:75
+msgid "seconds"
+msgstr "secondes"
+
+#: app/Providers/Helper.php:242
+msgid ""
+"\"allow_url_fopen\" disabled in your php.ini settings! Please actiavte id "
+"and try again!"
+msgstr ""
+"\"allow_url_fopen\" désactivé dans vos paramètres php.ini ! Veuillez activer "
+"l'identifiant et réessayer !"
+
+#: app/Providers/Helper.php:508
+msgid "PayPal"
+msgstr "Paypal"
+
+#: app/Providers/Helper.php:517
+msgid "On site"
+msgstr "Sur place"
+
+#: app/Providers/Helper.php:912
+#, php-format
+msgid "View ( %s ) not found!"
+msgstr "Vue ( %s ) non trouvée!"
+
+#~ msgid "LIST VIEW"
+#~ msgstr "VUE EN LISTE"
+
+#, fuzzy
+#~ msgid "Show services as list view"
+#~ msgstr "Afficher l'étape des services EXTRA"
+
+#~ msgid "Your plugin is already activated!"
+#~ msgstr "Votre plugin est déjà activé !"
+
+#~ msgid "Other payment methods:"
+#~ msgstr "Autres modes de paiement :"
+
+#~ msgid "Share you page"
+#~ msgstr "Partagez votre lien de RDV"
+
+#~ msgid "Google calendar settings"
+#~ msgstr "Paramètres du calendrier Google"
+
+#~ msgid "Limit of fetched events"
+#~ msgstr "Limitation des événements à aller chercher"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Please fill in all required fields!"
+#~ msgstr "Veuillez remplir tous les champs obligatoires !"
+
+#, fuzzy
+#~ msgid "Confirmation number"
+#~ msgstr "Votre numéro de confirmation:"
+
+#~ msgid "Select services"
+#~ msgstr "Sélectionner les services"
+
+#~ msgid "Mon."
+#~ msgstr "Lun."
+
+#~ msgid "Tue."
+#~ msgstr "Mar."
+
+#~ msgid "Wed."
+#~ msgstr "Mer."
+
+#~ msgid "Thu."
+#~ msgstr "Jeu."
+
+#~ msgid "Fri."
+#~ msgstr "Ven."
+
+#~ msgid "Sat."
+#~ msgstr "Sam."
+
+#~ msgid "Sun."
+#~ msgstr "Dim."
+
+#~ msgid "1. Monday"
+#~ msgstr "1. Lundi"
+
+#~ msgid "2. Tuesday"
+#~ msgstr "2 Mardi"
+
+#~ msgid "3. Wednesday"
+#~ msgstr "3 Mercredi"
+
+#~ msgid "4. Thursday"
+#~ msgstr "4 Jeudi"
+
+#~ msgid "5. Friday"
+#~ msgstr "5. Vendredi"
+
+#~ msgid "6. Saturday"
+#~ msgstr "6. Samedi"
+
+#~ msgid "7. Sunday"
+#~ msgstr "7. Dimanche"
+
+#~ msgid "Please fill all required fields!"
+#~ msgstr "SVP, remplissez tous les champs nécessaires!"
+
+#~ msgid "Please fill all required fields"
+#~ msgstr "Veuillez remplir tous les champs obligatoires"
+
+#~ msgid "Customers must pay for all appointments in series"
+#~ msgstr "Les clients doivent payer pour tous les rendez-vous en série"
+
+#~ msgid "Date & Time:"
+#~ msgstr "Date&Heure :"
+
+#~ msgid "Deposit:"
+#~ msgstr "Avance:"
+
+#~ msgid "Please select service."
+#~ msgstr "SVP, choisissez un service."
+
+#~ msgid "Sum price"
+#~ msgstr "Somme Prix"
+
+#~ msgid "Extras:"
+#~ msgstr "Extras:"
+
+#~ msgid "Hide Locations step if there is only 1 location"
+#~ msgstr "Cacher l'étape \"lieux\" s'il n'y a qu'un seul lieu"
+
+#~ msgid "Hide Staff step if there is only 1 staff"
+#~ msgstr "Cacher l'étape choix du personnel s'il n'y a qu'un seul employé"
+
+#~ msgid "Please type the \"Date\" field!"
+#~ msgstr "Veuillez saisir le champ \"Date\" !"
