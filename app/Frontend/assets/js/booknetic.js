@@ -2564,6 +2564,29 @@ var bookneticPaymentStatus;
 					});
 				}
 
+			}).on('change', '#booknetic_time_wd_master', function ()
+			{
+				var time = $('#booknetic_time_wd_master').val();
+                var data = { id: time, text: time };
+
+				if( time ){
+
+					var $boxes = jQuery('input[class=booknetic_day_of_week_checkbox]:checked');
+					$boxes.each(function( a,b ){
+
+						var sel_id = b.id.split("_");
+						sel_id = '#booknetic_time_wd_'+sel_id[5];
+
+						if ($(sel_id).find("option[value='" + data.id + "']").length) {
+							$(sel_id).val(data.id).trigger('change');
+						} else { 
+							var new_option = new Option(data.text, data.id, true, true);
+							$(sel_id).append(new_option).trigger('change');
+						}
+						
+					});
+				}
+
 			}).on('keyup', '#booknetic_recurring_times', function()
 			{
 				var serviceData = booknetic.serviceData;

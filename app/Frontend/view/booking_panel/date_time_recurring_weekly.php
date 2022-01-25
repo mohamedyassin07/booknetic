@@ -67,20 +67,28 @@ $weekStartsOn = Helper::getOption('week_starts_on', 'sunday') == 'monday' ? 'mon
 			?>
 
 		</div>
-		<div class="booknetic_times_days_of_week_area" style="display: none;">
-
-			<div class="form-row booknetic_hidden">
+		<div class="booknetic_times_days_of_week_area" style="display: block;">
+			<div class="form-row">
 				<div class="form-group col-md-3">
-					<div class="form-control-plaintext"><?php print bkntc__('Monday')?></div>
+					<div class="form-control-plaintext"><?php print bkntc__('Start date')?></div>
+				</div>
+				<div class="form-group col-md-4">
+					<div class="booknetic_inner_addon booknetic_left_addon">
+					<img src="<?php print Helper::icon('calendar.svg')?>"/>
+					<input type="text" class="form-control" id="booknetic_recurring_start" value="<?php print Date::datee()?>">
+					</div>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="form-control-plaintext"><?php print bkntc__('Select Hour')?></div>
 				</div>
 				<div class="form-group col-md-4">
 					<div class="booknetic_inner_addon booknetic_left_addon">
 						<img src="<?php print Helper::icon('time.svg')?>"/>
-						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_1"></select>
+						<select class="form-control booknetic_wd_input_time" id="booknetic_time_wd_master"></select>
 					</div>
-				</div>
-				<div class="col-md-2 booknetic_copy_time_to_all">
-					<img src="<?php print Helper::icon('copy-to-all.svg', 'front-end')?>">
 				</div>
 			</div>
 
@@ -196,21 +204,14 @@ $weekStartsOn = Helper::getOption('week_starts_on', 'sunday') == 'monday' ? 'mon
 	</div>
 
 	<div class="form-row">
-		<div class="form-group col-md-4">
-			<label for="booknetic_recurring_start"><?php print bkntc__('Start date')?></label>
-			<div class="booknetic_inner_addon booknetic_left_addon">
-				<img src="<?php print Helper::icon('calendar.svg')?>"/>
-				<input type="text" class="form-control" id="booknetic_recurring_start" value="<?php print Date::datee()?>">
-			</div>
-		</div>
-		<div class="form-group col-md-4">
+		<div class="form-group col-md-6">
 			<label for="booknetic_recurring_end"><?php print bkntc__('End date')?></label>
 			<div class="booknetic_inner_addon booknetic_left_addon">
 				<img src="<?php print Helper::icon('calendar.svg')?>"/>
 				<input type="text" class="form-control" id="booknetic_recurring_end">
 			</div>
 		</div>
-		<div class="form-group col-md-4">
+		<div class="form-group col-md-6">
 			<label for="booknetic_recurring_times"><?php print bkntc__('Times')?></label>
 			<input type="text" class="form-control" id="booknetic_recurring_times">
 		</div>
