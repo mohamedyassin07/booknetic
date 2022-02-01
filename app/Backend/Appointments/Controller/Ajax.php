@@ -1270,111 +1270,55 @@ class Ajax extends \BookneticApp\Providers\Ajax
 	public function get_available_times_all()
 	{
 		$original = false;
-		$date_format = "Y-m-d";
 		$search		= Helper::_post('q', '', 'string');
 		$service	= Helper::_post('service', 0, 'int');
 		$location	= Helper::_post('location', 0, 'int');
 		$staff		= Helper::_post('staff', 0, 'int');
 		$dayOfWeek	= Helper::_post('day_number', 1, 'int');
-		$isRecurring = Helper::_post('is_recurring', 0, 'int');
 		$recurring_start_date = $_POST['start_date'];
 		$recurring_end_date = $_POST['end_date'];
 
-		// $recurring_end_date = strtotime( "+7 day" , strtotime( $recurring_start_date ) );
-		// $recurring_end_date = date( $date_format , $recurring_end_date );
-
-		
-
 		if(!$original){
-
-			if(date($date_format) == $recurring_start_date ){
-				// Helper::response(false, bkntc__("You Can't Start today at least from tomorrow") );
-			}
-
-
-			// monday is the 1st day of the week
-			// as i think all he try to do is to get a day index in array 
-			// which has indexed from 0:6 -->> mon:sun
-
-			// 1 - get the available durations for this services
-			//     the available days with the start and end of the duration
+			// 1- get service days
 			$timesheet = AppointmentService::getTimeSheet( $service, $staff, $location );
-			$available_times_all = array();
-			$available_days = array();
-
+			$service_days= array();
+			$dayOfWeek = null;
 			foreach ($timesheet as $day_index => $day_data) {
 				if( $day_data['day_off'] == 0 ){
-					
-					$available_times_all[$day_index] = AppointmentService::get_available_times_all( $service, $staff, $location, $day_index , $search );
-
-					if( ! in_array( $day_index ,$available_days )  ){
-						$available_days[] = $day_index;
-					}
+					$dayOfWeek = $dayOfWeek === null ? $day_index : $dayOfWeek ;
+					$service_days[$day_index+1] = 'time';
 				}
 			}
 
+			// 2- get service hours
+			// for just one day : cause we must set them all the same times
+			$service_hours = AppointmentService::get_available_times_all( $service, $staff, $location, $dayOfWeek , $search );
 
-
-			// 2-  remove any unique date
-			//     we need to get just the dates available in all the days
-			$first_day_index = array_key_first($available_times_all);
-			$recurring_times =  array();
-
-			foreach ($available_times_all[$first_day_index] as $first_day_time_key => $time) {
-				// remove the non unique times
-				// foreach ($available_times_all as $key => $day) {
-				// 	$time_key = array_search($time['id'], $day);
-				// 	if (! $time_key) {
-				// 		unset ($available_times_all[$first_day_index][$first_day_time_key] );
-				// 	}
-				// }
-
-				// the next
-				// اننا نحفظ قيم الاوقات اللي موجوده في اول يوم ونبدا نسخدمها بعد كدا 
-				$all_recurring_times[] = $time['id'];
-			}
-
-
-
-			$service_extras =  array();
-			$first_availability_time_key = null;
-
-			foreach ($all_recurring_times as $time) {
-				if($first_availability_time_key == null){
-					$first_availability_time_key = $time ;
-				}
-				$recurring_times = array();
-				foreach ($available_days as $day_index) {
-					$recurring_times[$day_index + 1] = $time;
-				}
-				$recurring_times = json_encode( $recurring_times );
-				//prr( $recurring_times );
-				//$recurring_times =   '{"0":"06:00","2":"06:00","6":"06:00"}';
-				//$recurring_times = '{"1":"03:00","3":"03:00","6":"03:00"}';
-
-
-				$availability[$time] = self::get_data_recurring_info(
+			// 3- Check service availability in this duration
+			$service_days_json = json_encode($service_days);
+			$service_extras = array();
+			foreach ($service_hours as $time) {
+				$recurring_times = str_replace( 'time', $time['id'], $service_days_json );
+				$availability[ $time['id'] ] = self::get_data_recurring_info(
 					$service,$staff,$location,$service_extras,'',$recurring_start_date,$recurring_end_date,$recurring_times
 				);
-	
-
 			}
-			//prr( $availability);
 
-
-			foreach ($availability as $time_key => $time) {
-
-				foreach ($time as $data) {
-					if ($data[2] != 1) {
-						unset( $availability[$time_key] );
+			// 4-  get only available times
+			$data = array();
+			foreach ($availability as $time_index => $time) {
+				$time_availability = true;
+				foreach ($time as $slot) {
+					if ( $slot[2] != 1 ){
+						$time_availability = false;
 					}
+				}
+				
+				if( $time_availability  == true ){
+					$data[] =  array( 'id' => Date::timeSQL( $time_index  ) , 'text' => Date::time( $time_index  ) );
 				}
 			}
 
-			$data = array();
-			foreach ($availability as $time_key => $time) {
-				$data[] =  array( 'id' => Date::timeSQL( $time_key ) , 'text' => Date::time( $time_key ) );
-			}
 			Helper::response(true, [ 'results' => $data ]);
 		}else {
 			if( $dayOfWeek != -1 )
@@ -1389,25 +1333,9 @@ class Ajax extends \BookneticApp\Providers\Ajax
 	}
 
 	// AGEA /////////////////////////////////////////////////////////////////////////////
-	public static function get_available_data_recurring_info($service=false,$staff=false,$location=false,$service_extras=false,$time=false,$recurring_start_date=false,$recurring_end_date=false,$recurring_times=false)
-	{
-		$availability = self::get_data_recurring_info(
-			$service,$staff,$location,$service_extras,$time,$recurring_start_date,$recurring_end_date,$recurring_times
-		);
-		$available_hours = array();
-
-		foreach ($availability as $key => $time) {
-			if($time[2] == 1 && !in_array($time[1] , $available_hours ) ){
-				$available_hours[$time[1]] = $time[1];
-			}elseif ($time[2] != 1 &&  in_array($time[1] , $available_hours) ) {
-				unset( $available_hours[$time[1]]);
-			}
-		}
-		return $available_hours;
-	}
-
-
-
+	
+	// it's the same function from used in the 2nd step to check if the selected times are available
+	// we get the same code just modify the return of it
 	public static function get_data_recurring_info($service=false,$staff=false,$location=false,$service_extras=false,$time=false,$recurring_start_date=false,$recurring_end_date=false,$recurring_times=false)
 	{
 

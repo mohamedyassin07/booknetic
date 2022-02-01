@@ -2749,7 +2749,10 @@ var bookneticPaymentStatus;
 					});
 
 					booknetic.calcRecurringTimes();
-					$('#booknetic_time_wd_master').select2('open');
+					// it was for automatic load the times just from loading the page/change the date :  but it make a bug in the style
+					// specially with the defult html date selector
+					// whcih we used it insted of the booknetic date selector which didn't support mindate like jquery datepiker 
+					// $('#booknetic_time_wd_master').select2('open'); 
 				});
 			}).on('select2:select', '.booknetic_wd_input_time', function (e)
 			{
