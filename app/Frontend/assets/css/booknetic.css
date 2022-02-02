@@ -3025,3 +3025,6 @@
 	margin-left: 6px;
 	margin-right: unset;
 }
+#agea_extra_reservation_data{
+	display: none;
+}

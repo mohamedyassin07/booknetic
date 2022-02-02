@@ -203,7 +203,7 @@ $weekStartsOn = Helper::getOption('week_starts_on', 'sunday') == 'monday' ? 'mon
 		</div>
 	</div>
 
-	<div class="form-row">
+	<div class="form-row" id="agea_extra_reservation_data">
 		<div class="form-group col-md-6">
 			<label for="booknetic_recurring_end"><?php print bkntc__('End date')?></label>
 			<div class="booknetic_inner_addon booknetic_left_addon">
