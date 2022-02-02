@@ -1392,7 +1392,7 @@ class Ajax extends \BookneticApp\Providers\Ajax
 			$dayDif = (int)( (Date::epoch( $appointmentDate ) - Date::epoch()) / 60 / 60 / 24 );
 			if( $dayDif > $available_days_for_booking )
 			{
-				Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
+				// Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
 			}
 
 			$selectedTimeSlotInfo = AppointmentService::getTimeSlotInfo( $service, $extras_arr, $staff, $appointmentDate, $appointmentTime, true, 0, false );
@@ -1424,7 +1424,7 @@ class Ajax extends \BookneticApp\Providers\Ajax
 			$dayDif = (int)( (Date::epoch( $appointmentDate ) - Date::epoch()) / 60 / 60 / 24 );
 			if( $dayDif > $available_days_for_booking )
 			{
-				Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
+				// Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
 			}
 
 			$selectedTimeSlotInfo = AppointmentService::getTimeSlotInfo( $service, $extras_arr, $staff, $appointmentDate, $appointmentTime, true, 0, false );
@@ -1456,7 +1456,7 @@ class Ajax extends \BookneticApp\Providers\Ajax
 			$dayDif = (int)( (Date::epoch( $appointmentDate ) - Date::epoch()) / 60 / 60 / 24 );
 			if( $dayDif > $available_days_for_booking )
 			{
-				Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
+				// Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
 			}
 
 			$selectedTimeSlotInfo = AppointmentService::getTimeSlotInfo( $service, $extras_arr, $staff, $appointmentDate, $appointmentTime, true, 0, false );
@@ -1488,7 +1488,7 @@ class Ajax extends \BookneticApp\Providers\Ajax
 			$dayDif = (int)( (Date::epoch( $appointmentDate ) - Date::epoch()) / 60 / 60 / 24 );
 			if( $dayDif > $available_days_for_booking )
 			{
-				Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
+				// Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
 			}
 
 			$selectedTimeSlotInfo = AppointmentService::getTimeSlotInfo( $service, $extras_arr, $staff, $appointmentDate, $appointmentTime, true, 0, false );
@@ -1520,7 +1520,7 @@ class Ajax extends \BookneticApp\Providers\Ajax
 			$dayDif = (int)( (Date::epoch( $appointmentDate ) - Date::epoch()) / 60 / 60 / 24 );
 			if( $dayDif > $available_days_for_booking )
 			{
-				Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
+				// Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
 			}
 
 			$selectedTimeSlotInfo = AppointmentService::getTimeSlotInfo( $service, $extras_arr, $staff, $appointmentDate, $appointmentTime, true, 0, false );
@@ -1552,7 +1552,7 @@ class Ajax extends \BookneticApp\Providers\Ajax
 			$dayDif = (int)( (Date::epoch( $appointmentDate ) - Date::epoch()) / 60 / 60 / 24 );
 			if( $dayDif > $available_days_for_booking )
 			{
-				Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
+				// Helper::response(false, bkntc__('Limited booking days is %d' , [ $available_days_for_booking ]) );
 			}
 
 			$selectedTimeSlotInfo = AppointmentService::getTimeSlotInfo( $service, $extras_arr, $staff, $appointmentDate, $appointmentTime, true, 0, false );

@@ -309,7 +309,7 @@ class AppointmentService
 			$dayDif = (int)( (Date::epoch( $appointmentDate ) - Date::epoch()) / 60 / 60 / 24 );
 			if( $dayDif > $available_days_for_booking )
 			{
-				Helper::response(false, bkntc__('Limited booking days is %d', [ (int)$available_days_for_booking ]) );
+				// Helper::response(false, bkntc__('Limited booking days is %d', [ (int)$available_days_for_booking ]) );
 			}
 
 			$selectedTimeSlotInfo = self::getTimeSlotInfo( $service, $extras, $staff, $appointmentDate, $appointmentTime, true, 0, $calledFromBackend );
